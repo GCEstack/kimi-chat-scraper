@@ -1,0 +1,303 @@
+{
+  "account_tag": "account2",
+  "conversation_count": 33,
+  "conversations": [
+    {
+      "id": "chat-19f24d73-5dc2-89cf-8000-09b183bd8657",
+      "title": "Edge",
+      "folder": "account2\\2026-07-11 - Edge",
+      "message_count": 43,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f36efb-c8c2-8c75-8000-09b12ef8b400",
+      "title": "Backdated Edge Crew Picks",
+      "folder": "account2\\2026-07-06 - Backdated Edge Crew Picks",
+      "message_count": 30,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f28d4e-b8d2-8b29-8000-09b1ba115048",
+      "title": "Take the shot",
+      "folder": "account2\\2026-07-06 - Take the shot",
+      "message_count": 49,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f2c17e-7a72-8768-8000-09b12b4d45ba",
+      "title": "High Limit Slot Strategy",
+      "folder": "account2\\2026-07-06 - High Limit Slot Strategy",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f2ae98-a112-88de-8000-09b130a1c0fc",
+      "title": "Family Orchestrator Plugin Review",
+      "folder": "account2\\2026-07-06 - Family Orchestrator Plugin Review",
+      "message_count": 6,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4a12a-37f2-876b-8000-09b1d9db881b",
+      "title": "Kimi WebBridge Upgrade",
+      "folder": "account2\\2026-07-10 - Kimi WebBridge Upgrade",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f49f21-4382-8a8e-8000-09b1c83eee95",
+      "title": "Layout Cleanup & PowerShell",
+      "folder": "account2\\2026-07-10 - Layout Cleanup & PowerShell",
+      "message_count": 3,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f24e7f-9562-8686-8000-09b107b109d6",
+      "title": "All-inclusive Mexico trip",
+      "folder": "account2\\2026-07-10 - All-inclusive Mexico trip",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f496e4-7f02-87e8-8000-09b1df3acfcb",
+      "title": "Sports Betting Edge Analysis",
+      "folder": "account2\\2026-07-10 - Sports Betting Edge Analysis",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f48a59-0c22-822b-8000-09b17cb6a6f1",
+      "title": "Edge Crew MLB Betting Card",
+      "folder": "account2\\2026-07-10 - Edge Crew MLB Betting Card",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f3cf9a-a092-8558-8000-09b1e8536e28",
+      "title": "*ROOKSWARM:MLB",
+      "folder": "account2\\2026-07-11 - _ROOKSWARM_MLB",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f471ed-39f2-85df-8000-09b1ee5866c5",
+      "title": "*Casa Important",
+      "folder": "account2\\2026-07-10 - _Casa Important",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f406cb-d962-8d7b-8000-09b1ccd0593a",
+      "title": "*SKILLSFamily",
+      "folder": "account2\\2026-07-10 - _SKILLSFamily",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f43074-0f02-8745-8000-09b1f3c09c0b",
+      "title": "AIREVIEW写",
+      "folder": "account2\\2026-07-10 - AIREVIEW写",
+      "message_count": 5,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f47f57-6d02-8531-8000-09b103491c6b",
+      "title": "Bullet Consolidation & App Behavior",
+      "folder": "account2\\2026-07-10 - Bullet Consolidation & App Behavior",
+      "message_count": 5,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f47dad-d902-886d-8000-09b15781e15e",
+      "title": "Casa Companion Project Update",
+      "folder": "account2\\2026-07-11 - Casa Companion Project Update",
+      "message_count": 58,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f46861-07f2-823c-8000-09b1ca01443b",
+      "title": "Casa Companion评估",
+      "folder": "account2\\2026-07-10 - Casa Companion评估",
+      "message_count": 50,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f463d4-35a2-8488-8000-09b18ae83cca",
+      "title": "Managing Background Chat Sessions",
+      "folder": "account2\\2026-07-10 - Managing Background Chat Sessions",
+      "message_count": 5,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f406d2-3992-86ca-8000-09b1dd838f0b",
+      "title": "SKILLL MIC: Microphone Voice Skill",
+      "folder": "account2\\2026-07-10 - SKILLL MIC_ Microphone Voice Skill",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f3fdc1-f222-8714-8000-09b162fa5b05",
+      "title": "Edge Crew Picks",
+      "folder": "account2\\2026-07-10 - Edge Crew Picks",
+      "message_count": 12,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4f7a0-35b2-813e-8000-09b120fa3ebb",
+      "title": "Hard Rock Vegas Search",
+      "folder": "account2\\2026-07-11 - Hard Rock Vegas Search",
+      "message_count": 46,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4f6df-23b2-8090-8000-09b1179e231f",
+      "title": "语音代理开发",
+      "folder": "account2\\2026-07-11 - 语音代理开发",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ee310d-d162-80e1-8000-09b12a8d2786",
+      "title": "WNBA Edge Ranking System",
+      "folder": "account2\\2026-07-11 - WNBA Edge Ranking System",
+      "message_count": 50,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4c263-3de2-84e8-8000-09b1a0a8f3cc",
+      "title": "Pi IP Discovery Steps",
+      "folder": "account2\\2026-07-11 - Pi IP Discovery Steps",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4ef49-3e62-8f67-8000-09b1b0a8f760",
+      "title": "Pi Audio Streaming Issue",
+      "folder": "account2\\2026-07-11 - Pi Audio Streaming Issue",
+      "message_count": 7,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4e4cc-8462-850e-8000-09b1025b3dff",
+      "title": "Rainstorm Delays Games",
+      "folder": "account2\\2026-07-11 - Rainstorm Delays Games",
+      "message_count": 25,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4ceca-f4e2-8449-8000-09b10a3a4039",
+      "title": "Betting Picks & Process",
+      "folder": "account2\\2026-07-11 - Betting Picks & Process",
+      "message_count": 31,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4dde0-ef12-8585-8000-09b19eb99f3f",
+      "title": "MLB Betting Overview",
+      "folder": "account2\\2026-07-11 - MLB Betting Overview",
+      "message_count": 8,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4d08e-aa22-80f6-8000-09b12047d267",
+      "title": "Lares Family Diagram",
+      "folder": "account2\\2026-07-11 - Lares Family Diagram",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4b0b4-dea2-8ad9-8000-09b14b570f29",
+      "title": "Edge Crew Djokovic Bet",
+      "folder": "account2\\2026-07-11 - Edge Crew Djokovic Bet",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4bbc8-0cc2-8506-8000-09b1619de70f",
+      "title": "Kimi session warning",
+      "folder": "account2\\2026-07-11 - Kimi session warning",
+      "message_count": 50,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4bbe3-8342-8f0a-8000-09b1c9a9c7ef",
+      "title": "Kimi链接打不开",
+      "folder": "account2\\2026-07-11 - Kimi链接打不开",
+      "message_count": 3,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4bbe2-d782-86e6-8000-09b10e16d48a",
+      "title": "Kimi分享链接",
+      "folder": "account2\\2026-07-11 - Kimi分享链接",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    }
+  ]
+}

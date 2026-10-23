@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-07-03T02:38:16Z",
+  "input_files": 1,
+  "accounts": {
+    "account1-test": {
+      "account_tag": "account1-test",
+      "conversation_count": 3,
+      "conversations": [
+        {
+          "id": "chat-19f24d73-5dc2-89cf-8000-09b183bd8657",
+          "title": "MLB & Soccer Edge",
+          "folder": "account1-test\\2026-07-03 - MLB & Soccer Edge",
+          "message_count": 51,
+          "sources": [
+            "webbridge"
+          ]
+        },
+        {
+          "id": "chat-19f26d7b-42d2-8dc2-8000-09b13d0b1cfa",
+          "title": "Slot Game Recommendations",
+          "folder": "account1-test\\2026-07-03 - Slot Game Recommendations",
+          "message_count": 51,
+          "sources": [
+            "webbridge"
+          ]
+        },
+        {
+          "id": "chat-19f245e2-ab12-84eb-8000-09b1bc7bda85",
+          "title": "Unnamed Chat",
+          "folder": "account1-test\\2026-07-03 - Unnamed Chat",
+          "message_count": 51,
+          "sources": [
+            "webbridge"
+          ]
+        }
+      ]
+    }
+  },
+  "total_conversations": 3,
+  "total_messages": 153
+}

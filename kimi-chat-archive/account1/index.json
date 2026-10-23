@@ -1,0 +1,663 @@
+{
+  "account_tag": "account1",
+  "conversation_count": 73,
+  "conversations": [
+    {
+      "id": "chat-19f24d73-5dc2-89cf-8000-09b183bd8657",
+      "title": "MLB & Soccer Edge",
+      "folder": "account1\\2026-07-10 - MLB & Soccer Edge",
+      "message_count": 91,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f26d7b-42d2-8dc2-8000-09b13d0b1cfa",
+      "title": "Slot Game Recommendations",
+      "folder": "account1\\2026-07-06 - Slot Game Recommendations",
+      "message_count": 102,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f245e2-ab12-84eb-8000-09b1bc7bda85",
+      "title": "Slot RTP & Risk",
+      "folder": "account1\\2026-07-06 - Slot RTP & Risk",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f264dc-9462-8400-8000-09b162a79317",
+      "title": "Family Casino Edge Strategy",
+      "folder": "account1\\2026-07-06 - Family Casino Edge Strategy",
+      "message_count": 33,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f25c88-2722-8cae-8000-09b15478ec4b",
+      "title": "Chat History Loss",
+      "folder": "account1\\2026-07-06 - Chat History Loss",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f24e7f-9562-8686-8000-09b107b109d6",
+      "title": "All-inclusive Mexico trip",
+      "folder": "account1\\2026-07-10 - All-inclusive Mexico trip",
+      "message_count": 57,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f242e5-cb22-8538-8000-09b11f2dfe61",
+      "title": "老虎机支付率",
+      "folder": "account1\\2026-07-06 - 老虎机支付率",
+      "message_count": 20,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f22f8b-9762-85b2-8000-09b145987d05",
+      "title": "Chat Context & Tiers",
+      "folder": "account1\\2026-07-06 - Chat Context & Tiers",
+      "message_count": 19,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f239f6-3d42-8978-8000-09b174672803",
+      "title": "Drive prep: app vs web",
+      "folder": "account1\\2026-07-06 - Drive prep_ app vs web",
+      "message_count": 8,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f12d35-cf02-8144-8000-09b1eb11b71d",
+      "title": "Prompt JSON Schema Confirmation",
+      "folder": "account1\\2026-07-06 - Prompt JSON Schema Confirmation",
+      "message_count": 42,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f1c3f9-d5e2-8511-8000-09b101d867c2",
+      "title": "Voice Mode & Model Inquiry",
+      "folder": "account1\\2026-07-06 - Voice Mode & Model Inquiry",
+      "message_count": 12,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f1be01-b7d2-8be0-8000-09b1059cbbb0",
+      "title": "Over 2.5 at 3.5",
+      "folder": "account1\\2026-07-06 - Over 2.5 at 3.5",
+      "message_count": 7,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f1a926-0842-8e2a-8000-09b18bd0ced0",
+      "title": "MLB Betting Edge",
+      "folder": "account1\\2026-07-06 - MLB Betting Edge",
+      "message_count": 20,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f1a139-7682-8d72-8000-09b16b60473d",
+      "title": "Sweden vs France analysis",
+      "folder": "account1\\2026-07-06 - Sweden vs France analysis",
+      "message_count": 8,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f1a0f8-f0e2-824f-8000-09b195322446",
+      "title": "Live Betting Slate",
+      "folder": "account1\\2026-07-06 - Live Betting Slate",
+      "message_count": 3,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f13505-c362-8523-8000-09b1f508fbac",
+      "title": "Kimi Coove Cleanup Prompt",
+      "folder": "account1\\2026-07-06 - Kimi Coove Cleanup Prompt",
+      "message_count": 3,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f113d8-24b2-885a-8000-09b1f7139d12",
+      "title": "Hulu DRM & Embedding",
+      "folder": "account1\\2026-07-06 - Hulu DRM & Embedding",
+      "message_count": 7,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f1137a-6192-8204-8000-09b1a9405466",
+      "title": "Chunking Family Video",
+      "folder": "account1\\2026-07-06 - Chunking Family Video",
+      "message_count": 3,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f0acc5-f542-8824-8000-09b1d50d00a7",
+      "title": "数据筛选与去噪",
+      "folder": "account1\\2026-07-06 - 数据筛选与去噪",
+      "message_count": 4,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ee310d-d162-80e1-8000-09b12a8d2786",
+      "title": "WNBA Edge Ranking System",
+      "folder": "account1\\2026-07-06 - WNBA Edge Ranking System",
+      "message_count": 7,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19edda67-6c12-86bb-8000-09b12005a33e",
+      "title": "Running Windows CLI Executable",
+      "folder": "account1\\2026-07-06 - Running Windows CLI Executable",
+      "message_count": 20,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19eddd40-8dd2-8982-8000-09b105e69f22",
+      "title": "OpenRouter TTS Chunked Transfer",
+      "folder": "account1\\2026-07-06 - OpenRouter TTS Chunked Transfer",
+      "message_count": 34,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19eddecb-5182-8e6f-8000-09b198a6a95b",
+      "title": "Gemini Flash TTS Issue",
+      "folder": "account1\\2026-07-06 - Gemini Flash TTS Issue",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19eddd5b-e4d2-8bc5-8000-09b1eb9285a3",
+      "title": "Gemini Audio Tags Test",
+      "folder": "account1\\2026-07-06 - Gemini Audio Tags Test",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ed9494-41a2-8bac-8000-09b18c00c4ca",
+      "title": "Kimi Code Secret Audit",
+      "folder": "account1\\2026-07-06 - Kimi Code Secret Audit",
+      "message_count": 3,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ed9270-e162-8e69-8000-09b13b1da241",
+      "title": "Centralized API Key Management",
+      "folder": "account1\\2026-07-06 - Centralized API Key Management",
+      "message_count": 7,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ed888e-cb82-8989-8000-09b1a5cafc93",
+      "title": "Git Worktree Setup Guide",
+      "folder": "account1\\2026-07-06 - Git Worktree Setup Guide",
+      "message_count": 44,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ed88f0-7c72-8e3a-8000-09b1c92808ec",
+      "title": "Desktop Folder Merge Audit",
+      "folder": "account1\\2026-07-06 - Desktop Folder Merge Audit",
+      "message_count": 17,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ed87de-9482-85db-8000-09b18db7a429",
+      "title": "Deepgram Voice Access Review",
+      "folder": "account1\\2026-07-06 - Deepgram Voice Access Review",
+      "message_count": 6,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ed8742-ca32-86d5-8000-09b115198b10",
+      "title": "PowerShell Desktop Cleanup Script",
+      "folder": "account1\\2026-07-06 - PowerShell Desktop Cleanup Script",
+      "message_count": 3,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ed86d5-5be2-8c94-8000-09b1e7476455",
+      "title": "Kimi Code Prompt",
+      "folder": "account1\\2026-07-06 - Kimi Code Prompt",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ed8680-62a2-8764-8000-09b135b7647b",
+      "title": "Casa Companion Repo Audit",
+      "folder": "account1\\2026-07-06 - Casa Companion Repo Audit",
+      "message_count": 3,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19eca34b-1ed2-8753-8000-09b1f007be93",
+      "title": "Groq Alternatives & Qwen Usage",
+      "folder": "account1\\2026-07-06 - Groq Alternatives & Qwen Usage",
+      "message_count": 20,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19eca1e2-4e52-820b-8000-09b14195d9d7",
+      "title": "Third-Party App Scan",
+      "folder": "account1\\2026-07-06 - Third-Party App Scan",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec9faa-ebb2-8716-8000-09b11954d0a4",
+      "title": "Kimi Code 2.7 Thinking Mode",
+      "folder": "account1\\2026-07-06 - Kimi Code 2.7 Thinking Mode",
+      "message_count": 4,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec9f97-2012-8ad6-8000-09b18a74c11f",
+      "title": "Prompt to Find Credential Files",
+      "folder": "account1\\2026-07-06 - Prompt to Find Credential Files",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec9f36-5f32-8894-8000-09b18c413b1f",
+      "title": "Kimi CLI/MCP Finder",
+      "folder": "account1\\2026-07-06 - Kimi CLI_MCP Finder",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec8c07-2622-8ab6-8000-09b1c686bb89",
+      "title": "Kimi chat file extraction",
+      "folder": "account1\\2026-07-06 - Kimi chat file extraction",
+      "message_count": 4,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec8be1-bdd2-8cf3-8000-09b1aac3bc30",
+      "title": "Agent Credit Usage",
+      "folder": "account1\\2026-07-06 - Agent Credit Usage",
+      "message_count": 3,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec8b94-8b72-84bd-8000-09b1fd0eea03",
+      "title": "Kimi Work Scheduler Integration",
+      "folder": "account1\\2026-07-06 - Kimi Work Scheduler Integration",
+      "message_count": 3,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec4f94-a192-8a17-8000-09b1cb09635d",
+      "title": "Casa Companion Audit",
+      "folder": "account1\\2026-07-03 - Casa Companion Audit",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec4ad1-aef2-8d20-8000-09b106056047",
+      "title": "Kimi Prompt Generator",
+      "folder": "account1\\2026-07-06 - Kimi Prompt Generator",
+      "message_count": 11,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec4e4f-94f2-80f1-8000-09b1aae827ed",
+      "title": "EPO Folder Organization Prompt",
+      "folder": "account1\\2026-07-06 - EPO Folder Organization Prompt",
+      "message_count": 3,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ebfb8b-02f2-83bd-8000-09b160740254",
+      "title": "Large Repo Transfer",
+      "folder": "account1\\2026-07-06 - Large Repo Transfer",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec49a5-d332-8789-8000-09b1a13329ba",
+      "title": "Kimi WebBridge for Proton Drive",
+      "folder": "account1\\2026-07-06 - Kimi WebBridge for Proton Drive",
+      "message_count": 7,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec4376-a8f2-8e2e-8000-09b11c41ecff",
+      "title": "South Florida DJ Flyer",
+      "folder": "account1\\2026-07-06 - South Florida DJ Flyer",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec2450-81a2-83af-8000-09b19bd8eca7",
+      "title": "Casa Companion Bug Fixes",
+      "folder": "account1\\2026-07-06 - Casa Companion Bug Fixes",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec2afe-efa2-8171-8000-09b12d06d798",
+      "title": "Mic transcript glitch",
+      "folder": "account1\\2026-07-06 - Mic transcript glitch",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec0daf-32f2-8916-8000-09b1b3722782",
+      "title": "Casa Companion UI Revamp",
+      "folder": "account1\\2026-07-06 - Casa Companion UI Revamp",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec0bd6-fff2-8a60-8000-09b1611b116c",
+      "title": "Best Model for AI Web Review",
+      "folder": "account1\\2026-07-03 - Best Model for AI Web Review",
+      "message_count": 20,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec08da-1402-806b-8000-09b12fc53d6c",
+      "title": "Gianelli G Logo Issue",
+      "folder": "account1\\2026-07-06 - Gianelli G Logo Issue",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec0710-2902-8c9e-8000-09b1e053819f",
+      "title": "Brand Naming & Fusion Menu",
+      "folder": "account1\\2026-07-03 - Brand Naming & Fusion Menu",
+      "message_count": 17,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec0684-b502-8e1c-8000-09b19f14a216",
+      "title": "PowerShell Repo Scan",
+      "folder": "account1\\2026-07-03 - PowerShell Repo Scan",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec02be-7622-871d-8000-09b11dbd1518",
+      "title": "网站401错误",
+      "folder": "account1\\2026-07-03 - 网站401错误",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19ec029a-7df2-8a94-8000-09b1a68c6a0e",
+      "title": "Voice Agent UI Review",
+      "folder": "account1\\2026-07-03 - Voice Agent UI Review",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f36efb-c8c2-8c75-8000-09b12ef8b400",
+      "title": "Backdated Edge Crew Picks",
+      "folder": "account1\\2026-07-06 - Backdated Edge Crew Picks",
+      "message_count": 30,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f28d4e-b8d2-8b29-8000-09b1ba115048",
+      "title": "Take the shot",
+      "folder": "account1\\2026-07-06 - Take the shot",
+      "message_count": 49,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f2c17e-7a72-8768-8000-09b12b4d45ba",
+      "title": "High Limit Slot Strategy",
+      "folder": "account1\\2026-07-06 - High Limit Slot Strategy",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f2ae98-a112-88de-8000-09b130a1c0fc",
+      "title": "Family Orchestrator Plugin Review",
+      "folder": "account1\\2026-07-06 - Family Orchestrator Plugin Review",
+      "message_count": 6,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f4a12a-37f2-876b-8000-09b1d9db881b",
+      "title": "Kimi WebBridge Upgrade",
+      "folder": "account1\\2026-07-10 - Kimi WebBridge Upgrade",
+      "message_count": 2,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f49f21-4382-8a8e-8000-09b1c83eee95",
+      "title": "Layout Cleanup & PowerShell",
+      "folder": "account1\\2026-07-10 - Layout Cleanup & PowerShell",
+      "message_count": 3,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f496e4-7f02-87e8-8000-09b1df3acfcb",
+      "title": "Sports Betting Edge Analysis",
+      "folder": "account1\\2026-07-10 - Sports Betting Edge Analysis",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f48a59-0c22-822b-8000-09b17cb6a6f1",
+      "title": "Edge Crew MLB Betting Card",
+      "folder": "account1\\2026-07-10 - Edge Crew MLB Betting Card",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f3cf9a-a092-8558-8000-09b1e8536e28",
+      "title": "*ROOKSWARM:MLB",
+      "folder": "account1\\2026-07-10 - _ROOKSWARM_MLB",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f471ed-39f2-85df-8000-09b1ee5866c5",
+      "title": "*Casa Important",
+      "folder": "account1\\2026-07-10 - _Casa Important",
+      "message_count": 51,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f406cb-d962-8d7b-8000-09b1ccd0593a",
+      "title": "*SKILLSFamily",
+      "folder": "account1\\2026-07-10 - _SKILLSFamily",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f43074-0f02-8745-8000-09b1f3c09c0b",
+      "title": "AIREVIEW写",
+      "folder": "account1\\2026-07-10 - AIREVIEW写",
+      "message_count": 5,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f47f57-6d02-8531-8000-09b103491c6b",
+      "title": "Bullet Consolidation & App Behavior",
+      "folder": "account1\\2026-07-10 - Bullet Consolidation & App Behavior",
+      "message_count": 5,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f47dad-d902-886d-8000-09b15781e15e",
+      "title": "Casa Companion Project Update",
+      "folder": "account1\\2026-07-10 - Casa Companion Project Update",
+      "message_count": 13,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f46861-07f2-823c-8000-09b1ca01443b",
+      "title": "Casa Companion评估",
+      "folder": "account1\\2026-07-10 - Casa Companion评估",
+      "message_count": 50,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f463d4-35a2-8488-8000-09b18ae83cca",
+      "title": "Managing Background Chat Sessions",
+      "folder": "account1\\2026-07-10 - Managing Background Chat Sessions",
+      "message_count": 5,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f406d2-3992-86ca-8000-09b1dd838f0b",
+      "title": "SKILLL MIC: Microphone Voice Skill",
+      "folder": "account1\\2026-07-10 - SKILLL MIC_ Microphone Voice Skill",
+      "message_count": 1,
+      "sources": [
+        "webbridge"
+      ]
+    },
+    {
+      "id": "chat-19f3fdc1-f222-8714-8000-09b162fa5b05",
+      "title": "Edge Crew Picks",
+      "folder": "account1\\2026-07-10 - Edge Crew Picks",
+      "message_count": 12,
+      "sources": [
+        "webbridge"
+      ]
+    }
+  ]
+}

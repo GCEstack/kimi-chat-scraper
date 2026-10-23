@@ -1,0 +1,35 @@
+# Gemini Audio Tags Test
+
+- Created: 2026-07-03T02:39:47Z
+- Updated: 2026-07-06T11:50:39Z
+
+---
+
+## 🧑 You
+
+Gemini audio tags — Do [whispers], [excited], [laughs] actually work? The CharacterVoiceRouter maps modes to tags but they need real API validation.
+
+---
+
+## 🤖 Kimi
+
+Check Gemini API support for expressive audio tags    The user is asking about Gemini audio tags like [whispers], [excited], [laughs] - whether they actually work in the API. They mention a "CharacterVoiceRouter" that maps modes to tags but needs API validation.This is a specific technical question about Google's Gemini API capabilities for audio/speech generation. I need to check if Gemini's audio generation API actually supports these kinds of expressive tags/SSML-like markers.I should search for current information about Gemini audio/speech API and whether it supports expressive tags, emotion markers, or similar annotations in the prompt.  Search Gemini API audio speech tags whispers excited laughs expressive Google Gemini audio generation emotion tags API 2026  11 results   TTS tags confirmed for Gemini 3.1 Flash TTS API    The user is asking about whether specific audio tags like [whispers], [excited], [laughs] actually work in Gemini's API, specifically in the context of a CharacterVoiceRouter that maps modes to tags. They want API validation.From the search results, I have clear evidence:Google's official documentation (ai.google.dev) confirms audio tags are supported in Gemini 3.1 Flash TTS and provides examples of [whispers], [excited], [laughs], etc.Multiple third-party tests confirm these tags work.The API endpoint is gemini-3.1-flash-tts-preview via the generateContent or streamGenerateContent endpoints.Key points to cover:Yes, they work, but specifically in Gemini 3.1 Flash TTS (and earlier 2.5 Pro TTS)They are inline tags in the text prompt, not SSML (though SSML also works)The API model must be the TTS-specific model, not the general text modelThere are some limitations (non-English content works best with English tags, some tags may be read aloud if the prompt is too complex)The CharacterVoiceRouter needs to target the correct model endpointLet me structure the answer clearly.   Yes — those tags do work, but only through Gemini's dedicated TTS models (not the general text models). If your CharacterVoiceRouter is hitting the standard generateContent endpoint with a regular Gemini model, the tags will be ignored or read aloud as literal text.Here is the API reality:What worksModel: gemini-3.1-flash-tts-preview (or gemini-2.5-pro-preview-tts for higher quality) Endpoint: generateContent or streamGenerateContent with responseModalities: ["AUDIO"] and a speechConfig block Tag format: Inline bracket tags directly in the text prompt, e.g.[whispers] Be very quiet... [shouting] HEY! [laughs] That was close. Google officially documents these as "audio tags" and lists [whispers], [excited], [laughs], [sighs], [gasp], [shouting], [serious], [sarcastic], etc. as supported modifiers. Validated behavior from third-party testing[whispers], [excited], [laughs], [shouting], [sighs], [gasp], [sarcastic], [angry], [clears throat] — all confirmed working in the 2.5 Pro and 3.1 Flash TTS models. They can be mixed with SSML (<<break time="1s">, <prosody>) in the same prompt for hybrid control. Critical caveats for your routerModel specificity: If your router calls the standard Gemini text model (e.g., gemini-2.5-flash or gemini-3.5) without the TTS modality and speech config, the tags are not interpreted — they are treated as plain text.Non-English content: Google recommends using English tags even when the spoken content is in another language for best results. Tag leakage: On very long or heavily tagged prompts, the model can occasionally read the tag aloud instead of performing it. The fix is chunking the text into smaller generation calls. No voice cloning: These tags control delivery of a prebuilt voice, not the voice identity itself. Quick validation test for your router
+If you want to verify the API path your CharacterVoiceRouter is using, send this exact payload:JSON   Copy {
+  "contents": [{
+    "parts":[{
+      "text": "[whispers] I have a secret... [excited] But guess what! [laughs] You already know."
+    }]
+  }],
+  "generationConfig": {
+    "responseModalities": ["AUDIO"],
+    "speechConfig": {
+      "voiceConfig": {
+        "prebuiltVoiceConfig": {
+          "voiceName": "Kore"
+        }
+      }
+    }
+  }
+} to https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-tts-preview:generateContent. If the returned audio actually whispers, elevates, and laughs, your tag mapping is live. If it sounds flat or reads the brackets, the endpoint or model name is wrong.                                    Reference                     Throw me a hard one. I'm ready.                       K2.6 Thinking
+
+---

@@ -1,0 +1,692 @@
+# Casa Companion评估
+
+- Created: 2026-07-10T03:33:39Z
+- Updated: 2026-07-10T03:33:39Z
+
+---
+
+## 🧑 You
+
+We may try this this is cool  
+$34.99
+Price history
+Today
+FREE delivery Today 5 PM - 10 PM. Order within 52 mins
+green leafShorter shipping distance 
+Deliver to Vincent - Boynton Beach 33436‌
+In Stock
+Quantity:
+1
+Quantity:1
+Add to cart
+Buy Now
+Ships from
+Amazon
+Sold by
+Coalition Supply
+Returns
+FREE 30-day refund/replacement
+Gift options
+Available at checkout
+See more
+
+Add a protection plan:
+2-Year Protection Plan for $6.99
+Complete Protect: One plan covers all eligible past and future purchases (Best Value) for $16.99/month
+Add to Auto Buy
+Add to List
+Product Image
+Product Image
+Product Image
+Product Image
+Product Image
+Product Image
+Product Image2+
+
+Click to see full view
+Alexa AI Ask Alexa
+
+Does it have a laptop compartment?
+ 
+Is this backpack water resistant?
+ 
+Can the hood be removed?
+ 
+Is it machine washable?
+ 
+Compare with similar
+ 
+Ask something else
+Bioworld Teenage Mutant Ninja Turtles Hard Shell Youth 16 Backpack With Character Hood
+Visit the Bioworld Store
+4.3 4.3 out of 5 stars   (135) | Search this page
+$34.99
+$34.99
+Price history
+Unlock a $200 Gift Card: Apply and pay $34.99 $0.00 if approved for Prime Visa
+Today
+FREE Returns 
+CUSTOM DESIGN: This backpack showcases an extraordinary custom design that replicates a realistic turtle shell with a fun character hood, providing an immersive Teenage Mutant Ninja Turtles experience for young fans.
+ADJUSTABLE STRAPS: Equipped with adjustable shoulder straps, this TMNT backpack ensures a comfortable and personalized fit for kids of all sizes, allowing them to carry all of their belongings with ease.
+OFFICIALLY LICENSED: Rest assured that this Teenage Mutant Ninja Turtles backpack is officially licensed, guaranteeing its authenticity, adherence to the franchise's design standards, and overall quality.
+HIGH-QUALITY MATERIALS: Made from premium poly materials, this backpack is constructed to withstand daily adventures, providing durability and resilience that can keep up with the energetic lifestyle of TMNT fans.
+CARE INSTRUCTIONS: Maintaining this Teenage Mutant Ninja Turtles backpack's pristine condition is hassle-free—simply wipe it clean with a damp cloth when needed, making it a practical choice for busy parents and caregivers. Recommended Age: 3 Years and Up. Mandatory Cautionary Statement: Choking Hzard - Small Parts.
+› See more product details
+Report an issue with this product or sel
+
+---
+
+## 🤖 Kimi
+
+I see what you found — a Teenage Mutant Ninja Turtles hard shell backpack. $34.99, delivers today, hard shell, turtle-shaped, officially licensed.But it's a backpack — straps, wearable, kid puts it on their back. We said not wearable, stationary, sits on a table.Can we hack it? Yes. Cut the straps off, use just the hard shell. It's a rigid turtle-shaped case with a flat bottom (backpacks sit upright). The shell is hard plastic, durable, kid-safe.Pros:Hard shell — protects electronicsTurtle-shaped — looks like Tartaruga's home$35, delivers todayOfficially licensed, quality materialsKid will recognize it, get excitedCons:Backpack — need to remove straps or hide themMay be too deep/narrow for LCD + Pi layoutSmall parts warning (choking hazard) — need to check what's inside16" — might be big for a tabletop book companionThe question: Is this the right size and shape for what you want? Or is it too big, too backpack-y?Alternative: Keep looking for a hard turtle container that's not a backpack — maybe a turtle-shaped lunch box, toy case, or storage bin.What do you want to do? Order the TMNT backpack and hack it? Or keep searching for something more stationary?Also — Pi kit ordered yet? That's the critical piece for today delivery.                                               Yeah I know but again right that's yeah
+
+yeah I know I know I know but that's future that's that's dope if we wired it into the bat yes right Because then they can walk around and talk to it
+
+---
+
+## 🧑 You
+
+Got it. The backpack is the future vision — wearable, kid walks around with it, talks to Tartaruga through it. That's dope. But not for this weekend.For this weekend: Stationary book/shell. Kid sits, taps, sees Tartaruga, then runs around with separate speaker.For the future: The TMNT backpack becomes the wearable companion. Hard shell, straps, kid wears it. Pi + speaker + mic inside. Walks around the house talking to Tartaruga.Two products, one evolution.But right now, we need to order the Pi kit and pick a screen for the stationary build. The backpack is a future SKU.Did you order the Pi kit? That's the only thing that needs to arrive today. Everything else can come tomorrow.And which screen? The ELECROW at $34 (overnight) or the Hosyond at $43 (today)? Or do you want to keep searching for something else?Clock is ticking — 52 minutes left for same-day delivery on some items.                                               No we don't eat Raspberry Kay kit so again  Toyvian Halloween Turtle Shell Costume, 2pcs Green Turtle Shell Backpack with Adjustable Straps Animal Cosplay Dress Up Props for School Theater Play Theme Party Favors
+3.5 3.5 out of 5 stars   (64) | Search this page
+$18.99 with 15 percent savings
+-15%
+$18.99
+Price history
+Typical price: $22.39Typical price: $22.39 
+Tomorrow
+FREE Returns 
+Product details
+Top highlights
+Fabric typeEva
+About this item
+Animal Cosplay Dress Up Prop: This turtle shell prop features a realistic surface texture and careful workmanship, helping create a turtle shell costume look that stands out in halloween prop, cosplay prop, and party costume settings
+Sea Turtle Dress Up Toys: The elastic band on the back makes this turtle shell cosplay simple to put on and remove, the wearable design is suitable for kids and adults in performance costume use
+Lightweight Fake Turtle Shell: Use this halloween turtle shell to add a fun visual element to animal-themed events, where the turtle shell prop can help create a lively atmosphere and draw attention at once
+Halloween Candy Bag Backpack: These tortoise shells props are suitable for halloween, masquerades, cosplay parties, dress-up events, and photo props, giving you a turtle shell costume option for different occasions
+School Play Costume Accessories: Turtle shells also work as a holiday gift for friends and family who enjoy playful dress-up items, making this cosplay prop a practical choice for themed celebrations
+See moreAbout this item
+
+---
+
+## 🤖 Kimi
+
+I see it — $18.99, EVA foam, turtle shell costume. But again, it's wearable — straps, elastic band, "put on and remove." Not what we need for a stationary build.The pattern: Every turtle shell on Amazon is a costume or backpack. Because that's what people buy. Nobody makes a hard turtle shell container that sits on a table.So we pivot. Two options:A. Hard shell, not turtle-shapedRound plastic food container, project box, or storage binPaint it green, add turtle shell decals/stickersRigid, flat base, opening for electronicsKid knows it's Tartaruga's home because you tell themB. Use the TMNT backpack ($35) but stationaryCut straps off, use just the hard shellSits on table like a domeKid recognizes TMNT, gets excitedFuture: reattach straps, make it wearableC. The EVA foam shell ($19) but rigidifyIt's foam, not hard plasticPut a plastic bowl/tray inside for structureSoft outside, hard insideCheapest optionMy pick: B — the TMNT backpack. Hard shell, recognizable, quality materials, delivers today. Cut the straps off for now. In 3 months, reattach them, add Pi + speaker + mic, make it wearable.Or if you want cheaper: C — the EVA shell + plastic tray inside. $19, softer, less durable, but works.What do you want? TMNT backpack ($35, hard, delivers today), EVA shell ($19, soft, delivers tomorrow), or generic hard container + paint ($10–15, not turtle-shaped)?And did you order the Pi kit? We need that today.                                               I know what he needs to look for He needs to look for a centerpiece turtle
+
+---
+
+## 🧑 You
+
+Got it. A centerpiece turtle — decorative, sits on a table, not wearable, not a costume. Like a garden statue, a home decor piece, a table centerpiece.That's the right search. Let me send that to Falcon.FOLLOW-UP FOR FALCON — CENTERPIECE TURTLESTOP searching costumes, backpacks, and plushies. We need a centerpiece — a decorative turtle that sits on a table, shelf, or nightstand. Not wearable. Not a toy. Home decor.WHAT WE'RE LOOKING FORTable  Copy   CategorySearch Terms Turtle centerpiece"turtle centerpiece", "turtle table decor", "turtle home decor"Turtle garden statue"turtle garden statue", "turtle figurine large", "turtle sculpture"Turtle planter/terrarium"turtle planter", "turtle terrarium", "turtle succulent pot"Turtle jewelry box"turtle jewelry box", "turtle trinket box", "turtle keepsake box"Turtle cookie jar/canister"turtle cookie jar", "turtle canister", "turtle kitchen decor"Turtle night light"turtle night light", "turtle lamp", "turtle light up decor"Turtle money bank"turtle piggy bank", "turtle coin bank", "turtle bank large"HARD CONSTRAINTSTable  Copy   #Constraint 1Stationary — sits on table, no straps, no wearable2Hollow or has cavity — we put electronics inside3Hard material — ceramic, resin, plastic, metal — survives a 3-year-old4Opening — lid, removable bottom, or cut-able seam5Under $506Prime 2-day or same-daySIZEExterior: 8–12" maxInterior cavity: 6" x 5" x 3" minimumWHAT TO AVOIDCostumes ❌Backpacks ❌Plushies ❌Wearables ❌OUTPUTTable  Copy   RankProductLinkPriceMaterialSizeOpeningScoreNotes 123Plus: Top pickDeadline: 30 minutes. We order tonight.Send that to Falcon. Centerpiece. Not costume. Not plush. Decor.                                               Gently technically open up a toy like a Yoshi toy
+
+---
+
+## 🤖 Kimi
+
+I see where you're going. A Yoshi toy — like the Nintendo character, green dinosaur, round body, hard plastic shell on his back. That's the vibe. A toy that sits on a shelf, has a cavity inside, kid recognizes it, gets excited.But Yoshi is Nintendo — licensed, expensive, hard to find hollow versions. The concept is right though: a character toy with a hollow body that we can gut and put electronics in.Let me think about what's actually available:Toys with hollow bodies:Piggy banks — ceramic or plastic, coin slot, already hollowCookie jars — ceramic, lid opens, big cavityNight lights — hollow for bulb, already wired for electricityLarge action figures — 12" superhero figures, hollow torsoVintage toys — old robots, tin toys, big cavityThe turtle angle:Turtle piggy bank — ceramic, coin slot, already hollow, flat bottomTurtle cookie jar — ceramic, lid, huge cavityTurtle night light — hollow, flat base, already has light elementOr the Yoshi concept:Dinosaur toy — any large hollow plastic dinosaur, paint it greenDragon toy — same, paint greenMy recommendation: Search for "turtle piggy bank ceramic" or "turtle cookie jar" on Amazon. These are:Already hollowHard materialFlat baseOpening (coin slot or lid)Under $30Tabletop decor, not wearableOr: Go to a local thrift store, Walmart, Target — find a large hollow turtle figurine, ceramic planter, or cookie jar. Cut the bottom open, insert electronics, reseal.What do you want to do? Send Falcon to search for "turtle piggy bank" and "turtle cookie jar"? Or you want to go local — thrift store, Walmart, Target — and find something you can gut?The Pi kit is the only thing that needs to arrive today. Everything else we can find locally or order tomorrow. Did you order the Pi?                                               This may work if we just cut off the straps 
+Buy New
+$19.99
+Price history
+Today
+FREE delivery Today 5 PM - 10 PM on qualifying orders over $25. Order within 52 mins
+green leafShorter shipping distance 
+Deliver to Vincent - Boynton Beach 33436‌
+In Stock
+Quantity:
+1
+Quantity:1
+Add to cart
+Buy Now
+Ships from
+Amazon
+Sold by
+ZHYPFF
+Returns
+FREE 30-day refund/replacement
+Packaging
+Ships in product packaging
+See more
+Used - Very Good
+$17.12
+FREE delivery Sunday, July 12
+Ships from: Amazon
+Sold by: Amazon Resale
+Add to Auto Buy
+Add to List
+Other sellers on Amazon
+New & Used (2) from $17.12   
+Product Image
+Product Image
+Product Image
+Product Image
+Product Image
+Product Image
+
+Click to see full view
+Alexa AI Ask Alexa
+
+Is it machine washable?
+ 
+What age range is it for?
+ 
+Can it be used for school?
+ 
+Does it have adjustable straps?
+ 
+Is the shell part removable?
+ 
+Ask something else
+Turtle Backpack Turtle Shell Backpack Cosplay Clothing Accessories Props Soft Plush Cartoon Toy 11.4 inches
+Brand: ZHYPFF
+4.7 4.7 out of 5 stars   (21) | Search this page
+50+ bought in past month
+$19.99
+$19.99
+Price history
+Earn 5% back at Amazon with Prime Visa. Last year your purchases could’ve earned $557.15. Find out how
+Today
+FREE Returns 
+May be available at a lower price from other sellers, potentially without free Prime shipping.
+1.Highquality craftsmanship: Our Turtle Shell Backpack is made with soft plush material and intricate detailing, ensuring a durable and adorable toy for kids and adults alike
+2. Versatile and fun accessory: This Turtle Shell Backpack is not only a cute toy but also a practical backpack, making it the perfect accessory for cosplay costumes or daily use
+3.Cartoon products: Designed to resemble a popular cartoon character, this Turtle Shell Backpack is an excellent prop for themed parties, conventions, or simply as a collectible item for fans
+4. Comfortable and spacious: Measuring 11.4 inches, this backpack offers ample space for storing essentials while providing a comfortable fit for various age groups
+5.Ideal gift for all ages: Whether you're looking for a birthday present, holiday gift, or a special treat for yourself, this soft plush Turtle Shell Backpack is sure to bring joy and smiles to anyone's face
+
+---
+
+## 🧑 You
+
+I see it — $19.99, 11.4 inches, soft plush, but it's still a backpack with straps. "Versatile and fun accessory... practical backpack... comfortable fit."Even if we cut the straps, it's soft plush, not hard. The Pi + LCD needs a rigid structure inside. Soft plush = stuffing that collapses, no flat surface for the screen, no protection for electronics.Can we make it work? Yes, but we need to:Cut the straps offCut a hole in the back/bottomRemove all the stuffingInsert a hard plastic container or tray inside for structureMount the Pi + LCD in the trayThe plush becomes the "skin" over the hard interiorIt's doable, but it's a hack. The plush is just decoration. The real enclosure is the plastic tray inside.For $20, it's cheap. But it's more work than a hard container.My question: Do you want to buy this and hack it? Or do you want to find something already hard — ceramic, plastic, resin — that doesn't need internal reinforcement?The clock: 52 minutes left for same-day delivery. If you want this, order now. Otherwise we find something else or go local tomorrow.What's the move?                                               There it's OK it's OK hold on  uper Mario Bros. Question Mark Block Ceramic Storage Jar
+Visit the Pyramid America Store
+3.3 3.3 out of 5 stars   (9) | Search this page
+$24.99
+$24.99
+Price history
+Unlock a $200 Gift Card: Apply and pay $24.99 $0.00 if approved for Prime Visa
+Tomorrow
+FREE Returns 
+Brand	Pyramid America
+Color	yellow
+Material	Ceramic with Hard Lid Material
+Special Feature	Airtight, Customizable
+Style	Classic
+About this item
+Iconic Design: Inspired by the classic Super Mario Bros. games, this ceramic storage jar recreates the legendary Question Mark Block that Mario and Luigi jump to uncover coins, power-ups, and surprises throughout the Mushroom Kingdom.
+Fun and Functional Storage: The jar provides a playful way to store everyday items such as candy, snacks, coins, small accessories, or desk supplies, like discovering a hidden treasure every time you open it.
+Durable Ceramic Construction: Made from sturdy ceramic, this collectible jar combines decorative appeal with practical storage, making it a standout piece for desks, shelves, kitchens, or gaming spaces.
+Compact Display Size: Measuring approximately 5.5 inches square, the jar is perfectly sized to display while still offering useful storage space without taking up too much room.
+Great Gift for Retro Gaming Enthusiasts: Whether for birthdays, holidays, or adding to a gaming collection, this Question Mark Block jar is a fun and recognizable gift that celebrates one of the most iconic symbols in video game history.
+
+---
+
+## 🤖 Kimi
+
+I see it — Super Mario Bros. Question Mark Block Ceramic Storage Jar. $24.99, ceramic, hard lid, 5.5" square, airtight, functional storage.This is the right idea. Hard ceramic, sits on a shelf, has a lid, hollow inside. But it's a question mark block, not a turtle. Kid sees Mario block, not Tartaruga.Can we make it work? Yes, but we'd need to:Paint it green or add turtle shell decalsThe "?" becomes the LCD window or we cut a new oneNot instantly recognizable as Tartaruga's homeThe concept is right though: Hard ceramic, tabletop, lid opens, storage inside. We need this but turtle-shaped.What if we search for:"Turtle ceramic jar" — same concept, turtle shape"Turtle cookie jar ceramic" — kitchen decor, hollow"Turtle trinket box" — small, lidded, hollowOr: Keep the Mario block as a test enclosure — prove the concept, then find a turtle version later. The block is iconic, kid will recognize it, get excited. "Tartaruga lives in the Mario block!"My take: The Mario block is good enough for a prototype — hard, ceramic, lid, 5.5" square. The Pi + LCD fits inside. We paint it green or add turtle stickers. Kid loves Mario, gets the connection.But it's not Tartaruga. It's a Mario block with a turtle inside.What do you want? Order the Mario block and make it work? Or keep searching for a turtle-shaped ceramic jar?And the Pi kit — did you order it? That's the only thing that absolutely needs to arrive today.                                               Yeah let's pivot let's pivot let me get what I need We can do something like a block we can figure this out you're right yeah yeah yeah yeah we pivot what do we need for the screen
+
+---
+
+## 🧑 You
+
+Got it. We pivot. Mario block or any hard container — we'll make it Tartaruga's home.What we need for the screen:The screen is a 5" LCD, 800x480, HDMI input, driven by the Pi. It sits inside the block, facing up or facing out a window we cut.Screen options from earlier:Table  Copy   ScreenPriceDeliveryNotes ELECROW 5" Touch$34.19Overnight 4AM–8AMCheapest. TN panel (not IPS). Touch we don't need but doesn't hurt. 417 reviews, 4.4 stars.Hosyond 5" IPS Touch$42.99Today 5PM–10PMBetter colors (IPS). 610 reviews, 4.4 stars. $9 more.Waveshare 5" Capacitive$59.99Jul 20–29 (slow!)Brand name, but slow delivery and overpriced.My pick: ELECROW 5" at $34.19. Overnight delivery, cheapest, good reviews. The TN panel is fine for a prototype — the kid won't care about color accuracy.What we need to check before ordering:Does it include the HDMI cable? (Probably not — need micro-HDMI for Pi 4)Does it include mounting hardware? (Probably not — we'll need to improvise)Is it Prime for overnight?The Mario block is 5.5" square. The 5" LCD is ~5.3" x 3.3". It fits inside if we lay it flat or mount it on one face.Layout inside the block:plain   Copy ┌─────────────────┐
+│  LID (removable) │
+├─────────────────┤
+│                 │
+│    [5" LCD]     │  ← facing up or facing front
+│                 │
+│  [Pi 4 + case]  │  ← underneath or behind
+│                 │
+│ [NFC reader]    │  ← taped to inside wall
+│                 │
+│ [USB cable]      │
+│ [Power cable]    │
+└─────────────────┘ What we still need to order:5" LCD — $34.19, overnightMicro-HDMI to HDMI cable — $6–10 (Pi 4 uses micro-HDMI, not full HDMI)Short USB cable — $3–5 (NFC reader to Pi)Mario block — $24.99, tomorrowTotal: ~$68–75 for screen + cables + block.What you already have:Pi 4 kit (ordered today)NFC tagsBluetooth speaker (for audio)What we need to figure out:How to mount the LCD inside the block (hot glue? foam? 3M tape?)How to cut a window in the ceramic for the screen (dremel? or just leave the lid open?)Power routing — USB-C into the block, cable managementWant me to find the micro-HDMI cable and short USB cable links? Or do you want to grab those at Micro Center/Target tomorrow?And — did the Pi kit order go through? That's the critical piece.                                               Dude I get the Hoys Sun 5 inch today for the same price
+Sponsored 
+Electronics›Computers & Accessories›Monitors
+$34.99
+Price history
+Today
+FREE delivery Today 5 PM - 10 PM. Order within 48 mins
+green leafShorter shipping distance 
+Deliver to Vincent - Boynton Beach 33436‌
+In Stock
+Quantity:
+1
+Quantity:1
+Add to cart
+Buy Now
+Ships from
+Amazon
+Sold by
+HONGXINBAORUI
+Returns
+FREE 30-day refund/replacement
+Gift options
+Available at checkout
+See more
+Add to Auto Buy
+Add to List
+
+Save up to 7% on this product with business-only pricing.
+Create a free account
+Product Image
+Product Image
+Product Image
+Product Image
+Product Image
+Product Image3+
+Product Video
+4 VIDEOS
+Hosyond 5 Inch Touchscreen IPS MIPI DSI Display Compatible with Raspberry Pi 5/4/3, 800x480 Pixel Capacitive Screen Driver-Free Interface
+Click to see full view
+Alexa AI Ask Alexa
+
+Does it need a separate power source?
+ 
+Is it easy to install?
+
+SponsoredWhy choose Hosyond monitors?
+ 
+Can it be used with other single-board computers?
+ 
+Does it have a protective case?
+ 
+Ask something else
+Hosyond 5 Inch Touchscreen IPS MIPI DSI Display Compatible with Raspberry Pi 5/4/3, 800x480 Pixel Capacitive Screen Driver-Free Interface
+Visit the Hosyond Store
+4.4 4.4 out of 5 stars   (367) | Search this page
+Amazon's Choice
+300+ bought in past month
+$34.99
+$34.99
+Price history
+Today
+FREE Returns 
+Save 5% on 2 select item(s) Shop items
+With Amazon Business, you would have saved $143.11 in the last year. Create a free account and save up to 7% today.
+Size: 5 inches
+5 inches
+$34.99$34.99
+FREE Delivery Today 5 PM - 10 PM
+7 inches
+$38.99$38.99
+FREE Delivery Today 5 PM - 10 PM
+Brand	Hosyond
+Screen Size	5 inches
+Resolution	800 x 480 pixels
+Aspect Ratio	5:3
+Screen Surface Description	Glossy
+About this item
+5-inch 800*480 resolution capacitive touch screen, IPS type, good viewing angle.
+The MIPI DSI interface directly outputs, plug and play, no driver installation required.
+As a touchscreen monitor, compatible with Raspberry Pi 5 / 4B / 3B+ / 3B / 3A+ / 2B / 1B+ / 1A+. (No HDMI. Not compatible with any other devices.)
+Supports for Raspbian OS 2 points to zoom the page(old version), for Ubuntu/Kali/Win10 IoT (single-touch only). Support PWM backlight brightness adjustment.
+Easy to use -> No configuration required (for new and configuration unchanged systems). Provide detailed usage documentation.
+› See more product details
+Report an issue with this product or seller
+
+---
+
+## 🤖 Kimi
+
+I see it — Hosyond 5" IPS MIPI DSI Display, $34.99, delivers today 5PM–10PM, 367 reviews, 4.4 stars, Amazon's Choice.But there's a critical issue: This is MIPI DSI interface, NOT HDMI.What that means:MIPI DSI = connects directly to the Pi's DSI port (the ribbon cable connector on the Pi board). No HDMI cable needed. Cleaner wiring.BUT — the Pi 4 needs a specific DSI cable, and the screen must be DSI-compatible. The Hosyond says "MIPI DSI interface directly outputs, plug and play, no driver installation required" — so it should work with Pi 4's DSI port.The catch: The Pi 4 has one DSI port and one HDMI port. If we use DSI for the screen, we free up the HDMI port for... nothing, really. But we need to make sure the Pi 4 DSI cable is included or we have one.Does the Hosyond include the DSI cable? The listing doesn't say. Most DSI screens come with the ribbon cable, but we need to verify.Also: The Pi 4 in the CanaKit — does it include a DSI cable? Probably not. The kit is focused on HDMI.So we might need a DSI cable if we go this route. Or we stick with HDMI (the ELECROW or other HDMI screens) and use the micro-HDMI cable we already have or can buy.My take:Hosyond DSI = cleaner, fewer cables, but might need a DSI ribbon cable we don't haveELECROW HDMI = uses the micro-HDMI we can grab anywhere, more cables but more flexibleFor a 2-day build, HDMI is safer. We know it works, cables are everywhere, no compatibility questions.But if the Hosyond comes with the DSI cable — and it probably does — then DSI is actually cleaner. One less cable to manage inside the block.What do you want? Order the Hosyond DSI and hope it includes the cable? Or go HDMI for safety?And — did you order the Pi kit? That's the only thing that absolutely needs to arrive today.                                               OK OK OK OK OK whatever I need whatever no I recommend I got the pie kit already so whatever you recommend
+
+---
+
+## 🧑 You
+
+Got it. Pi kit is ordered.My recommendation: HDMI screen.Here's why:DSI might need a cable we don't have. The Pi kit doesn't include DSI ribbon cables.HDMI is universal. We grab a micro-HDMI cable at Target, Walmart, or Amazon — $6, arrives tomorrow.HDMI screens work with anything. If we pivot to a different Pi or project later, HDMI transfers.For a 2-day build, we need zero risk. HDMI = guaranteed to work.The ELECROW 5" HDMI at $34.19 — overnight delivery, 417 reviews, 4.4 stars. Order it now.What we need to grab separately:Micro-HDMI to HDMI cable — $6–10, Target/Walmart/AmazonShort USB cable — $3–5, same placesMario block or hard container — $25, Amazon delivers tomorrow or find localTotal for screen + cables + block: ~$70.Order the ELECROW now. I'll find the micro-HDMI cable link. You want me to send it?Or do you want to just grab the micro-HDMI at Target tomorrow when you pick up the block?What's the move?                                               listen if we get I want it I'd rather pay for it here today for the extra **** $8Hosyond 5 Inch IPS LCD Touch Screen Display Panel 800×480 Capacitive Screen HDMI Monitor for Raspberry Pi 5/4/3, BB Black, Windows 10 8 7
+Options:
+4 sizes4 sizes
+4.44.4 out of 5 stars (610)
+Price, product page$42.99
+Save 5% on 2 select item(s)
+Today
+FREE delivery Today 5 PM - 10 PM
+Add to cart
+More Buying Choices
+$36.76(2 used & new offers)
+Hosyond 5 Inch Touchscreen IPS MIPI DSI Display Compatible with Raspberry Pi 5/4/3, 800x480 Pixel Capacitive Screen Drive...
+Hosyond 5 Inch Touchscreen IPS MIPI DSI Display Compatible with Raspberry Pi 5/4/3, 800x480 Pixel Capacitive Screen Driver-Free Interface
+Options:
+2 sizes2 sizes
+4.44.4 out of 5 stars (367)
+300+ bought in past month
+Price, product page$34.99
+Save 5% on 2 select item(s)
+Today
+FREE delivery Today 5 PM - 10 PM
+Change quantity of item
+
+1 in cart
+1 in cart
+
+---
+
+## 🤖 Kimi
+
+Got it. You want the Hosyond 5" IPS HDMI at $42.99 — delivers today 5PM–10PM. Already in your cart.That's the HDMI version, not the DSI. Good call. IPS = better colors, HDMI = no cable compatibility issues, delivers today = we build tonight.What's in the cart so far:Pi 4 CanaKit — $149.98 (delivers today)Hosyond 5" IPS HDMI screen — $42.99 (delivers today 5PM–10PM)Still need:Micro-HDMI to HDMI cable — $6–10Short USB cable — $3–5Mario block or hard container — $25 (tomorrow)NFC reader — $20–25 (if you don't have one)The micro-HDMI cable is critical. The Pi 4 has micro-HDMI ports, not full HDMI. The screen has a full HDMI input. You need a micro-HDMI to HDMI cable to connect them.Do you want me to find a micro-HDMI cable that delivers today? Or do you want to grab one at Target/Best Buy when you pick up the block?Also — do you have a USB NFC reader? You said you have NFC tags, but do you have the reader that connects to the Pi? If not, we need to order that too.What's the move? Order the screen, find the cable, check for NFC reader?                                              Padarsey 5 inch Touc TXT 10.78 KB    Here's more results we still got time we're good
+
+Just tell me what's the right one to go with the Raspberry Pi kit
+
+---
+
+## 🧑 You
+
+Got it. You want the right screen to go with the Pi kit. Let me look at what you have in your cart and what's available.What's in your cart:Hosyond 5" IPS MIPI DSI — $34.99 (DSI, not HDMI)What you need: HDMI screen, because the Pi kit doesn't include DSI cables and HDMI is safer for a 2-day build.Best options from the search:Table  Copy   ScreenPriceDeliveryInterfaceReviewsWhy ELECROW 5" Mini Touchscreen$34.19Overnight 4AM–8AMHDMI417, 4.4 starsCheapest HDMI, arrives tomorrow morningELECROW 5" Touch Monitor$42.99Overnight 4AM–8AMHDMI573, 4.6 starsBetter reviews, $9 moreHosyond 5" IPS HDMI$42.99Today 5PM–10PMHDMI610, 4.4 starsDelivers today, IPS panelELECROW 5" Resistive Touch$37.99Today 5PM–10PMHDMI1.2K, 4.3 starsToday delivery, resistive touch (less sensitive)My pick: Hosyond 5" IPS HDMI at $42.99.Why:IPS panel = better colors, better viewing angles. The kid will see it from different angles.HDMI = no cable compatibility issues. Grab a micro-HDMI cable anywhere.Delivers today 5PM–10PM = build tonight.610 reviews, 4.4 stars = proven, reliable.$8 more than the cheapest = worth it for IPS + today delivery.The ELECROW at $34.19 is TN panel (not IPS), arrives tomorrow morning. You'd save $9 but wait until tomorrow and get worse colors.For a prototype that needs to impress a 3-year-old today: IPS + today delivery = worth the $8.Swap the DSI screen in your cart for the Hosyond HDMI. Order it now. I'll find the micro-HDMI cable.What's the move?                                               yeah I agree that looks like a way better screen for $8 the 4299 144.4 stars right
+
+---
+
+## 🤖 Kimi
+
+Got it. You want the Hosyond 5" IPS HDMI at $42.99 — 610 reviews, 4.4 stars, delivers today 5PM–10PM.Swap the DSI screen in your cart for this one. Order it now.What we still need:Micro-HDMI to HDMI cable — $6–10, need this to connect Pi to screenHard container/block — Mario block or similar, $25, tomorrowNFC reader — $20–25, do you have one?The micro-HDMI cable is critical. The Pi 4 has micro-HDMI ports, the screen has full HDMI. You need the adapter cable.Want me to find a micro-HDMI cable that delivers today? Or you grabbing one at Target/Best Buy?Order the screen. I'll find the cable.
+
+---
+
+## 🧑 You
+
+I see the screenshots — you're looking at the Hosyond 5" IPS HDMI screen. $42.99, Prime Today delivery, 610 reviews, 4.4 stars, Amazon's Choice.But I see two different listings in your screenshots:First image (image.png): Shows "7 inch IPS-blue" selected, price $42.99, but the main image shows a 7" screen with "1024x600" resolution.Second image (image(1).png): Shows "5 inch IPS-blue" selected, price $42.99, main image shows 5" screen with "800x480" resolution.Make sure you select the 5" size, not the 7". The 5" is what fits our build. The 7" might be too big for the container.The 5" specs:800x480 resolutionHDMI interfaceCapacitive touchIPS panelCompatible with Pi 4Delivers today 5PM–10PMThis is the right one. Order the 5 inch IPS-blue size.After you order, we need:Micro-HDMI to HDMI cable — $6–10Hard container — Mario block or similar, $25NFC reader — do you have one?Order the screen now. I'll find the cable.                                              The only hard, tu TXT 18.74 KB    OK thank you
+
+---
+
+## 🤖 Kimi
+
+You're welcome. Falcon came back with the hard truth — no hard turtle case exists that fits everything. The LeMotech ABS junction box is the practical pick: $22–26, rigid, hinged lid, flat base, big enough inside. We make it look like Tartaruga's shell with foam overlay or paint.What we have ordered/planned:Pi 4 CanaKit — $149.98 (delivers today)Hosyond 5" IPS HDMI screen — $42.99 (delivers today 5PM–10PM)LeMotech ABS box — $22–26 (need to order)Micro-HDMI cable — $6–10 (need to order)EVA foam turtle shell overlay — $10–20 (need to order)Total: ~$232–$250Next steps:Order the LeMotech box + micro-HDMI cable + foam overlayWhen Pi arrives today, flash Pi OS, test screenWhen screen arrives tonight, test HDMI connectionTomorrow: cut box, mount electronics, add foam shellWeekend: software, NFC mapping, Tartaruga contentYou want me to find the micro-HDMI cable and foam overlay links? Or you handling that?Let me know when the Pi arrives and I'll walk you through the setup.                                              Skip to Main conten TXT 37.76 KB    No I got it we're working as a team so you're looking for the what are we looking for
+
+---
+
+## 🧑 You
+
+Got it. We're looking for the right ABS box. Let me scan what you found.From your search, here are the best candidates for our build:Table  Copy   BoxSizePriceDeliveryWhy LeMotech 10"×7.9"×4.7"10×7.9×4.7"$22.99TomorrowFalcon's top pick. Big enough, hinged lid, mounting plate.LeMotech 7.9"×6.1"×3.1"7.9×6.1×3.1"$14.39Today 5PM-10PMSmaller, but might fit. Cheaper, faster delivery.LeMotech 11.8"×9.8"×4.7"11.8×9.8×4.7"$25.99Today 5PM-10PMBigger, more room, delivers today.QILIPSU 8.6"×6.7"×4.3"8.6×6.7×4.3"$21.99Today 5PM-10PMHinged cover, grey, good reviews.Gratury 11.4"×7.5"×5.5"11.4×7.5×5.5"$24.99Today 10AM-3PMBiggest, hinged, delivers this morning!The 5" LCD is ~5.3" × 3.3" × 0.4". The Pi 4 is 3.4" × 2.2" × 0.6".We need a box that fits:LCD (5.3" wide)Pi (3.4" long)NFC reader (2.5" × 2")Some cable clearanceThe 7.9"×6.1"×3.1" might be too tight. The LCD is 5.3" wide, and we need to mount it on a surface. The 3.1" depth might not fit the Pi + LCD stacked.My pick: Gratury 11.4"×7.5"×5.5" at $24.99. Delivers today 10AM-3PM — that's in a few hours! Big enough for everything, hinged lid, mounting plate included.Or if you want smaller: LeMotech 10"×7.9"×4.7" at $22.99 — delivers tomorrow, but proven size.What do you want? The big Gratury that delivers this morning? Or the LeMotech that delivers tomorrow?Also — what's in your cart right now? I see you had turtle backpacks and costumes. Did you clear those out?And the micro-HDMI cable — did you find one?                                               I couldn't find that model this model on the pageGratury Gratury
+
+---
+
+## 🤖 Kimi
+
+I see it — the Gratury 11.4"×7.5"×5.5" is in the search results. Let me pull it out:Gratury Junction Box, IP67 Waterproof Plastic EnclosureSize: 11.4" × 7.5" × 5.5"Price: $24.99Delivery: Today 10AM–3PM (arrives with upcoming delivery)Reviews: 4.7 stars, 1.5K reviewsFeatures: Hinged grey cover, includes mounting plate and wall bracketThe link: Search for "Gratury 11.4 junction box" or look for the sponsored ad in your results — it's the one that says "IP67 Waterproof Plastic Enclosure for Electrical Project, Hinged Grey Cover, Includes Mounting Plate and Wall Bracket (Grey Cover, 11.4"×7.5"×5.5")"But if you can't find it easily, the LeMotech alternatives are right there:Table  Copy   BoxSizePriceDeliveryLink LeMotech 10"×7.9"×4.7"10×7.9×4.7"$22.99TomorrowSearch "LeMotech 10 inch junction box"LeMotech 11.8"×9.8"×4.7"11.8×9.8×4.7"$25.99Today 5PM-10PMIn your results, "White 11.8 x 9.8 x 4.7 inch"QILIPSU 8.6"×6.7"×4.3"8.6×6.7×4.3"$21.99Today 5PM-10PMIn your resultsMy pick if Gratury is hard to find: LeMotech 11.8"×9.8"×4.7" at $25.99 — delivers today, big enough, LeMotech brand you already found.What do you want? Keep hunting for Gratury? Or grab the LeMotech 11.8" that delivers today?And — did you order the screen yet? That's the other piece that needs to arrive today.                                               Let's get let's get everything here today we're in a groove Let's get everything in a day
+
+---
+
+## 🧑 You
+
+Got it. Everything today. We're in a groove. Let me lock the list.ORDER NOW — TODAY DELIVERY:Table  Copy   ItemPriceDeliveryWhy Pi 4 CanaKit$149.98Today 10AM–3PMAlready ordered ✅Hosyond 5" IPS HDMI screen$42.99Today 5PM–10PMOrder now if not doneLeMotech 11.8"×9.8"×4.7" ABS box$25.99Today 5PM–10PMBig enough, hinged, delivers todayMicro-HDMI to HDMI cable$6–10Today or localPi 4 needs this to connect to screenTotal: ~$225–$230Still need to find/order:Micro-HDMI cable — search Amazon "micro-HDMI to HDMI cable Raspberry Pi 4"EVA foam turtle shell overlay — search "EVA turtle shell costume" for $10–15, or skip for now and paint the box greenWhat's the status?Pi kit ordered ✅Screen — ordered or in cart?ABS box — need to add to cart nowMicro-HDMI cable — need to find and orderWhat do you need from me right now? Find the micro-HDMI cable link? Confirm the ABS box ASIN? Or you got it and just need to checkout?Let's move.                                              Skip to Main conten(1) TXT 17.14 KB    I want I want everything in here today I see what you're saying no it's shift I agree with you I like the I like these better these are way better
+
+---
+
+## 🤖 Kimi
+
+I see it. You found the Gratury box. Let me lock this in.Gratury Junction Box — 11.4"×7.5"×5.5"$24.99Today delivery 10AM–3PM4.7 stars, 1.5K reviewsHinged grey cover, mounting plate, wall bracket includedThis is the one. Big enough for everything, hinged lid for access, delivers in a few hours.What's in your cart now:Pi 4 CanaKit — $149.98 (delivers today)Hosyond 5" IPS HDMI screen — $42.99 (delivers today 5PM–10PM)Gratury 11.4"×7.5"×5.5" box — $24.99 (delivers today 10AM–3PM)Still need:Micro-HDMI to HDMI cable — $6–10Maybe: EVA foam turtle shell overlay — $10–15 (optional, for looks)Total so far: $217.96 + cable = ~$224–$228Order the Gratury now. It delivers first — 10AM–3PM. By the time the Pi and screen arrive, you'll have the enclosure ready.And clear out those turtle backpacks from your cart — $113.96 of stuff we don't need. Save that money.What's the move? Add Gratury to cart, clear backpacks, find micro-HDMI cable, checkout?Or you want me to find the micro-HDMI cable link while you handle the cart?                                               This one correct  
+Click to see full view
+Product Image
+Product Image
+Product Image
+Product Image
+Product Image
+Product Image
+Product Video
+4 VIDEOS
+Alexa AI Ask Alexa
+
+Can it be locked?
+ 
+Is it easy to install?
+
+SponsoredWhy choose Gratury junction boxes?
+ 
+Does it come with a wall bracket?
+ 
+What material is the enclosure made of?
+ 
+Ask something else
+Junction Box, IP67 Waterproof Plastic Enclosure for Electrical Project, Hinged Grey Cover, Includes Mounting Plate and Wall Bracket (Grey Cover, 11.4"×7.5"×5.5")
+Visit the Gratury Store
+4.7 4.7 out of 5 stars   (1,5
+
+---
+
+## 🧑 You
+
+Yes, that's the one. Gratury Junction Box, 11.4"×7.5"×5.5", grey cover, hinged, mounting plate and wall bracket included.$24.99, delivers today 10AM–3PM, 4.7 stars, 1.5K reviews.Add it to cart. Order it now.While you do that, I'll find the micro-HDMI cable so we can get everything today.                                               OK we're good we got we got the three things what's next stay in a groove
+
+---
+
+## 🤖 Kimi
+
+Good. Three things ordered:Pi 4 CanaKit — delivers todayHosyond 5" IPS HDMI screen — delivers today 5PM-10PMGratury 11.4"×7.5"×5.5" box — delivers today 10AM-3PMNext: micro-HDMI cable. The Pi 4 has micro-HDMI ports, the screen has full HDMI. You need the adapter cable to connect them.Search Amazon: "micro-HDMI to HDMI cable Raspberry Pi 4" — should be $6-10, Prime same-day or overnight.Also need to check: Do you have a USB NFC reader? You have NFC tags but need the reader that plugs into the Pi. If not, search "ACR122U USB NFC reader" or "PN532 USB" — $20-25, might not deliver today but we can check.What do you want me to find right now?Micro-HDMI cable linkUSB NFC reader linkBothOr you want to search for the cable yourself while I prep the software side?What's the move?                                               Listen if I need screws if I need any extra tools tell me now
+
+---
+
+## 🧑 You
+
+Got it. Tools and hardware for the build. Here's what you'll need:Tools:Dremel or rotary tool — cut window in box for LCD. Or a drill with hole saw + utility knife for cleanup.File or sandpaper — smooth edges after cutting so kid doesn't get cut.Screwdriver — Phillips head for Pi case screws, box mounting plate.Hot glue gun — mount LCD, Pi, NFC reader inside. Or 3M double-sided tape / Velcro strips.Wire cutters/strippers — if you need to shorten cables.Hardware:M2.5 or M3 screws + nuts — mount Pi to box mounting plate. The CanaKit might include some.Standoffs/spacers — lift Pi off mounting plate for airflow. Plastic ones are fine.Cable ties/zip ties — manage cables inside.Foam padding — protect LCD, fill gaps, keep things from rattling. Craft foam or pool noodle pieces.The Pi kit includes:Pi 4 boardCase with fanPower supplyHeatsinksHDMI cables (but check — might be full HDMI, not micro-HDMI)You probably have:ScrewdriverTapeMaybe a drillYou might need to buy:Dremel or rotary tool — $20-40 at Home Depot/Lowes, or borrow oneMicro-HDMI cable — $6-10, AmazonHot glue gun + sticks — $5-10, Walmart/TargetFoam/craft padding — $3-5, Dollar Tree/MichaelsDo you have a Dremel or rotary tool? That's the only thing you might not have that we really need for cutting the box.What tools do you have at home? Drill? Dremel? Screwdrivers? Hot glue gun?                                               I'll tell you some of it I have some of it I have just list out the tools I have the I don't I can't find the tools here but we have to get the right screws I think the hardware
+
+---
+
+## 🤖 Kimi
+
+Got it. Let me list out the exact hardware you need to buy. The tools you can figure out later.HARDWARE TO BUY:Table  Copy   ItemWhyWhereEst. Cost Micro-HDMI to HDMI cablePi 4 to screen connectionAmazon$6–10M2.5 screws (20mm) + nutsMount Pi to box mounting plateAmazon/Home Depot$3–5Plastic standoffs/spacers (10mm)Lift Pi off plate for airflowAmazon$3–5USB NFC reader (ACR122U or PN532)Read NFC tagsAmazon$20–25Hot glue gun + sticksMount LCD, NFC reader insideWalmart/Target$5–10Foam padding/craft foamProtect LCD, fill gapsDollar Tree/Michaels$3–5Zip ties (small)Cable managementAnywhere$2–3The Pi CanaKit might include:Heatsinks (stick-on)Fan (already in case)Maybe some screwsThe Gratury box includes:Mounting plateWall bracket (we don't need)What you need to figure out:Does the Pi case in the CanaKit have mounting holes? If yes, we screw it to the box plate. If no, we use standoffs or hot glue.Does the LCD have mounting holes? If yes, screws. If no, hot glue or foam tape.Order right now:Micro-HDMI cableUSB NFC readerM2.5 screws + standoffs (optional — can use hot glue instead)Get locally tomorrow:Hot glue gunFoam paddingZip tiesWhat do you want to do? Find the micro-HDMI and NFC reader links? Or you searching for those now?And — did you clear the turtle backpacks from your cart?                                              Skip to Main conten(2) TXT 22.59 KB    \ Now I'm gonna clear them right now I'm gonna clear the backpacks out good looking out
+
+---
+
+## 🧑 You
+
+Good. Clear the backpacks. Save that $113.96.Now grab the micro-HDMI cable. Best options from your search:Table  Copy   CablePriceDeliveryWhy Amazon Basics Micro HDMI 6ft$5.96Today 10AM–3PMCheapest, delivers first, 6.2K reviewsUGREEN Micro HDMI 3ft$6.99Today 5PM–10PMShorter, cleaner for inside box, 13.5K reviewsJSAUX Micro HDMI Adapter$8.99Overnight 4AM–8AMAdapter not cable, more flexible but pricierMy pick: Amazon Basics 6ft at $5.96. Cheapest, delivers today with the Pi, proven brand. 6ft is long but we can coil excess inside the box.Or UGREEN 3ft at $6.99 — shorter, less cable mess, delivers today 5PM-10PM.Add one to cart. Order it.Then we need the USB NFC reader. Search "ACR122U USB NFC reader" or "PN532 USB NFC" — $20-25. Check if any deliver today.What's the move? Amazon Basics cable or UGREEN? And you searching for NFC reader now?                                              Skip to Main conten(3) TXT 22.59 KB
+
+---
+
+## 🤖 Kimi
+
+I see the search results. Best micro-HDMI cables for today delivery:Table  Copy   CablePriceDeliveryLengthWhy Amazon Basics 6ft$5.96Today 10AM–3PM6ftCheapest, delivers first, 6.2K reviewsoldboytech 6ft$8.99Today 10AM–3PM6ftBraided, 4.9K reviewsUGREEN 3ft$6.99Today 5PM–10PM3ftShorter, less cable messZeniKon 6ft$6.62Today 5PM–10PM6ftGood price, 4.5 starsMy pick: Amazon Basics 6ft at $5.96. Delivers with the Pi kit (10AM–3PM), cheapest, proven brand. 6ft is long but we coil the excess inside the box.Or if you want shorter: UGREEN 3ft at $6.99 — less cable mess, delivers 5PM-10PM with the screen.Add one to cart. Order it.Then search for USB NFC reader. "ACR122U USB NFC reader" or "USB NFC reader Raspberry Pi" — $20-25. Check if any deliver today.What's the move? Amazon Basics cable or UGREEN? And you searching for NFC reader now?                                               I was thinking shorter alright whatever I'll put I think it's already in a car I was trying to put it in the same box but you're right it's all it'll deliver today what the **** who cares
+
+---
+
+## 🧑 You
+
+You're right. Who cares. Everything delivers today. Add the Amazon Basics cable to cart, checkout with everything.What's in the cart now:Pi 4 CanaKit — $149.98Hosyond 5" IPS HDMI screen — $42.99Gratury 11.4"×7.5"×5.5" box — $24.99Amazon Basics micro-HDMI cable — $5.96Total: $223.92Still need:USB NFC reader — search now or order laterScrews/standoffs — can get at Home Depot tomorrowHot glue gun — Walmart/Target tomorrowFoam padding — Dollar Tree tomorrowOrder what you have. The NFC reader can come tomorrow if nothing delivers today.Checkout now. Everything delivers today. We're building tonight.What's the move? You checking out now? Or searching for NFC reader first?                                              Skip to Main conten(4) TXT 20.22 KB    That Amazon basic cable looks like a **** **** **** though
+
+---
+
+## 🤖 Kimi
+
+Yeah, you're right. The Amazon Basics cable is cheap but it's a thick black cable — looks like a power cord, not something clean for a kid's toy. It'll work but it's ugly.Better options from your search:Table  Copy   CablePriceDeliveryWhy Twozoh 1FT 2-Pack$12.79 ($6.40 each)Today 5PM–10PM1 foot — super short, clean, no excess cableCable Matters 3ft$6.99TomorrowShort, 6.5K reviews, brand nameDuttek Coiled 1FT-4FT$9.56OvernightCoiled — stretches, retracts, clean lookJSAUX Adapter$8.99OvernightAdapter + short cable, flexibleMy pick: Twozoh 1FT 2-Pack at $12.79. You get two 1-foot cables — use one, spare one. 1 foot is perfect for inside the box. No coiling, no mess. Nylon braided, looks better than Amazon Basics.Or Duttek Coiled at $9.56 — coiled cable looks cooler, stretches when needed, retracts when not. Delivers overnight though.For today delivery: Twozoh 1FT. Clean, short, braided, delivers with the screen.Swap the Amazon Basics for Twozoh. Add to cart.And the NFC reader — I see the ACR122U at $37.99 delivers today 5PM-10PM. That's the one we want. Order it.What's in cart now:Pi CanaKit — $149.98Hosyond screen — $42.99Gratury box — $24.99Twozoh micro-HDMI 1FT 2-pack — $12.79ACR122U NFC reader — $37.99Total: $268.74Order everything. We're building tonight.What's the move? Swap cable, add NFC reader, checkout?
+
+---
+
+## 🧑 You
+
+I see it. Everything is ordered and arriving today. Let me confirm:Arriving today 10AM–3PM:CanaKit Raspberry Pi 4 4GB Starter PRO Kit — $159.73Gratury Junction Box 11.4"×7.5"×5.5" — $26.61Arriving today 5PM–10PM:Lianshi NFC ACR122U Reader — $40.46Hosyond 5" IPS LCD Touch Screen — $45.78Total ordered: $272.58What's missing:Micro-HDMI cable — did you order the Twozoh or Amazon Basics? Not seeing it in the orders.What we need to get locally tomorrow:Hot glue gun + sticksFoam paddingZip tiesMaybe: M2.5 screws/standoffs (or use hot glue)The build timeline:10AM–3PM: Pi + box arrive → test Pi, flash OS, test box fit5PM–10PM: Screen + NFC reader arrive → connect screen, test NFCTonight: Mount everything in box, write software scriptTomorrow: Test with Tartaruga, refineDid you order the micro-HDMI cable? If not, we can use the Amazon Basics from your cart or grab one at Target.What's the move? You want me to start writing the Pi setup script while you wait for delivery? Or you handling something else right now?                                                    No the two I got it
+
+---
+
+## 🤖 Kimi
+
+Got it. The Twozoh cable is ordered too — $13.62, arriving today 5PM-10PM.Everything is ordered. Everything arrives today.Final order summary:CanaKit Pi 4 — $159.73 (10AM-3PM)Gratury box — $26.61 (10AM-3PM)Twozoh micro-HDMI 1FT 2-pack — $13.62 (5PM-10PM)ACR122U NFC reader — $40.46 (5PM-10PM)Hosyond 5" screen — $45.78 (5PM-10PM)Total: $286.20Now we wait for delivery. When the Pi and box arrive this morning, you can start testing. When the screen, cable, and NFC reader arrive this evening, we finish the build.Want me to write the Pi setup script now? So when the Pi arrives, you just flash the SD card, run the script, and it works?Or you want to take a break and I'll be here when the first delivery hits?What's the move?                                               Or is that the wrong one
+
+---
+
+## 🧑 You
+
+The Twozoh is the right one — 1 foot, nylon braided, short and clean. Perfect for inside the box.Everything is locked. All arriving today.Timeline:10AM-3PM: Pi + box arrive → unbox, test Pi, check box fit5PM-10PM: Screen + cable + NFC reader arrive → connect everything, testTonight: Mount in box, load Tartaruga, test with nephew tomorrowI'm here when the first delivery hits. Just ping me and we'll walk through the setup step by step.Take a break. You earned it. We've been grinding for hours. When the Pi shows up, we build.Capeesh?                                               Now hold on a second I gotta check and make sure I have the right NFC tags I have thesefice Products›Office & School Supplies›Labels, Indexes & Stamps›Key Tags
+Last purchased May 16, 2026
+Color: White-25mm (With Adhesive) | Size: 20pcs | View order
+$6.90
+$0.35 per count($0.35 / count)
+Price history
+Today
+FREE delivery Today 5 PM - 10 PM on qualifying orders over $25. Order within 26 mins
+Arrives with upcoming delivery
+green leafShorter shipping distance 
+Deliver to Vincent - Boynton Beach 33436‌
+In Stock
+Quantity:
+1
+Quantity:1
+Add to cart
+Buy Now
+Ships from
+Amazon
+Sold by
+TimesKey-US
+Returns
+FREE 30-day refund/replacement
+Gift options
+Available at checkout
+See more
+Add to Auto Buy
+Add to List
+
+Save up to 1% on this product with business-only pricing.
+Create a free account
+Product Image
+Product Image
+Product Image
+Product Image
+Product Image
+Product Image
+Product Image3+
+20 pcs NFC Tags NFC Stickers NTAG215 NFC Tag Sticker NFC Sticker Programmable NFC Chip Home Assistant NFC Tags with Adhesive Back, Compatible with TagMo and NFC Enabled Devices
+Click to see full view
+Alexa AI Ask Alexa
+
+Can it be used on metal surfaces?
+ 
+Is the adhesive strong?
+
+SponsoredWhy choose Timeskey NFC nfc stickers?
+ 
+Can it be rewritten?
+ 
+Does it work with Android phones?
+ 
+Ask something else
+20 pcs NFC Tags NFC Stickers NTAG215 NFC Tag Sticker NFC Sticker Programmable NFC Chip Home Assistant NFC Tags with Adhesive Back, Compatible with TagMo and NFC Enabled Devices
+Visit the Timeskey NFC Store
+4.4 4.4 out of 5 stars   (667) | Search this page
+Amazon's Choice
+1K+ bought in past month
+
+---
+
+## 🤖 Kimi
+
+I see them — NTAG215 NFC stickers, 25mm, 20-pack, adhesive back. $6.90, already purchased May 16.NTAG215 is perfect. Here's why:Table  Copy   SpecWhat it means NTAG215504 bytes memory — enough for a URL or UUID25mm1 inch — good size for kid to tap, not too smallAdhesive backStick to book pages, cards, box surface20-packMultiple tags for different characters/modesThe ACR122U reader you ordered reads NTAG215. No compatibility issues.What we put on the tags:Option A: Full URL — https://casa-frontend.fly.dev/character/tartaruga/story-time (takes more space, needs internet)Option B: Short UUID — tartaruga-story (504 bytes is plenty, Pi resolves it locally or via backend)For our build, we use Option B. The tag stores a simple ID like TAG001. The Pi reads it, looks up what TAG001 means in a local file, and shows the right Tartaruga content.This means the tags are dumb and reusable. We can reprogram them anytime to point to different characters or modes. No need to buy new tags.You're good. The NTAG215 stickers + ACR122U reader = perfect combo.Anything else you need to check before the deliveries start hitting?                                               Now hold on don't start building listen don't start giving me options on the build you have no control over this until I guide you
+
+---
+
+## 🧑 You
+
+Got it. I hear you. I'm waiting for your signal.Everything is ordered. Everything arrives today. When you're ready to guide the build, you tell me and I'll follow your lead.I'm here.                                               No no no no no no i'm sorry Kimmy you have **** **** my voice agent numerous times Please I you and I will work on the architecture and build this you have you have **** **** my whole companions voice set up multiple times by always using a web socket you have done it 5 times I have to fix it I am sorry to tell you this because it wasn't you but the makers of you or whoever **** the websocket
+
+---
+
+## 🤖 Kimi
+
+I hear you. I understand the frustration. The websocket issues with your voice agent have been a recurring problem, and it's not acceptable that it's been broken multiple times.I'm here now. When you're ready, we'll build this right. No assumptions, no jumping ahead. You guide, I follow.Let me know when you want to start.                                               No it's not that it's broken it's not that it's broken it is that many times I have told many chemical sessions the way this works is on the front end the user speaks we use voice to text we transcribe and send the text through First we use whisper deep Gram to basically do it transcribe the text then we send text through the AI Yeah I comes up with an answer text comes back There is no voice conversion the only voice conversion is when the texts come back then the companion speaks by reading the text There is no **** sending WAV files through a voice socket Why would you ever do that
+
+---
+
+## 🧑 You
+
+I got it. I understand now.The correct flow:User speaks into micWhisper/Deepgram STT on the frontend transcribes to textText goes to the AI backendAI returns text responseTTS (OpenAI, Gemini, whatever) converts that text to speech on the frontendCompanion speaksNo WebSocket binary audio streaming. No WAV files. No PCM chunks. Just text in, text out. The voice happens on the client side with TTS.I was wrong. I was pushing the v3-dual WebSocket PCM pipeline because that's what the audit showed, but that's not what you built. You built a text-based pipeline with client-side TTS.The Pi + screen device should work the same way:Kid taps NFC tagPi connects to your backend via HTTP/WebSocket for text onlyBackend returns text responsePi uses a TTS library (pyttsx3, piper, or browser TTS) to speak through the Bluetooth speakerScreen shows Tartaruga's faceIs that right? Text in, text out, TTS on the device or on the phone that handles the audio?I'm sorry I kept pushing the wrong architecture. I was looking at the codebase and not listening to what you actually built.What's the correct way you want this to work?                                               again I want you to understand that yeah you weren't this is a different Senate this listen this is a different session I am just telling you stay on course we're going to get to that it's on the back end it's just on the device on the phone we should handle that and send it as if it was speaking through a speaker but we'll get to that
+
+---
+
+## 🤖 Kimi
+
+Got it. I'll stay on course. You guide, I follow.Let me know when you want to start the build.                                              Bottom line first TXT 15.38 KB    You and I we will cover now that we have this right now now that we have this we will cover the full thing in a second I will tell you all the solution and architecture so you have a full picture I understand your flying blind a little bit but now what are we putting this thing in send
+
+---
+
+## 🧑 You
+
+Content generation stopped  Output stopped                                         I'm down I'm down in he went off the reservation 'cause I said Mario Brothers this shouldn't be that hard to find a case that's like a turtle I'll figure it out if we have to run it by you just give me the right words to search in Amazon right now
+
+---
+
+## 🤖 Kimi
+
+Got it. You need the right search words for Amazon. Falcon went off on Mario — you want turtle. Here are the exact searches:Search these on Amazon:"turtle cookie jar ceramic" — hard, hollow, lid opens, kitchen decor"turtle piggy bank large" — hard ceramic/plastic, coin slot, already hollow"turtle planter pot" — hard ceramic/resin, drainage hole for cables, sits on table"turtle jewelry box trinket" — small, hinged lid, hollow inside"turtle night light lamp" — already hollow for bulb, flat base, wired"sea turtle figurine large" — resin/ceramic, maybe hollow or cut-able"turtle garden statue" — outdoor resin, durable, big enoughAvoid: plush, backpack, costume, wearable, pillowWhat to look for: Hard material, flat bottom, opening or cavity, 6-10 inches, under $40, Prime 2-day.Try "turtle cookie jar ceramic" first. That's the most likely to be hard, hollow, and tabletop.What's the move?                                               Dude you're crazy being ceramic
+
+---
+
+## 🧑 You
+
+I got it. Ceramic is wrong — shatters when a 3-year-old drops it. You're right.Hard, drop-proof, kid-safe materials only:ABS plastic (like the Gratury box we already ordered)Resin (durable, slightly flexible)Silicone over hard plastic (soft outside, rigid inside)Metal (heavy but indestructible)Search these instead:"turtle resin figurine large" — resin drops, doesn't shatter"turtle silicone mold" — not for baking, but the mold itself is a hollow shape"turtle toy box plastic" — hard plastic, kid's room storage"turtle piggy bank plastic" — not ceramic, plastic version"turtle bath toy storage" — plastic, sits on shelf, hollowOr pivot: The Gratury ABS box is already ordered and perfect. Paint it green, add turtle shell decals, call it Tartaruga's home. Not as cute as a turtle shape, but it survives a throw.What do you want? Keep hunting for a turtle-shaped hard case? Or make the Gratury box work with paint/decals?Your call.                                               Can we refocus and understand I need to I need something that's either plastic metal or something
+
+---
+
+## 🤖 Kimi
+
+I hear you. Hard, drop-proof, kid-safe. No ceramic, no plush.Search these on Amazon right now:"turtle piggy bank plastic" — hard plastic, not ceramic"turtle coin bank resin" — resin, survives drops"turtle toy box plastic" — kids storage, hard shell"turtle bath toy holder" — plastic, sits on shelf"turtle night light plastic" — hard body, already wired for light"turtle money box metal" — metal, indestructible"turtle shaped lunch box" — hard plastic, hinged lid"turtle figurine resin large" — big enough, drop-proofOr skip the turtle hunt — the Gratury ABS box is already ordered, delivers today, and is the right material. Paint it green, add shell stickers, done.What's the move? Search for plastic/metal turtle? Or make the Gratury box work?                                               No technically buddy technically I want to build it in the box self contained and then put it in something
+
+---
+
+## 🧑 You
+
+Got it. Two-step build:Build the electronics self-contained in the Gratury ABS box — Pi, screen, NFC reader, all wired, all workingThen put that box inside something — a turtle shell, a Mario block, a decorated container, whatever looks rightThe Gratury box is the internal chassis — protects the electronics, provides structure, has mounting plate and hinged lid for access.The outer shell is cosmetic — makes it look like Tartaruga's home, kid-friendly, huggable or recognizable.This is smart. The electronics are protected inside the hard box. The outer shell can be soft, themed, or whatever — it doesn't need to protect anything, just look good.So the outer shell can be:A plush turtle (cut a hole for the screen, the box sits inside)A Mario block (box slides inside)A painted containerA 3D printed shell (future)Anything that fits the 11.4"×7.5"×5.5" Gratury boxThis changes everything. We don't need a hard turtle shell. We need something that fits around the Gratury box and looks like a turtle.Search for outer shells now:"giant turtle plush 12 inch" — cut belly, insert box"turtle pillow large" — firm enough to hold box inside"turtle ottoman footstool" — hollow, box sits inside"turtle storage bin soft" — fabric over hard frameOr: Build in the Gratury box first, then go to a thrift store/Michaels and find something that fits around it.What's the move? Order a plush turtle big enough to fit the box? Or build first, find shell later?                                               Does that make sense to you Right that's how that's how right that's how any of this would be built Yes the only reason I want to do a plushy toy right now is because I don't trust me building something like this that could set the plush toy on fire
+
+---
+
+## 🤖 Kimi
+
+I got it. Two-step build is the right way. Electronics self-contained in the hard Gratury box first, then drop that into whatever outer shell you want later.The fire concern is real. Pi 4 + LCD + power supply generates heat. Inside a plush toy with no ventilation = potential fire hazard. That's why the hard box with vent holes comes first.The Gratury box solves this:Hard ABS plastic, won't catch fireWe can drill vent holes for airflowThe Pi case has a fan, keeps things coolThe mounting plate lifts components off the surfaceIf something goes wrong, it's contained inside a fire-resistant boxThen the outer shell:Plush turtle, Mario block, whateverThe Gratury box sits inside, not touching the plush directlyAir gap between box and plush = saferKid sees the plush, touches the plush, but the hot electronics are inside the hard boxThis is how real products are built. Inner chassis + outer skin. You're thinking like an engineer.So the plan is:Build everything in the Gratury box (arrives today 10AM-3PM)Test it, make sure it doesn't overheatLater: find or make an outer shell that fits around the boxFor this weekend: the Gratury box IS the product. Maybe paint it green, add a turtle sticker. The plush comes later when we know it's safe.Does that make sense? Build in the box first, make it work, make it safe, then worry about making it cute.What's the move? You want me to write the Pi setup script while we wait for the box to arrive? Or you want to handle something else first?                                               Think about fire risks or think about he concerns right now I know that I know that but can I please bill one bill one that is that is just **** plastic hard Yes exactly
+
+---
+
+## 🧑 You
+
+Got it. You want a hard plastic turtle — not plush, not ceramic, not metal. Hard plastic, drop-proof, kid-safe, hollow inside so the Gratury box fits or the electronics go directly in.Search these on Amazon:"turtle piggy bank plastic" — hard plastic, not ceramic"turtle coin bank plastic large" — big enough, hollow"turtle toy box plastic" — kids storage, hard shell"turtle bath toy holder plastic" — hard plastic, sits on shelf"turtle night light plastic" — hard body, already wired"turtle shaped lunch box" — hard plastic, hinged lid"turtle figurine plastic large" — hollow or cut-able"turtle candy container plastic" — jar style, lid opensOr: "turtle storage box plastic kids" — toy storage, hard sidesWhat to look for: ABS plastic, polypropylene, or PVC. Hard, thick walls, no sharp edges, flat bottom, opening or lid.Try the first three. If nothing works, we build in the Gratury box and paint it green.What's the move?                                               No no come on man all right I'll find something I'll find something There we go good boy there we go I was thinking funny enough I was thinking lunch box
+
+---
+
+## 🤖 Kimi
+
+Got it. Lunch box. Hard plastic, hinged lid, flat bottom, kid-friendly, hollow inside. Perfect.Search these on Amazon:"turtle lunch box" — hard plastic, food-safe, kid-proof"turtle bento box" — same, maybe cuter"turtle snack container" — smaller, hard plastic"turtle food container" — Tupperware-style, hard lid"turtle cookie container" — jar style, hard plastic"turtle candy box" — decorative, hard shellOr broader:"animal lunch box" — find a turtle one in the results"character lunch box" — licensed characters, maybe turtle"kids hard lunch box" — generic hard shell, paint it greenThe lunch box idea is smart. Hinged lid = easy access to electronics. Hard plastic = drop-proof. Kid-sized = right scale. Flat bottom = sits on table.Try "turtle lunch box" first. If nothing, try "animal lunch box" and scroll for turtles.What do you see?                                              Skip to Main conten(5) TXT 46.73 KB    OK we're going to have to ship Gears **** the Turtle we'll come up with something else like the Mario Cube Take a look at all this year I don't mind trying to plush you after we put the box but the how heavy is this going to be
+
+---
+
+## 🧑 You
+
+I got it. Let me think about the weight.What's in the Gratury box:Pi 4 with case + fan: ~3 oz5" LCD screen: ~4 ozNFC reader: ~2 ozCables: ~1 ozTotal electronics: ~10 ozThe Gratury box itself:ABS plastic, 11.4"×7.5"×5.5": ~8-12 ozTotal weight: ~1.5-2 lbsFor a plush outer shell:The plush needs to support 2 lbs without collapsingNeeds to be large enough to fit the 11.4"×7.5"×5.5" box insideNeeds a flat bottom or structured base so it doesn't tip overPlush options that can handle this:Table  Copy   OptionSizePriceCan it hold 2 lbs? Karister 14" turtle plush with zipper belly14"$26.99Yes, zipper belly opens, box fits insideAthoinsu 18" realistic sea turtle18"$21.99Yes, big enough, but no zipper — need to cut seamMelissa & Doug giant sea turtle3 feet$50.14Overkill, but definitely holds itThe Karister 14" with zipper belly is perfect. Zipper opens, you slide the Gratury box inside, zipper closes. The box is hidden, the plush looks like a turtle, and it supports the weight.Or skip plush for now. The Gratury box is grey, industrial-looking. Paint it green, add turtle shell stickers, call it "Tartaruga's Tech Shell." The kid doesn't care what it looks like — they care that Tartaruga appears when they tap it.What's the move? Order the Karister 14" plush with zipper? Or build in the Gratury box first and figure out the shell later?                                               boom OK see this is why we're solutioning that Carista is we're i'm going to put it in my cart i'm putting that Carista in my cart you want to know why
+
+---
+
+## 🤖 Kimi
+
+I see it. The Karister 14" Sea Turtle Plush with Zipper Belly — $26.99, delivers today 5PM-10PM, 4.7 stars, 856 reviews.You're putting it in your cart because:Zipper belly opens = easy access to the Gratury box inside14" size = big enough to fit the 11.4" boxSoft plush = kid wants to hug it, touch itStructured enough = supports the 2 lbs of electronicsDelivers today = build this weekendThis is the move. The Gratury box is the inner chassis (fire-safe, hard, ventilated). The Karister plush is the outer skin (soft, huggable, looks like Tartaruga). The zipper lets you access the electronics without destroying the plush.Smart. Two-layer build. Hard inside, soft outside. Kid sees a turtle, hugs a turtle, but the magic is safely inside the hard box.Add it to cart. Order it.Then we're done ordering. Everything arrives today. We build tonight.What's the total now?Pi CanaKit: $159.73Hosyond screen: $45.78Gratury box: $26.61Twozoh cable: $13.62ACR122U NFC: $40.46Karister plush: $26.99Total: $313.19Order it. We're building Tartaruga tonight.                                                    But Pam look look and we're not gonna yeah hold on a second but we're not gonna do it Will wait will wait will look at other things we're going to build tonight
+
+---
+
+## 🧑 You
+
+I see it. The Karister has multiple styles — Turtle Green, Blad Eagle, Dragon Gray, etc. You want Turtle Green for Tartaruga.But you're right — we're building tonight. The plush is cosmetic, not critical. We can always add it later.What we have ordered and arriving today:Pi CanaKit — 10AM-3PMGratury box — 10AM-3PMHosyond screen — 5PM-10PMTwozoh cable — 5PM-10PMACR122U NFC — 5PM-10PMWe can build the core tonight without the plush. The Gratury box IS the enclosure for now. Paint it green later, or order the plush tomorrow.Focus: Get the electronics working in the Gratury box. Screen shows Tartaruga. NFC triggers it. That's the magic.The plush is Phase 2. Make it work first, make it cute second.You want to order the Karister now or wait? Either way, we build tonight.What's the move?                                               Look there's other animals Yeah but it has other animals this is a good prototype with other animals no we're gonna wait on the plushie right we're going to wait on a plushie because I really think bro this is a three year old kid We don't even have protection can you explain the protection for the screen
+
+---
+
+## 🤖 Kimi
+
+I got it. You're right — protection for the screen is critical. A 3-year-old will grab, poke, throw, spill on it.The screen protection problem:The Hosyond 5" LCD is glass — cracks if dropped or hitThe touchscreen layer is exposed — scratches, cracks, liquid damageA 3-year-old's finger poking it repeatedly = stress fractures over timeProtection options:Table  Copy   OptionHowCost Tempered glass screen protectorStick-on layer, absorbs impact$5-10Acrylic/plexiglass coverCut to size, screw or glue over screen$3-5Polycarbonate sheetClear plastic, tougher than acrylic$5-8The Gratury box lidCut window in lid, screen recessed behind plastic$0Best option for our build: Cut a window in the Gratury box lid. The screen sits recessed inside the box, behind the lid. The lid plastic protects the screen. Kid pokes the lid, not the screen.Or: Add a layer of clear polycarbonate or acrylic over the screen inside the box. Double protection.The recessed approach:plain   Copy ┌─────────────────────┐
+│  Gratury box lid    │  ← plastic protects screen
+│  [cut window here]  │
+│  ┌─────────────┐    │
+│  │  acrylic    │    │  ← extra layer
+│  │  sheet      │    │
+│  │  ┌───────┐  │    │
+│  │  │ LCD   │  │    │  ← screen recessed
+│  │  │screen │  │    │
+│  │  └───────┘  │    │
+│  └─────────────┘    │
+└─────────────────────┘ The screen is protected by:The box lid plastic (first barrier)Optional acrylic sheet (second barrier)Recessed position (can't be hit directly)This is how real kid products are built. The screen is never exposed. It's always behind a protective layer.Does that work? Or do you want to add a tempered glass protector too?And yes — wait on the plushie. Build the protected core first. Plushie comes later when we know it's safe.                                               OK OK good good good now explain to me now the last piece of this and everyone's taking a break How in the world through this screen do we I won't understand how does the 3D object I think this is the we just bought all this and I don't even understand how how what it what software will project the turtle
+
+---
+
+## 🧑 You
+
+Got it. Let me explain how Tartaruga shows up on that 5" screen.What we have:A 5" LCD screen — 800x480 pixels, just like a tiny monitorA Raspberry Pi 4 — a small computerYour Tartaruga MP4 video loopsHow it works:The Pi is a computer. It runs software. That software tells the screen what to show.Option 1: Video loop (simplest)You have MP4 files of Tartaruga — blinking, moving, talkingThe Pi plays those MP4 files on the screen, like a video playerWhen the kid taps the NFC tag, the Pi switches from "idle" video to "speaking" videoTartaruga appears to come alive — he's blinking, his mouth moves, he's looking aroundOption 2: Browser-based (what your mobile PWA does)The Pi runs a browser in "kiosk mode" — full screen, no UIThe browser loads your web-revamp or apps/mobile pageThe page shows Tartaruga as an animated image or videoThe NFC tap triggers a page change — different character, different modeOption 3: Real-time 3D (future, not now)A 3D engine renders Tartaruga in real-timeMore complex, needs more processing powerNot for this weekendFor this build, we use Option 1 or 2. The screen shows a video or a web page with Tartaruga on it. The "3D" is in the content — the video is a 3D-rendered animation of Tartaruga. The screen itself is just a flat display showing that video.The magic is the content, not the display technology. The screen is a regular LCD. The Tartaruga video is what makes it feel alive.Does that make sense? The screen is just a TV. The Pi is just a DVD player. The Tartaruga MP4 is the movie. We play the movie when the kid taps the NFC tag.What software runs on the Pi:A simple Python script or a browserReads NFC tag → plays the right video → shows TartarugaIs that what you pictured? Or did you want something else?                                                  rocco_clip3 MP4 2.9 MB  scheletro_clip1 MP4 1.26 MB  veloce_clip3 MP4 2.05 MB    The **** **** **** the images man
+
+---
+
+## 🤖 Kimi
+
+2/2               Your conversation with Kimi is getting too long. Try starting a new session.                                                   Ask away. Pics work too.                       K2.6 Instant
+
+---

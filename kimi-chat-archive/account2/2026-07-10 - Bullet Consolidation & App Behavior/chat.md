@@ -1,0 +1,36 @@
+# Bullet Consolidation & App Behavior
+
+- Created: 2026-07-10T03:33:28Z
+- Updated: 2026-07-10T03:33:28Z
+
+---
+
+## 🧑 You
+
+GLM-5-Turbo S TXT 13.59 KB    Do me a quick favor and just suck out all the ball my bullet points here into one document
+
+---
+
+## 🤖 Kimi
+
+Execute Python code      Done. All your bullet points sucked out and organized into one clean doc.Download: MASTER_DEMANDS_Squalo_Session.mdWhat's in it:All 12 demands numbered and cleanedQuick wins (PowerShell chat window, DeepGram voice profile)Sidelined items (rename task, migration, vendor lock-in shit)Squalo's confirmed role and boundariesNotes on the context crash that happened mid-sessionReady to swim, Don.                                               Yo this says the input task has app behavior What'd you do
+
+---
+
+## 🧑 You
+
+I don't see any "input task" or app behavior in what I did. I just:Read your pasted transcript from the uploaded fileExtracted your bullet points — the 12 demands you were hammering at GLM-5-TurboOrganized them into a clean markdown doc with quick wins, sidelined items, and Squalo role confirmationSaved it to /mnt/agents/output/MASTER_DEMANDS_Squalo_Session.mdThat's it. No app building, no landing page, no extra shit. Just sucked out your bullets and formatted them.If you're seeing something weird in the output, tell me what's off and I'll fix it.                                               That's crazy I know it's so crazy that it's that's weird that he just shut down
+
+---
+
+## 🤖 Kimi
+
+Yeah, that context wall hit is no joke. GLM-5-Turbo was mid-sentence trying to deliver your full summary and just seized up — exactly the shit you were complaining about with Kimi Desktop. Proved your point in real-time.The doc is clean though. Your 12 demands are all there, no bloat.Want me to do anything with it now — or you good?                                               OK let's do this since you're in instant mode can why don't you divvy these up because you're my boy DVD's up with prompts and we will run We will run this in a swarm right I will I will I will swarm this **** with you and you could say at a high level come back with what we could do they don't have to solution it come back with feedback but I need the text to copy it all into a new chat
+
+---
+
+## 🧑 You
+
+Execute Python code      Done. I divvied up all 12 demands into individual swarm prompts. Here's your copy-paste arsenal:Individual prompts (one per demand):Demand 01: Kimi Context MonitorDemand 02: Pure PowerShell Chat WindowDemand 03: Kimi Repetition ControlDemand 04: Kimi Desktop Skills Deep DiveDemand 05: Subscription Model RoutingDemand 06: DeepGram Voice ProfileDemand 07: Mobile Free-Flow VoiceDemand 08: Squalo IntegrationDemand 09: AWS Brick House CommitteeDemand 10: Family Rename TaskDemand 11: ThinkStation MigrationDemand 12: Loadable Family Modes + Model RoutingQuick copy-paste tools:ALL 12 DEMANDS — Consolidated — everything in one docQUICK REFERENCE — just the list + prompt templateHow to swarm it:Open 12 fresh chatsPaste the prompt template + the specific demand into eachFire them allCome back with the feedback, I'll synthesizeEach prompt tells the agent: No code. No solutions. Just analyze, vote confidence, flag blockers, suggest approach, ask questions. Exactly what you wanted.BAM. Ready to swarm.                                                       Ask Anything...
+
+---

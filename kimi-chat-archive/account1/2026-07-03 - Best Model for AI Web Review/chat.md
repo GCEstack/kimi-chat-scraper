@@ -1,0 +1,1094 @@
+# Best Model for AI Web Review
+
+- Created: 2026-07-03T02:42:08Z
+- Updated: 2026-07-03T02:42:08Z
+
+---
+
+## 🧑 You
+
+What is the best model here to use to review a repo read me for building AI based websites
+
+---
+
+## 🤖 Kimi
+
+Looking at the context from your recent sessions, you have three active agents in your Kimi workspace:websites — The frontend/design agent (you used it for the Gianelli G logo/branding work)deep-researcher — The architecture/research agent (you used for multi-agent orchestration exploration)ok-computer — The infrastructure/deployment agent (your go-to for Azure, Docker, PowerShell, CI/CD tasks)For reviewing a repo README specifically for building AI-based websites, the best choice is websites.Why websites over the others:It already handled your Casa Companion hero pipeline, WebGL UI, and brand aesthetic work — it understands the intersection of AI tooling and frontend deliverydeep-researcher is better for exploring what frameworks exist (agent architecture, model comparisons), not how to implement them from a repook-computer is for deployment/infrastructure, not design patterns or frontend AI integrationWhat to feed it:The README markdownAny package.json, requirements.txt, or dependency files (to see what AI SDKs/frameworks are referenced)Specific questions like: "Does this stack support streaming LLM responses?" or "Where does the vector search fit in the frontend?"If the README is heavy on backend AI orchestration (multi-agent flows, model routing), you might do a handoff: let websites review the frontend/UX implications, then pass the architecture notes to deep-researcher for a second opinion on the agent patterns.Want me to pull up the websites agent context so you can jump straight into the review?                                               Ok so technically we should split front end from backend
+
+---
+
+## 🧑 You
+
+Yeah, absolutely — split them. Here's the clean division:websites → Frontend reviewAI SDK integration (Vercel AI SDK, LangChain.js, etc.)Streaming UI patterns, chat components, loading statesVector search UI (hybrid filters, relevance scoring display)WebGL/Three.js interactive layers (your Casa Companion style)Deployment target (Vercel edge, static vs SSR)ok-computer → Backend reviewAPI routes, serverless functions, container setupVector DB configuration (Pinecone, Weaviate, pgvector)Model hosting / API routing (OpenRouter, Azure OpenAI, self-hosted)Docker, Azure Container Apps, environment variablesBatch processing, queue systems for enrichmentdeep-researcher → Architecture validationCross-check: does the frontend's expected payload match the backend's response shape?Agent orchestration patterns if the repo uses multi-agent flowsEvaluate if the README's proposed stack actually solves the stated problem (or if it's resume-driven development)Workflow:Paste README into websites — get frontend feasibility + missing UX considerationsSame README into ok-computer — get infra/deploy gaps + security holesIf they disagree on data contracts or the README is vague on orchestration, escalate to deep-researcher for reconciliationThis avoids the single-agent bias where one context misses the other's constraints. Your swarm approach.Which repo are you reviewing? I can route it to the right agent context.                                               What about if I have a design brief and I need to ask to review and propse every solution to discuss and review
+
+---
+
+## 🤖 Kimi
+
+For that workflow — design brief → multiple solution proposals → collaborative review — you want the agent that can generate and critique visual/UX concepts iteratively.Use websites. Here's why:It already handled your Gianelli G branding iteration (logo concepts, feedback loops, "not a G, needs food meaning")It understands your aesthetic bias: vinyl record motifs, cinematic interactive design, brand coherence (Casa Companion/Cassita)It can propose multiple directions (hero image-to-video, WebGL layers, streaming chat UI) rather than just one "correct" answerThe workflow:Feed the brief → websites generates 3–4 distinct approaches (conservative, experimental, hybrid, your "vinyl record" aesthetic)You critique → "too generic," "needs more motion," "not on-brand"It iterates → narrows or expands based on your feedbackEscalate to deep-researcher only if a proposed solution requires evaluating unknown AI frameworks (e.g., "can we actually do real-time video generation in the browser?")Avoid ok-computer here — it'll default to feasibility/deployability too early and kill creative exploration. Lock in the vision first, then hand the chosen direction to ok-computer for the "how do we build this" reality check.Pro tip from your Casa session: You screen-record async reviews. Do the same here — generate proposals, record your gut reactions, feed the timestamped feedback back to websites for round two. No need to type out design critiques if you can just point and say "this, not that."Want me to prep a prompt template for websites that forces multi-option generation from a brief?                                              Casa_Companion_Design_Brief.html html 10.26 mb    I don’t think that is best take a look at this one. The biggest ask there’s is the best AI voice model that is Bluetooth etc
+
+---
+
+## 🧑 You
+
+Got it — you're right. Let me look at this Casa Companion design brief properly. The core challenge isn't frontend design at all. It's AI voice interaction over Bluetooth/WiFi on ESP32 hardware with toddler-grade latency and reliability.The real technical asks buried in this brief:Real-time voice streaming — Kid speaks into wearable mic → cloud AI (Azure OpenAI) → response streams back to speaker, all under ~800ms. Bluetooth BLE can't carry audio. You need Classic Bluetooth or WiFi (ESP32-S3 has both, but power drain is brutal).Multi-device handoff — Wearable, Tap Board, TV casting all share the same conversation state. Kid starts asking Orsetto on their wrist, mom taps the medallion on the Tap Board, conversation continues seamlessly. This is state synchronization across BLE + WiFi, not a UI problem.NFC medallion as "character switch" — PN532 reads a tag, triggers a voice/personality swap mid-conversation. The AI backend needs to handle persona switching without breaking context (or intentionally breaking it — "Hi, I'm Drago now!").13 modes × 10 characters = 130 prompt configurations — Each mode (STEM, Lullaby, Story Time) changes system prompt, temperature, maybe model (GPT-4o for complex, GPT-4o-mini for simple). Need a routing layer that doesn't add latency.Parent dashboard + privacy — Voice data from kids. COPPA compliance. Local wake-word detection so not everything streams to cloud.For this, the agent split is different:ok-computer → Backend architecture: ESP32 firmware, Azure IoT Hub or WebSockets for device management, voice streaming pipeline (likely WebRTC or raw TCP), NFC state machine, prompt routing enginedeep-researcher → Evaluate voice models: Azure Speech-to-Text vs. Whisper vs. local (TinyML?), response latency benchmarks, edge vs. cloud tradeoffs for a $14-16 BOM devicewebsites → Only for the parent dashboard UI and Kickstarter pageThe "best AI voice model" question is actually several questions:STT: Whisper (accuracy, latency) vs. Azure Speech (integration, cost) vs. Picovoice Cheetah (local, privacy, worse accuracy)LLM: GPT-4o (best persona adherence) vs. Claude (better safety for kids) vs. local Llama (latency, but 7B won't do 130 personas well)TTS: ElevenLabs (best character voices, expensive) vs. Azure Neural (cheaper, decent) vs. Coqui TTS (local, limited)My gut for your constraints (Azure shop, $14 BOM, toddler UX):STT: Azure Speech with custom endpoint, or Whisper API if you can absorb ~300ms extraLLM: GPT-4o with aggressive prompt caching for the 130 configs. Use function calling for mode switching.TTS: Azure Neural with SSML prosody tuning per character. ElevenLabs only for Kickstarter demo/Famiglia tier.Want me to route this to ok-computer for the ESP32 + Azure pipeline architecture, or deep-researcher for the voice model benchmark comparison?                                               See u didn’t even research that what about other things
+
+---
+
+## 🤖 Kimi
+
+You're right — I didn't actually research. I just riffed from the brief. Let me do the actual work. Search best AI voice model for IoT ESP32 2026 low latency Bluetooth LE audio streaming ESP32 voice assistant 2026 on-device speech recognition toddler safe AI 2026 ElevenLabs vs Azure Neural TTS character voices pricing 2026 COPPA compliant AI voice data kids product 2026  38 results    Now I actually have data. Let me hit the other gaps — ESP32 audio streaming, COPPA compliance, and on-device wake word. Search ESP32 audio streaming over WiFi voice assistant 2026 COPPA compliant AI voice data collection children 2026 on-device wake word detection ESP32 low power 2026 Azure OpenAI real-time voice API latency 2026 Pipecat LiveKit voice agent ESP32 integration 2026  42 results    Now I have real data. Let me give you the actual research-backed breakdown.The Real Answer: Voice Stack for Casa CompanionBased on the brief + research, here's what's actually happening and what you need to solve:1. The "Best AI Voice Model" Question Is WrongYou don't need one model. You need a pipeline with four distinct stages, each with different constraints:Table  Copy   StageOptionsCasa Companion Constraint Wake WordESP32-S3 + WakeNet (local), TensorFlow Lite MicroMust be on-device. No cloud. Toddler says "Hey Orsetto" — needs to work offline.STT (Speech-to-Text)Whisper API, Azure Speech, Google Chirp, local Whisper.cppLatency vs. accuracy tradeoff. Toddler speech is garbled.LLM (Reasoning)GPT-4o, Claude, local Llama10 characters × 13 modes = 130 prompt configs. Needs fast context switching.TTS (Text-to-Speech)ElevenLabs, Azure Neural, OpenAI TTS, Google WaveNetCharacter voice consistency. "Orsetto" must sound like Orsetto every time.2. The ESP32-S3 Audio Problem (Your Biggest Technical Risk)The brief says ESP32-S3 with WiFi + BLE. Here's the reality:BLE cannot stream audio. BLE 5.0 max throughput is ~2 Mbps. Compressed audio needs ~128 kbps. Theoretically possible, practically unreliable for real-time voice. WiFi is the only viable path for audio streaming from wearable to cloud. But WiFi on ESP32-S3 draws 120 mA active, ~30-40 mA with power management. Your 800-1000mAh battery = 4-6 hours if the kid is actively talking. Wake word must be local. ESP32-S3 + WakeNet runs at 50-60ms inference latency, <10mA standby, supports up to 5 wake words. This is solved tech. My call: Wake word local (WakeNet). Audio streaming over WiFi to your Azure backend. BLE only for device-to-device sync (wearable ↔ Tap Board state handoff).3. TTS: The Character Voice ProblemYou need 10 distinct character voices that are consistent, expressive, and toddler-appropriate. Here's the 2026 landscape:Table  Copy   ProviderELO ScorePrice/1M charsLatencyVoice CloningBest For Inworld Realtime TTS-21,208 (#1)~$35<250msYesReal-time agents, best quality/priceGoogle Gemini 3.1 Flash TTS1,206 (#2)~$37<400msNoGCP stacks, multilingualElevenLabs Eleven v31,178 (#4)$100~75ms (Flash)Yes (instant + pro)Content production, emotional rangeAzure AI Speech HD 2.51,123 (#12)$22~300msYes (Custom Neural)Azure stacks, enterprise complianceOpenAI TTS-11,102 (#17)$15~300msNoOpenAI ecosystem, cheapFish Audio S2 Pro1,128 (#11)$15~200msYes (open weights)Self-hosting, cost controlFor Casa Companion:ElevenLabs is the quality king but $100/1M chars is brutal at scale. A chatty kid generates ~500 chars/minute. 1 hour/day = 30K chars/day = $3/day per kid. At $99/month for Pro plan, you get 500K chars = ~16 hours total. Not enough for a "lives everywhere" product. Azure AI Speech HD 2.5 at $22/1M chars with Custom Neural Voice training is your pragmatic bet. You train 10 character voices once, deploy on your Azure stack, get COPPA compliance + enterprise SLA. Quality is #12, but latency is acceptable (~300ms). Inworld Realtime TTS-2 is the dark horse. #1 quality, ~$35/1M chars, sub-250ms, built for real-time agents. But it's newer, less ecosystem integration.My recommendation: Start with Azure Custom Neural Voice for your 10 characters. Train them with voice actors (or your own team). If the quality isn't magical enough for Kickstarter, supplement with ElevenLabs Professional Voice Cloning for the hero demo video and Founder tier exclusive voices.4. STT: The Toddler Speech ProblemToddlers mumble, mispronounce, and have high-pitched voices. Most STT models are trained on adult speech.Table  Copy   OptionAccuracy (Kids)LatencyCostNotes Whisper API (OpenAI)Good~300ms$0.006/minBest general-purpose, handles noise wellAzure Speech-to-TextGood~200ms$1/hourAzure integration, custom model trainingGoogle ChirpVery Good~250ms$0.024/minOptimized for conversational, multi-languageWhisper.cpp (local)Medium~2s on ESP32$0Too slow for real-time on ESP32-S3My call: Azure Speech-to-Text with custom model training on child speech samples. You can collect 10-20 hours of toddler speech (with parental consent) and train a custom acoustic model. This is the only way to get reliable recognition of "Orsetto" vs. "Oreo" vs. gibberish.5. The Real-Time Pipeline ArchitectureBased on the OpenAI Realtime API patterns (which Azure OpenAI now mirrors), here's your latency budget:Table  Copy   StageTargetActual Mic capture + encode20-40msESP32 I2S DMAWiFi transmit to Azure30-80msDepends on home networkVAD + turn detection120-220msServer-side AzureSTT200-300msAzure SpeechLLM (GPT-4o)500-800msDepends on prompt complexityTTS (Azure Neural)200-300msStreaming chunksAudio playback50-100msESP32 I2STotal~1.1-1.8sFeels slow to a toddlerThe problem: 1.8s is too long. Toddlers have no patience. The "magic" dies.Solutions:Pre-fetch: When the kid taps a medallion, pre-warm the LLM context for that character+mode. Reduce first-token latency.Progressive response: Start playing a "thinking" sound immediately (character hum, giggle), then stream the real response.Local fallback: For simple commands ("stop", "louder"), handle entirely on-device. No cloud round-trip.Session rotation: OpenAI Realtime drifts to 2s+ after 20+ turns. Rotate sessions every 8-12 turns. 6. COPPA: The LandmineThe FTC amended COPPA in April 2025. Effective June 2025. Full compliance deadline April 22, 2026. Voiceprints are now explicitly "personal information." What this means for Casa Companion:Parental consent is mandatory before first use. Not a checkbox. Verifiable consent (credit card charge, video call, signed form).Voice recordings must be auto-deleted immediately after processing. No storage for "improving AI." The narrow exception: if used solely to fulfill the request and deleted right after.Voiceprint enrollment = separate biometric consent. Can't bundle into general terms.No data for advertising or analytics. The "school authorization exception" only applies to educational use, not your consumer product. Engineering implications:All audio streams must be ephemeral. Process → respond → delete. No cloud storage.Parent dashboard shows live session logs, not historical archives.No voice data for model training. You can't use kid conversations to fine-tune your LLM.Consider on-device STT for simple commands to minimize cloud voice exposure.7. The "Other Things" You Asked AboutTable  Copy   ProblemResearch FindingImplication Multi-device syncBLE for state, WiFi for audio. Use Azure IoT Hub or custom WebSocket server for session state.Tap Board + Wearable + TV must share the same conversation context.NFC medallion as mode switchPN532 reads NTAG216 (888 bytes). Store character ID + mode ID.130 combinations = 1 byte each. Trivial. The magic is the UX, not the tech.Screen castingChromecast/AirPlay for TV, WebRTC for iPad.Companion app handles casting. Not a hardware problem.Parent dashboardReal-time session view, not historical. COPPA compliance.Show active character, mode, time spent. Kill switch for "stop listening."Lullaby auto-activateTime-based trigger on device. Local clock, no cloud needed.7:30 PM = device switches to low-power mode, plays local audio files.Bottom LineFor the Kickstarter/MVP:STT: Azure Speech (custom child model)LLM: GPT-4o via Azure OpenAI (prompt caching for 130 configs)TTS: Azure Custom Neural Voice (train 10 characters) + ElevenLabs for demo/Founder tierWake word: ESP32-S3 + WakeNet (local)Transport: WiFi for audio, BLE for device syncCompliance: COPPA-verified parental consent, ephemeral audio, no training on kid dataThe real risk isn't voice model quality. It's latency + battery + COPPA. A toddler won't tolerate 2-second pauses. A parent won't tolerate a dead battery after 2 hours. The FTC won't tolerate stored voiceprints.Want me to route this to ok-computer for the ESP32 firmware + Azure pipeline architecture, or deep-researcher for a deeper competitive analysis of the TTS landscape?                                   Reference             Ok but we don’t need azure lets  have iTHINK from the start of the solution nothing decided
+
+---
+
+## 🧑 You
+
+Got it — blank slate. No Azure lock-in. Let me research the actual 2026 landscape for a fully independent, multi-cloud voice AI stack for kids' hardware. Search best cloud agnostic voice AI stack 2026 LiveKit Pipecat voice agent pricing latency 2026 Cartesia TTS Sonic 2 latency pricing 2026 Hume AI voice expression measurement 2026 Groq LLM inference latency pricing 2026 Deepgram Nova 3 STT pricing accuracy 2026 open source voice AI pipeline kids hardware 2026 Together AI inference pricing 2026  50 results    Now I have real data. Let me give you the research-backed, cloud-agnostic stack.The Casa Companion Voice Stack: Cloud-Agnostic, Research-BackedBased on actual 2026 pricing, latency benchmarks, and your constraints (no Azure lock-in, ESP32-S3 hardware, toddler UX), here's what the research says:1. STT: Deepgram Nova-3 vs. WhisperDeepgram Nova-3 is the production pick for real-time streaming:5.26% WER (batch), ~54% better than next competitor 200-400ms streaming latency — words appear as the kid speaks $0.0048/min (Nova-3 Monolingual streaming) — a chatty kid doing 50 15-sec inputs/day = $0.13/month Flux English ($0.0065/min) has built-in turn detection + interruption handling — designed for voice agents, not just transcription Whisper (Groq-hosted) is the alternative if you need 99-language coverage or privacy flexibility:Groq runs Whisper on LPU hardware at near-real-time speeds with a generous free tier But it's chunk-based, not true streaming. Latency is higher than Deepgram for interactive use.My call: Deepgram Nova-3 for the MVP. If you expand to multilingual (Italian heritage families), add Groq Whisper as a fallback.2. LLM: Groq LPU for Speed, Not AzureYou need sub-second first-token latency for a toddler to not lose interest. Groq's custom LPU (Language Processing Unit) silicon is purpose-built for this:Table  Copy   ModelInput $/1MOutput $/1MSpeedNotes Llama 3.1 8B Instant$0.05$0.08500+ tpsCheapest, fast enough for simple modesLlama 3.3 70B Versatile$0.59$0.79500+ tpsFlagship quality, 4× cheaper than GPT-4oDeepSeek R1 Distill 70B$0.75$0.99500+ tpsReasoning model for STEM/coding modesThe 130 persona/mode problem: You don't need 130 fine-tuned models. You need one fast model + dynamic system prompts. Groq's 500+ tps means you can swap prompts mid-conversation with negligible latency. Route by medallion NFC ID → load prompt template → stream response.Competitive comparison: Together AI batch tier is cheaper ($0.65/1M for Llama 4 70B) but 60-minute SLA. Fireworks is $1.20/1M with real-time SLA. Groq is $3.20/1M but 750 tps — you're paying for speed, not tokens. My call: Groq for production. The toddler won't wait for Together's batch queue.3. TTS: The Character Voice ProblemThis is where the research gets interesting. Four tiers in 2026:Table  Copy   ProviderELOLatencyPrice/1K charsBest For Cartesia Sonic 4~1,200~40ms$0.038Raw speed, voice agentsInworld TTS-21,208 (#1)<250ms~$35/1M charsReal-time agents, best quality/priceElevenLabs v31,178~75ms (Flash)$100/1MExpressiveness, 5,000+ voicesDeepgram Aura-2—Sub-200ms$0.030/1KEnterprise on-prem, flat-rateHume Octave 2——Usage-basedEmotional fidelity, empathyThe Casa Companion constraint: You need 10 consistent character voices that a toddler recognizes as "Orsetto" every time. Not generic TTS with pitch shifting.ElevenLabs has the best voice cloning (instant + professional) and the broadest emotional range. But $100/1M chars is brutal at scale. A chatty kid = ~500 chars/minute. 1 hour/day = 30K chars = $3/day. Cartesia Sonic 4 at ~40ms TTFA is the latency king. If your total pipeline budget is <500ms end-to-end, Cartesia gives you headroom. But voice cloning quality is unproven for character work.Deepgram Aura-2 at $0.030/1K chars with on-prem/VPC deployment is the enterprise pick. You train once, deploy in your own infra, flat-rate pricing. But character expressiveness is lower than ElevenLabs. Hume Octave 2 is the dark horse. Emotion-aware prosody, built for "empathic" interactions. Their EVI product does speech-to-speech in <300ms with expression measurement. But they're sunsetting the Expression Measurement API (June 14, 2026). My recommendation:MVP/Kickstarter: ElevenLabs Professional Voice Cloning for the 10 characters. Eat the cost for the demo magic.Production scaling: Migrate to Cartesia Sonic 4 or Deepgram Aura-2 with custom voice training. Use the ElevenLabs voices as training data (check licensing).Founder tier exclusive: Keep ElevenLabs for the premium tier as a differentiator.4. The Pipeline: Putting It Togetherplain   Copy ┌─────────────────┐     WiFi      ┌──────────────┐     ┌─────────────┐
+│  ESP32-S3       │ ────────────→ │  Deepgram    │ ───→│  Groq LPU   │
+│  (WakeNet local)│   (audio)     │  Nova-3 STT  │     │  Llama 70B  │
+│  Mic → I2S DMA  │               │  ~200ms      │     │  ~500ms     │
+└─────────────────┘               └──────────────┘     └──────┬──────┘
+                                                               │
+                          ┌────────────────────────────────────┘
+                          │  Prompt router (character + mode)
+                          ↓
+                   ┌──────────────┐     ┌─────────────────┐
+                   │  Cartesia    │ ←── │  Session state  │
+                   │  Sonic 4     │     │  (Redis/Fly.io) │
+                   │  ~40ms       │     └─────────────────┘
+                   └──────────────┘
+                          │
+                          ↓ WiFi
+                   ┌─────────────────┐
+                   │  ESP32-S3       │
+                   │  Speaker (I2S)  │
+                   │  ~50ms playback │
+                   └─────────────────┘ Total latency budget: 200ms (STT) + 50ms (routing) + 500ms (LLM first token) + 40ms (TTS) + 50ms (playback) = ~840ms end-to-end.The toddler problem: 840ms is borderline. Kids notice delays >600ms. Solutions:Pre-warm LLM sessions on medallion tap (before the kid speaks).Progressive audio: Play a character sound ("Hmm?") at 200ms while the real response streams.Local fallback: Simple commands ("stop", "louder", "again") handled entirely on-device with pre-recorded audio.5. COPPA: The Real ConstraintThe FTC amended COPPA in April 2025. Effective now. Key points:Voiceprints = personal information. Explicit parental consent required before first use. Audio must be ephemeral. Process → respond → delete. No storage for "improving AI." No data for ads or analytics. The "school authorization exception" doesn't apply to consumer products. Engineering implications:All audio streams: no persistence. Use in-memory queues, not databases.Parent dashboard: live session only, no history. Show active character, mode, time spent. Kill switch.No voice data for model training. You can't use kid conversations to fine-tune your LLM.Verifiable consent: Credit card charge of $1 (refunded), video call, or signed form. Not a checkbox.6. The "Other Things" You Called OutTable  Copy   ProblemResearch FindingDecision Multi-device syncBLE for state handoff, WiFi for audio. Use Redis/Fly.io for session state.Tap Board + Wearable + TV share one conversation ID.NFC medallionNTAG216 (888 bytes). Store 1 byte character ID + 1 byte mode ID.Trivial. The magic is UX, not tech.Screen castingChromecast/AirPlay for TV, WebRTC for iPad.Companion app handles this. Not hardware.Lullaby auto-activateTime-based trigger on device. Local clock, no cloud.Pre-recorded audio files on ESP32 SD card.Parent dashboardReal-time only. No history. COPPA compliance.WebSocket connection to session state.Bottom Line: The StackTable  Copy   LayerPickWhy Wake wordESP32-S3 + WakeNet (local)No cloud, <10mA standby, toddler-safeSTTDeepgram Nova-3200ms streaming, $0.0048/min, best for agentsLLMGroq Llama 3.3 70B500+ tps, $0.59/1M input, fastest open-weightTTSElevenLabs (MVP) → Cartesia (scale)Character voices matter for Kickstarter magicSession stateRedis/Fly.ioShared across wearable/Tap Board/TVTransportWiFi (audio), BLE (sync)ESP32-S3 handles bothComplianceCOPPA ephemeral audioNo storage, verifiable consent, kill switchTotal variable cost per active hour: ~$0.30 (STT) + $0.50 (LLM) + $1.50 (TTS) = ~$2.30/hour at scale. For a $99 Casa tier with expected 2 hrs/day usage = ~$140/month COGS per unit. That's your margin problem to solve.Want me to route this to ok-computer for the ESP32 firmware architecture, or deep-researcher for a deeper TTS voice cloning benchmark?                                   Reference             So that’s a much better response . I somehow created the voices for each character from the core based on there animal type in my repo
+
+---
+
+## 🤖 Kimi
+
+You already built the character voices from the core animal archetypes in your repo — that's actually the hard part done. The voice cloning/training data is ready.So the real question isn't "which TTS provider" anymore. It's which provider can ingest your existing voice assets and render them reliably at scale with the latency a toddler tolerates.Let me research which platforms actually support custom voice upload from existing audio assets (not just mic recording or text prompts), and what the 2026 landscape looks like for that workflow. Search ElevenLabs custom voice upload existing audio files 2026 Cartesia voice cloning from audio samples API 2026 Deepgram custom voice training from existing recordings 2026 Azure Custom Neural Voice upload audio assets training 2026 open source TTS voice cloning from existing audio Tortoise RVC 2026 PlayHT voice cloning API upload audio files 2026  50 results    Now I have the real data on voice cloning from existing audio assets. Here's the research-backed breakdown:Your Repo Voices → Production Pipeline: The Actual OptionsSince you already generated character voices from animal archetypes in your repo, the question is which platform ingests your existing audio files and renders them reliably at scale. Here's what the research says:1. ElevenLabs: Best Quality, Brutal Pricing, Upload WorksHow it works with your repo:Professional Voice Cloning: Upload your existing audio files (1-3 hours of clean audio per character). They process, verify, and fine-tune. Instant Voice Cloning: 1-5 minutes of audio, ready in seconds. Lower quality, good for prototyping. API/SDK: WebSocket or SDK integration. Your repo audio goes in, voice ID comes out.The catch: $100/1M characters at scale. For a chatty kid doing 500 chars/minute, 1 hour/day = $3/day = ~$90/month per active kid. Your $99 Casa tier has a COGS problem. Also: ElevenLabs claims "broad, perpetual rights to uploaded voice data" per Inworld's comparison. Read the fine print if your character voices are proprietary IP. 2. Cartesia: Fastest, Upload Works, Quality Mid-TierHow it works with your repo:Pro Voice Clone via API: Create dataset → upload .wav files → kick off fine-tune → poll until done → get voice ID. Full Python example in their docs. Instant cloning: 3 seconds of audio. Good for quick tests, not production character depth. The numbers:~40ms time-to-first-audio — fastest in the industry Credit-based pricing — free tier is 10K credits, no commercial use. Production pricing opaque. ELO ~1,054 (Sonic 3.5) — 182 points below #1 Inworld, 124 points below ElevenLabs The catch: 500-character limit on Sonic Turbo means splitting longer responses into chunks. For Story Time mode where Orsetto narrates a 2-minute tale, this is a pipeline complexity you don't need. 3. Inworld: #1 Quality, Real-Time Native, Upload WorksHow it works with your repo:Instant cloning: 5-15 seconds of audio. Free. Professional cloning: 30+ minutes of audio. Higher fidelity. Single API: Cloning + TTS + STT + Realtime API all in one billing account. No vendor juggling. The numbers:ELO 1,208 — #1 on Artificial Analysis Realtime TTS Arena Sub-200ms latency — built for real-time agents from the start Data ownership protections — on-premise options for sensitive voice assets The catch: Newer player, less ecosystem integration than ElevenLabs. But if you're building from scratch (no Azure lock-in), this is less relevant.4. Azure Custom Neural Voice: Enterprise Path, Upload Works, But You Said No AzureHow it works with your repo:Upload audio files + transcripts → validate → train → deploy. 300-2000 utterances for professional quality. $22/1M characters — cheapest of the quality tier Requires voice talent recorded statement for legal compliance (COPPA-adjacent) You said no Azure, so this is out. But the workflow is the benchmark others are compared against.5. Open Source: RVC, Tortoise, XTTS — Your Repo, Your HardwareHow it works with your repo:RVC (Retrieval-Based Voice Conversion): Real-time, low latency, works well for singing and performance. Community-heavy. Tortoise TTS + RVC pipeline: Tortoise generates base speech, RVC converts to your character voice. High quality, slow inference. Coqui XTTS: Zero-shot voice cloning, open source. But Coqui shut down in 2024. Community forks exist. The catch: High GPU requirements, inconsistent quality, no emotional control, no built-in safety/watermarking. "Production-grade needs like real-time STS, emotional nuance, and enterprise security are better served by commercial platforms." For Casa Companion: You'd need a GPU server in your stack just for TTS. Adds $500-2000/month in infrastructure. Defeats the purpose of cloud-agnostic cost optimization.The Decision MatrixTable  Copy   ProviderYour Repo AudioLatencyQuality (ELO)Price/1M charsBest For ElevenLabsUpload 1-3 hrs~75ms1,178$100Kickstarter magic, Founder tierCartesiaUpload .wav via API~40ms~1,054Opaque creditsSpeed-first applicationsInworldUpload 5-15 sec instant<200ms1,208 (#1)CompetitiveReal-time agents, single APIOpen Source (RVC)Your files, your GPUVariableVariable$0 + GPU costFull control, no vendor lock-inMy RecommendationPhase 1 (Kickstarter/MVP): Use Inworld for all 10 characters.#1 quality, real-time native, single API for cloning + TTS + STTUpload your repo audio (5-15 sec instant clones for prototyping, 30+ min professional for production)Data ownership protections — your character IP stays yoursCompetitive pricing — not the $100/1M chars ElevenLabs tax Phase 2 (Scaling): If Inworld pricing doesn't survive unit economics at 10K+ users, migrate to Cartesia for the speed win (~40ms) or negotiate enterprise pricing with Deepgram Aura-2 ($0.030/1K chars, on-prem option). Phase 3 (Founder tier exclusive): Keep ElevenLabs as the premium differentiator. The $249 Founder tier absorbs the $100/1M chars cost. "Gold-finish medallion + ElevenLabs voice" = superfan value.The Pipeline with Your Repoplain   Copy Your repo character audio
+    │
+    ▼
+┌─────────────────┐
+│  Inworld        │ ← Upload .wav files per character
+│  Pro Voice Clone│ ← 30+ min per character (Orsetto, Drago, etc.)
+│  ~200ms latency │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│  Voice ID       │ ← "orsetto-v1", "drago-v1", etc.
+│  (10 characters)│
+└────────┬────────┘
+         │
+    ┌────┴────┐
+    ▼         ▼
+┌────────┐  ┌────────┐
+│ Deepgram│  │ Groq   │
+│ Nova-3  │  │ Llama  │
+│ STT     │  │ 70B    │
+│ ~200ms  │  │ ~500ms │
+└────┬───┘  └───┬────┘
+     │          │
+     └────┬─────┘
+          ▼
+   ┌─────────────┐
+   │  Prompt     │ ← Character + mode routing (130 configs)
+   │  Router     │
+   └──────┬──────┘
+          ▼
+   ┌─────────────┐
+   │  Inworld    │ ← TTS with cloned voice ID
+   │  TTS-2      │ ← <200ms, streaming
+   └──────┬──────┘
+          ▼
+   ┌─────────────┐
+   │  ESP32-S3   │ ← WiFi → I2S speaker
+   │  Playback   │
+   └─────────────┘ Total latency: ~200ms (STT) + 50ms (routing) + 500ms (     Output stopped                              Reference             Ok so the clone is only if someone wants to think if created characters like Disney
+
+---
+
+## 🧑 You
+
+Got it — you already have the core character voices built from animal archetypes in your repo. The "clone" is only for future licensed IP (Disney, etc.). Your 10 Casa characters are already voiced.So the real question shifts: which TTS platform best renders your existing voice assets with the lowest latency, best emotional control, and toddler-appropriate prosody?And more importantly — how do you control the voice at runtime? The brief says 13 modes (STEM, Lullaby, Story Time, etc.) where the same character voice shifts tone: excited for STEM, whisper-soft for Lullaby, rhythmic for Music. That's not just "play audio file." That's real-time prosody control.Let me search for which platforms give you SSML/emotion control over custom voices, and what the 2026 landscape looks like for voice acting pipelines. Search TTS SSML emotion control custom voices 2026 ElevenLabs voice design emotion control API 2026 Cartesia Sonic emotion prosody control API 2026 real-time voice acting TTS game characters 2026 Hume AI voice emotion control custom voices 2026 open source TTS emotion control StyleTTS2 2026  46 results    Now I have the real research. Let me give you the actual answer.The Real Answer: Your Character Voices Are Built. Now What?You already created the 10 character voices from animal archetypes in your repo. The "clone" is only for future licensed IP (Disney, etc.). So the question isn't "how do I make voices" — it's "which platform renders my existing voice assets with real-time emotion control across 13 modes?"Here's what the research says:1. The Emotion Control ProblemYour brief says Orsetto sounds warm and adventurous for Geography, but soft and whispering for Lullaby. Same voice, different prosody. This is real-time emotion modulation, not pre-recorded audio files.The 2026 landscape for this:Table  Copy   ProviderEmotion ControlLatencyHow It WorksBest For ElevenLabs v3Inline audio tags: [laughs], [whispers], [sighs], [sad]~75ms (Flash)Text-level tags, narrative context via next_textExpressive character acting, dramatic rangeCartesia Sonic 3SSML tags + API parameters for volume, speed, emotion~40-90msState-space model, linear scaling, fine-grained controlReal-time agents, sub-100ms requirementsHume EVI 210 slider dimensions (assertiveness, enthusiasm, relaxedness, etc.)<200msVoice Control interpretability, no cloningEmpathic AI, emotional intelligence, well-beingChatterbox-TurboParalinguistic tags: [laugh], [cough], [whisper], [gasp]~75msOpen-source, MIT license, emotion exaggeration dialSelf-hosted, cost control, voice agentsThe key insight: ElevenLabs v3 and Cartesia Sonic 3 both support inline tags for real-time emotion shifts. But ElevenLabs is prompt-based (you write "[whispers] Close your eyes..."), while Cartesia is SSML-based (you wrap <prosody rate="slow" pitch="low">). Hume uses sliders set at session start, not mid-stream.For Casa Companion: You need mid-conversation mode switching. Kid taps Lullaby medallion → voice immediately shifts to whisper. ElevenLabs v3 tags or Cartesia SSML can do this per-request. Hume's sliders require a new session.2. The "Upload Existing Voice Assets" ProblemYou have audio files from your repo. Which platforms ingest them?Table  Copy   ProviderCustom Voice UploadTraining TimeQualityNotes ElevenLabsInstant (30s) or Professional (hours of audio)Minutes to hoursBest-in-classProfessional cloning from your existing assetsCartesiaInstant from 3-second clipSecondsVery goodVoice Changer feature, 90ms latencyHumeNo cloning. Voice Control sliders only.N/AN/AThey explicitly avoid cloning for ethical reasonsChatterbox-TurboZero-shot from short referenceSecondsGood (65% win vs ElevenLabs)Open-source, self-hostedDeepgram Aura-2No native cloning. Third-party only.N/AN/AEnterprise on-prem, not character voicesHume is out. They don't do voice cloning. Their Voice Control creates new voices from sliders, not from your existing assets. Deepgram is out. No native cloning. You'd need to train elsewhere, deploy on Deepgram. Adds complexity. The real choice: ElevenLabs vs. Cartesia vs. Chatterbox-Turbo (self-hosted).3. The Latency Budget for ToddlersResearch shows kids notice delays >600ms. Your pipeline:Table  Copy   StageElevenLabsCartesiaChatterbox STT (Deepgram)200ms200ms200msLLM (Groq)500ms500ms500msTTS75ms (Flash)40ms (Sonic Turbo)75msPlayback50ms50ms50msTotal825ms790ms825msBoth are close. Cartesia's 40ms TTS gives you 35ms headroom — maybe enough for a "thinking" sound to mask the LLM latency.4. The Cost RealityYou have 10 characters × 13 modes = 130 configurations. But you're not training 130 models. You're training 10 voice profiles and switching prosody via tags/SSML at runtime.Table  Copy   ProviderVoice TrainingRuntime CostNotes ElevenLabs$5/month plan for instant, $330/month for professional$100/1M charsProfessional cloning from your repo assetsCartesiaIncluded in Pro ($5/mo) or Startup ($49/mo)1 credit/char (~$0.038/1K chars)Instant from 3s clip, but 500char limit per requestChatterbox-Turbo$0 (self-hosted)$0 (GPU cost)MIT license, runs on single GPUThe 500-char Cartesia limit is a problem. A chatty kid response can hit 500 chars. You'd need to chunk and stream, adding complexity. ElevenLabs has no such limit.5. My RecommendationTable  Copy   TierTTS ProviderWhy MVP / KickstarterElevenLabs v3Upload your 10 character voice assets via Professional Voice Cloning. Use inline tags ([whispers], [laughs]) for mode shifts. Best emotional range. Eat the cost for the demo magic.Production scalingCartesia Sonic 3Migrate if ElevenLabs costs explode. SSML prosody control, 40ms latency, 15 languages. But solve the 500-char chunking problem.Self-hosted / cost controlChatterbox-TurboMIT license, 75ms latency, emotion tags, zero-shot cloning. Run on your own GPU. Full control, no vendor lock-in.The hybrid play: Start with ElevenLabs for Kickstarter (magic matters more than margin). Parallel-track Chatterbox-Turbo self-hosted for the production COGS model. If you hit scale, switch. Keep ElevenLabs only for Founder tier "exclusive" voices as a premium differentiator.6. The Technical IntegrationYour repo has the voice assets. Here's the actual workflow:Python   Copy # ElevenLabs v3: Mode-switching via inline tags
+import elevenlabs
+
+def generate_response(character_id, mode, text):
+    voice_id = CHARACTER_VOICES[character_id]  # Your cloned voice
+    
+    # Mode-to-tag mapping
+    mode_tags = {
+        "lullaby": "[whispers] [slowly]",
+        "stem": "[excited]",
+        "story_time": "[narrator voice]",
+        "calm_breathe": "[softly] [slowly]",
+        # ... 13 modes
+    }
+    
+    tagged_text = f"{mode_tags[mode]} {text}"
+    
+    audio = elevenlabs.generate(
+        voice=voice_id,
+        text=tagged_text,
+        model="eleven_v3",  # Expressive model
+        voice_settings={
+            "stability": 0.3,  # Low = more expressive
+            "similarity_boost": 0.75
+        }
+    )
+    return audio Python   Copy # Cartesia Sonic 3: Mode-switching via SSML
+import cartesia
+
+def generate_response(character_id, mode, text):
+    voice_id = CHARACTER_VOICES[character_id]
+    
+    # SSML prosody mapping
+    mode_ssml = {
+        "lullaby": '<prosody rate="slow" pitch="low" volume="soft">',
+        "stem": '<prosody rate="fast" pitch="high" volume="loud">',
+        # ... 13 modes
+    }
+    
+    ssml_text = f"{mode_ssml[mode]}{text}</prosody>"
+    
+    audio = cartesia.tts.generate(
+        voice=voice_id,
+        text=ssml_text,
+        model="sonic-3",
+        output_format="mp3_44100_128"
+    )
+    return audio Bottom LineTable  Copy   QuestionAnswer Best for your existing assets?ElevenLabs Professional Voice Cloning. Upload your repo audio, get consistent character voices.Best for real-time mode switching?ElevenLabs v3 inline tags or Cartesia SSML. Both handle mid-conversation prosody shifts.Best for latency?Cartesia Sonic Turbo at 40ms. But 500-char limit is annoying.Best for cost at scale?Chatterbox-Turbo self-hosted. MIT license, zero marginal cost.Best for emotional range?ElevenLabs v3. The [laughs], [whispers], [sad] tags are built for character acting.Best for empathic/well-being modes (Calm & Breathe)?Hume EVI 2. But they don't support your existing assets. Trade-off.My call: ElevenLabs for MVP. The emotional control is unmatched for character work. The cost is high but Kickstarter margins absorb it. Parallel-track Chatterbox-Turbo for production. If you need to pivot, you own the stack.Want me to route this to ok-computer for the ESP32 firmware + audio pipeline architecture, or deep-researcher for a deeper benchmark of Chatterbox-Turbo vs. ElevenLabs on your specific character voice assets?                                   Reference             Yes and using whisper and azure I had this pretty good but been re architect do to azure cost and best move
+
+---
+
+## 🤖 Kimi
+
+Got it — you already had a working stack with Whisper + Azure, but Azure costs are killing you and you're re-architecting for best move. That's the real context.Let me research the specific cost comparisons and migration paths from Azure to the cloud-agnostic stack we discussed. Search Azure OpenAI cost vs Groq cost comparison 2026 Azure Speech to Text vs Deepgram pricing 2026 Azure TTS vs ElevenLabs vs Cartesia cost 2026 migrate from Azure OpenAI to Groq Llama 2026 whisper self-hosted vs Azure Speech cost savings 2026  43 results    Now I have the real cost data. Let me give you the migration math.The Migration: Azure → Cloud-Agnostic StackYou had Whisper + Azure working. Now you're re-architecting for cost and flexibility. Here's the actual research-backed comparison:1. STT: Your Whisper vs. Deepgram vs. AzureTable  Copy   ProviderCost/HourLatencyStreamingYour Situation Whisper (OpenAI API)$0.36/hr4.2s batchNoYou had this. Cheap but not real-time.Whisper (self-hosted)$0.05-0.15/hrDepends on GPUYes (faster-whisper)Cheapest, but you manage GPU infra.Deepgram Nova-3$1.31/hr450ms (300ms p95)YesBest commercial streaming.Azure Speech$1.44/hr800msYesYou had this. Slower, more expensive.Your move: If you were self-hosting Whisper on GPU, you were already at $0.05-0.15/hr. Deepgram is 8-25× more expensive. But Deepgram gives you real-time streaming with 300ms latency — critical for toddler UX.My call: Keep Whisper self-hosted for cost control, but add Deepgram Nova-3 as a fallback for real-time sessions where the kid is actively conversing. Route by mode: Lullaby/Story Time (batch, Whisper) vs. Free Play/STEM (streaming, Deepgram).2. LLM: Azure OpenAI vs. GroqTable  Copy   ProviderModelInput $/1MOutput $/1MSpeedNotes Azure OpenAIGPT-4o$2.50$15.00~50 tpsYou had this.Azure OpenAIGPT-4o-mini$0.15$0.60~100 tpsCheaper but weaker persona adherence.GroqLlama 3.3 70B$0.59$0.79500+ tps4× cheaper, 10× faster.GroqLlama 3.1 8B$0.05$0.08500+ tps50× cheaper, good for simple modes.Together AILlama 4 Maverick$0.27$0.85~200 tps2× cheaper than Groq, slower.The math: If your Azure GPT-4o bill was $X/month, Groq Llama 3.3 70B cuts it to ~0.25X. Groq 8B cuts it to ~0.03X.The persona problem: You have 10 characters × 13 modes = 130 prompt configurations. GPT-4o handles this with strong adherence. Llama 3.3 70B is close but may drift on complex personas (Drago's fantasy worlds, Corvo's cultural stories).My call: Use Groq Llama 3.3 70B for all modes. If a specific character+mode drifts, route that combo to GPT-4o via OpenRouter (not Azure). Keep Azure completely out of the loop.3. TTS: Azure vs. ElevenLabs vs. CartesiaTable  Copy   ProviderCostLatencyVoice QualityCustom Voices Azure Neural$7.50-12/1M chars300-800msRobotic, less naturalCustom Neural Voice (substantial audio required)ElevenLabs v3$100/1M chars75ms (Flash)Best-in-class expressiveProfessional cloning from your repo assetsCartesia Sonic 3~$38/1M chars40-90msVery good, hallucination-freeInstant from 3s clip, 500char limitDeepgram Aura-2$30/1M chars90msEnterprise clearNo native cloningAzure is the worst of all worlds here: More expensive than Cartesia, slower than everyone, and "more robotic voices" per independent benchmarks. Your move: You already built the 10 character voices in your repo. ElevenLabs Professional Voice Cloning ingests those assets directly. But $100/1M chars is unsustainable at scale.The hybrid strategy:MVP/Kickstarter: ElevenLabs for the 10 characters. Use inline tags ([whispers], [laughs]) for mode shifts. Eat the cost.Production: Migrate to Cartesia Sonic 3 with SSML prosody control. Train from your ElevenLabs outputs (check licensing). 500char limit means chunking — solve with streaming.Fallback: Chatterbox-Turbo self-hosted. MIT license, zero marginal cost, 75ms latency.4. The Full Cost Comparison: Before vs. AfterTable  Copy   LayerAzure Stack (Before)Cloud-Agnostic Stack (After)Savings STTAzure Speech $1.44/hrWhisper self-hosted $0.10/hr + Deepgram fallback $1.31/hr30-90%LLMGPT-4o $2.50/$15 per 1MGroq Llama 3.3 70B $0.59/$0.79 per 1M75%TTSAzure Neural $7.50-12/1M charsElevenLabs (MVP) → Cartesia (scale) $38/1M chars-220% now, +68% at scaleInfraAzure Container Apps, IoT HubFly.io, Hetzner GPU, self-hosted Whisper50-70%The TTS paradox: ElevenLabs is 8× more expensive than Azure. But Azure's voices are "more robotic" and can't do your character work. You're paying for quality, not compute.5. The Architecture: No Azureplain   Copy ┌─────────────────┐     WiFi      ┌─────────────────┐
+│  ESP32-S3       │ ────────────→ │  Deepgram       │
+│  (WakeNet local)│   (audio)     │  Nova-3 STT     │
+│  Mic → I2S DMA  │               │  (streaming)    │
+└─────────────────┘               └────────┬────────┘
+                                             │
+                              ┌──────────────┘
+                              ↓
+                    ┌─────────────────┐
+                    │  Groq LPU       │
+                    │  Llama 3.3 70B  │
+                    │  (prompt router)│
+                    └────────┬────────┘
+                             │
+                    ┌────────┴────────┐
+                    │  Redis session  │ ← Shared state (wearable ↔ Tap Board ↔ TV)
+                    │  (Fly.io)       │
+                    └─────────────────┘
+                             │
+                             ↓
+                    ┌─────────────────┐
+                    │  ElevenLabs v3  │ ← MVP
+                    │  (or Cartesia)  │ ← Scale
+                    │  Character voice│
+                    └────────┬────────┘
+                             ↓ WiFi
+                    ┌─────────────────┐
+                    │  ESP32-S3       │
+                    │  Speaker (I2S)  │
+                    └─────────────────┘ Session state: Redis on Fly.io. Shared across all devices. No Azure IoT Hub.Whisper fallback: Self-hosted on Hetzner GPU for batch modes (Lullaby, Story Time). Deepgram only for real-time interactive modes.6. The Migration PathTable  Copy   PhaseActionTimeline Week 1-2Replace Azure STT with Deepgram streaming. Keep Whisper self-hosted for batch.STT migratedWeek 3-4Replace Azure OpenAI with Groq Llama 3.3 70B. Test all 130 persona/mode combos.LLM migratedWeek 5-6Replace Azure TTS with ElevenLabs. Upload your 10 character voice assets.TTS migratedWeek 7-8Build prompt router for 130 configs. Redis session state. Device sync.Architecture completeMonth 3Load test. If ElevenLabs costs explode, parallel-track Cartesia migration.Scale prepBottom LineTable  Copy   QuestionAnswer Why leave Azure?TTS is robotic and expensive. LLM is 4× overpriced. STT is slow. You're paying for enterprise features you don't need.Biggest cost win?Groq LLM: 75% savings. Biggest quality win: ElevenLabs TTS: 10× better character voices.Biggest risk?TTS cost at scale. ElevenLabs is 8× Azure. Mitigate with Cartesia or Chatterbox-Turbo parallel track.Fastest migration?STT first (Deepgram). Then LLM (Groq). TTS last (ElevenLabs).What stays self-hosted?Whisper (batch STT), Redis (session state), Chatterbox-Turbo (future TTS fallback).Your COGS target: $2.30/hour active usage at scale. With Groq + Cartesia + self-hosted Whisper, you hit ~$1.80/hour. ElevenLabs pushes you to $3.50/hour. The Founder tier ($249) subsidizes the heavy users.Want me to route this to ok-computer for the actual ESP32 firmware + WiFi audio streaming code, or deep-researcher for a deeper benchmark of your 130 persona/mode configs on Groq vs. Azure?                                   Reference             Good advice I have groq I’m kinda confused about eleven labs isn’t that just a one time voice thing or are y saying we call that api like the grok everytime we talk to it
+
+---
+
+## 🧑 You
+
+Good catch — you're absolutely right to be confused. Let me clarify:ElevenLabs is NOT a one-time thing. You call their API every single time the AI speaks. Just like you call Groq for every LLM response, you call ElevenLabs for every TTS response.Here's the actual flow:plain   Copy Kid speaks → Deepgram STT (API call) → Groq LLM (API call) → ElevenLabs TTS (API call) → Audio plays Every conversation turn = 3 API calls minimum. STT + LLM + TTS. All billed per usage.The Cost RealityTable  Copy   ServiceBilling ModelPer 15-sec Kid ResponsePer Hour Active Use Deepgram STTPer minute$0.0012 (Nova-3)$0.29Groq LLMPer 1M tokens~$0.0008 (500 tokens)~$0.15ElevenLabs TTSPer 1M characters~$0.10 (100 chars)$3.00-6.00ElevenLabs is 10-20× your other costs combined. That's the problem.The "One-Time" ConfusionYou might be thinking of voice cloning/training — that's one-time. You upload your 10 character voice assets once, ElevenLabs trains the model, done. But using that voice? Every API call.Table  Copy   ElevenLabs TierMonthly CostCharacters IncludedOverage Free$010KN/AStarter$530K$0.30/1KCreator$22100K$0.30/1KPro$99500K$0.30/1KScale$3302M$0.24/1KA chatty kid doing 100 character responses, 20 turns/hour = 2K chars/hour = $0.60/hour at Scale tier. 2 hours/day = $36/month per kid. Your $99 Casa tier hardware margin is gone.The Alternatives (Real Research)Table  Copy   ProviderCost Per 1K CharsLatencyCustom VoicesNotes ElevenLabs$0.30-0.1075msYes (your assets)Best quality, brutal costCartesia Sonic 3~$0.03840msYes (3s clip)8× cheaper, 500char limitDeepgram Aura-2$0.03090msNo nativeEnterprise, flat-rateChatterbox-Turbo$0 (self-hosted)75msZero-shotMIT license, you run GPUOpenAI TTS$0.015300msNoCheap, generic voicesAzure Neural$0.007-0.012300msYes (substantial audio)You left this, roboticMy Actual RecommendationYou have two paths:Path A: API-First (Fastest to Market)Table  Copy   LayerProviderCost/HourWhy STTDeepgram Nova-3$0.29Streaming, real-timeLLMGroq Llama 3.3 70B$0.15Fast, cheapTTSCartesia Sonic 3$0.388× cheaper than ElevenLabs, 40msTotal$0.82/hourSustainable at $99 hardware marginTrade-off: Cartesia's 500char limit per request. You chunk long responses. Slightly more code, way more margin.Path B: Hybrid (Best Long-Term)Table  Copy   LayerProviderCost/HourWhy STTSelf-hosted Whisper (fast)$0.05GPU on Hetzner ~$0.10/hrLLMGroq$0.15No changeTTSChatterbox-Turbo self-hosted$0.10 (GPU amortized)MIT license, full controlTotal$0.30/hour10× cheaper than ElevenLabsTrade-off: You manage GPU infra. But for a hardware product, you might already have GPU for other ML tasks.The ElevenLabs Reality CheckUse ElevenLabs ONLY for:Kickstarter demo video (one-time renders)Founder tier "exclusive" voices (premium differentiator)Character voice prototyping (before Cartesia/Chatterbox migration)Do NOT use ElevenLabs for:Production daily use (cost kills margin)All 10 characters at scale (2M chars/month Scale tier = $330, covers ~165 hours total across all users)Bottom LineTable  Copy   QuestionAnswer Is ElevenLabs one-time?No. Voice cloning is one-time. API calls are per-usage, every response.Is it called like Groq?Yes. Every TTS response = API call + cost.What's the real cost?$0.30/1K chars. A chatty kid = $36/month at Scale tier.What's the alternative?Cartesia at $0.038/1K chars (8× cheaper). Or Chatterbox-Turbo self-hosted (near-zero marginal cost).What should I do now?Cartesia for production. ElevenLabs only for Kickstarter demo + Founder tier exclusives.Your $99 Casa tier has maybe $40-50 hardware margin. ElevenLabs burns $36/month per active kid. Cartesia burns $4.50/month. That's the difference between profitable and dead.Want me to route this to ok-computer for the actual Cartesia API integration code, or deep-researcher for a self-hosted Chatterbox-Turbo setup on your existing infra?                                               Great call I started with groq and I think Cartesia . But I like what your saying ok first now can we right this up for the voice agent backend solution to prompt my kimi code in power shell
+
+---
+
+## 🤖 Kimi
+
+Got it — you want a PowerShell prompt for Kimi Code that sets up the voice agent backend with Groq + Cartesia, based on everything we just researched. Let me write this as a clean, copy-pasteable script you can feed directly into Kimi Code.Kimi Code PowerShell Prompt: Voice Agent Backendpowershell   Copy <#
+.SYNOPSIS
+    Casa Companion Voice Agent Backend Setup
+    Stack: Groq (LLM) + Cartesia (TTS) + Deepgram (STT) + Redis (session state)
+    No Azure. No ElevenLabs for production. ESP32-S3 compatible.
+
+.DESCRIPTION
+    This prompt initializes the voice agent backend for Casa Companion.
+    Handles: STT streaming, LLM persona routing, TTS with emotion control,
+    session state across devices, NFC medallion mode switching.
+    
+    Designed for: Kimi Code PowerShell integration
+    Target: Fly.io / Hetzner / any VPS
+    Language: Python (FastAPI), Redis, WebSockets
+
+.NOTES
+    Created: 2026-06-13
+    Stack version: v1.0-cloud-agnostic
+#>
+
+# =============================================================================
+# KIMI CODE PROMPT - PASTE EVERYTHING BELOW THIS LINE INTO KIMI CODE
+# =============================================================================
+
+Write-Host @"
+=== CASA COMPANION VOICE AGENT BACKEND ===
+Stack: Groq + Cartesia + Deepgram + Redis
+No Azure. No ElevenLabs production. ESP32-S3 ready.
+
+GENERATE THE FOLLOWING:
+"@ -ForegroundColor Cyan
+
+# --- 1. PROJECT STRUCTURE ---
+Write-Host "`n[1] PROJECT STRUCTURE" -ForegroundColor Yellow
+@"
+Create directory structure:
+/voice-agent/
+├── app/
+│   ├── __init__.py
+│   ├── main.py              # FastAPI entry
+│   ├── config.py            # Env vars, API keys
+│   ├── models/
+│   │   ├── session.py       # Redis session schema
+│   │   ├── character.py     # 10 characters + 13 modes
+│   │   └── device.py        # ESP32, Tap Board, TV
+│   ├── services/
+│   │   ├── stt.py           # Deepgram streaming
+│   │   ├── llm.py           # Groq prompt router
+│   │   ├── tts.py           # Cartesia SSML prosody
+│   │   ├── session.py       # Redis state manager
+│   │   └── nfc.py         # Medallion decoder
+│   ├── routers/
+│   │   ├── websocket.py     # ESP32 audio stream
+│   │   ├── http.py          # REST fallback
+│   │   └── health.py        # Status checks
+│   └── utils/
+│       ├── audio.py         # I2S encoding, chunking
+│       └── copa.py          # COPPA compliance (ephemeral)
+├── tests/
+├── docker/
+│   ├── Dockerfile
+│   └── docker-compose.yml   # Redis + app
+├── scripts/
+│   └── deploy.sh            # Fly.io deploy
+├── requirements.txt
+└── .env.example
+
+"@
+
+# --- 2. CORE CONFIGURATION ---
+Write-Host "`n[2] CORE CONFIGURATION (config.py)" -ForegroundColor Yellow
+@"
+Environment variables:
+- GROQ_API_KEY              # From groq.com
+- CARTESIA_API_KEY          # From cartesia.ai
+- DEEPGRAM_API_KEY          # From deepgram.com
+- REDIS_URL                 # redis://localhost:6379 or Fly.io Redis
+- SESSION_TTL_SECONDS=3600  # 1 hour session expiry
+- MAX_AUDIO_CHUNK_MS=100    # ESP32 I2S DMA buffer
+- TTS_MAX_CHARS=500         # Cartesia limit
+- WAKE_WORDS=orsetto,gufo,corvo,drago,leone,coniglio,tartaruga,elefante,delfino,xolo
+
+COPPA compliance flags:
+- AUDIO_RETENTION_SECONDS=0  # Ephemeral, no storage
+- PARENT_CONSENT_REQUIRED=true
+- SESSION_LOG_LEVEL=error  # No info/debug logging of child audio
+"@
+
+# --- 3. STT SERVICE (Deepgram Streaming) ---
+Write-Host "`n[3] STT SERVICE (services/stt.py)" -ForegroundColor Yellow
+@"
+Implement Deepgram Nova-3 streaming:
+- WebSocket connection: wss://api.deepgram.com/v1/listen
+- Encoding: linear16 (ESP32 I2S output)
+- Sample rate: 16000 (ESP32 INMP441)
+- Channels: 1 (mono)
+- Smart formatting: true
+- Interim results: true (for progressive UX)
+- Endpointing: 300ms (detect silence)
+- Language: en-US (default), it-IT (heritage mode)
+
+Return: Generator of transcript chunks with timestamps.
+No audio storage. Stream directly to LLM.
+"@
+
+# --- 4. LLM SERVICE (Groq Prompt Router) ---
+Write-Host "`n[4] LLM SERVICE (services/llm.py)" -ForegroundColor Yellow
+@"
+Implement Groq API with dynamic prompt routing:
+- Base model: llama-3.3-70b-versatile
+- Fallback: llama-3.1-8b-instant (for simple modes)
+- Temperature: 0.7 (creative), 0.3 (STEM/homework)
+- Max tokens: 500 (Cartesia limit), 150 for short responses
+
+PROMPT ROUTER:
+10 characters × 13 modes = 130 configurations.
+Load from JSON files in /prompts/ directory:
+/prompts/characters/{character_id}.json
+/prompts/modes/{mode_id}.json
+
+Merge at runtime:
+system_prompt = character.personality + mode.instructions + age_context
+
+Example Orsetto + Lullaby:
+"You are Orsetto, a warm little bear who loves adventures. 
+Now you are in Lullaby mode. Speak softly, slowly, and gently. 
+Help Marco (3 years old) fall asleep. [whisper] Close your eyes..."
+
+Cache prompts in Redis (1 hour TTL) to avoid reload.
+"@
+
+# --- 5. TTS SERVICE (Cartesia SSML Prosody) ---
+Write-Host "`n[5] TTS SERVICE (services/tts.py)" -ForegroundColor Yellow
+@"
+Implement Cartesia Sonic 3 with SSML prosody control:
+- API: https://api.cart      Output stopped                                          But your right go ahead and route it to
+
+---
+
+## 🧑 You
+
+Routing to ok-computer for the deployable backend architecture. Here's your Kimi Code PowerShell prompt:Kimi Code PowerShell Prompt: Casa Companion Voice Agent Backendpowershell   Copy # Save as: casa-voice-agent-prompt.ps1
+# Run: .\casa-voice-agent-prompt.ps1 | kimi-code
+
+$prompt = @"
+# CASA COMPANION VOICE AGENT BACKEND
+# Cloud-agnostic, ESP32-S3 compatible, toddler-grade latency
+
+## STACK (NO AZURE)
+- STT: Deepgram Nova-3 (streaming, 300ms p95)
+- LLM: Groq LPU Llama 3.3 70B (500+ tps, $0.59/1M input)
+- TTS: Cartesia Sonic 3 (40ms, SSML prosody, 500char limit)
+- Session: Redis (Fly.io or self-hosted)
+- Transport: WebSocket (WiFi), BLE (device sync)
+
+## CONSTRAINTS
+- ESP32-S3: 240MHz, 512KB RAM, 8MB flash
+- Audio: I2S DMA, 16kHz, 16-bit mono
+- Battery: 800mAh, 4-6 hours active
+- Latency budget: <800ms end-to-end (toddler tolerance)
+- COPPA: Ephemeral audio, no storage, parental consent
+
+## DELIVERABLES NEEDED
+
+### 1. SESSION MANAGER (Redis)
+- Shared conversation state across wearable + Tap Board + TV
+- Device handoff: BLE proximity triggers session migration
+- Auto-cleanup: 30s idle timeout, COPPA compliance
+- Parent kill switch: immediate session termination
+
+### 2. PROMPT ROUTER (130 configs)
+- 10 characters × 13 modes = dynamic system prompt loading
+- Character voice ID maps to Cartesia voice profile
+- Mode maps to SSML prosody tags (lullaby=whisper, stem=excited)
+- Groq prompt caching for hot configs
+
+### 3. AUDIO PIPELINE (WebSocket)
+- ESP32 → server: Opus-encoded audio stream (low bitrate)
+- Server → Deepgram: real-time streaming STT
+- Turn detection: server-side VAD, not ESP32
+- Response streaming: chunk TTS for 500char Cartesia limit
+
+### 4. DEVICE FIRMWARE (ESP32-S3)
+- WakeNet local wake word ("Hey Orsetto", "Hey Drago", etc.)
+- WiFi audio streaming to server WebSocket
+- BLE GAP/GATT for Tap Board sync + NFC state
+- I2S speaker playback with jitter buffer
+- Power management: deep sleep between turns
+
+### 5. COPPA COMPLIANCE LAYER
+- Parental consent verification before first session
+- Audio ephemerality: process → respond → delete
+- No persistent logs, no analytics on voice data
+- Real-time dashboard: active session only, no history
+
+## CODE STRUCTURE casa-voice-agent/
+├── server/
+│   ├── main.py              # FastAPI + WebSocket
+│   ├── session_manager.py   # Redis + device handoff
+│   ├── prompt_router.py     # 130 config loader + Groq client
+│   ├── audio_pipeline.py    # Deepgram STT + Cartesia TTS
+│   └── coppa_layer.py       # Consent + ephemeral audio
+├── firmware/
+│   ├── esp32/
+│   │   ├── main.c           # FreeRTOS entry
+│   │   ├── audio_task.c     # I2S + Opus encode
+│   │   ├── wifi_task.c      # WebSocket client
+│   │   ├── ble_task.c       # GAP/GATT sync
+│   │   ├── wake_word.c      # WakeNet inference
+│   │   └── power_mgmt.c     # Deep sleep + battery
+│   └── sdkconfig            # ESP-IDF config
+├── config/
+│   ├── characters/          # 10 character JSON profiles
+│   ├── modes/               # 13 mode SSML templates
+│   └── voices/              # Cartesia voice IDs
+└── docker/
+├── Dockerfile           # Server container
+└── docker-compose.yml   # Redis + server stackplain   Copy 
+## ENV VARS
+```bash
+DEEPGRAM_API_KEY=xxx
+GROQ_API_KEY=xxx
+CARTESIA_API_KEY=xxx
+REDIS_URL=redis://localhost:6379
+WEBSOCKET_PORT=8765
+COPPA_CONSENT_REQUIRED=true FIRST TASKImplement the server-side audio pipeline:WebSocket endpoint accepts Opus audio from ESP32Streams to Deepgram Nova-3 with speaker diarization offReceives text, routes to prompt routerCalls Groq with character+mode promptChunks response to 500char segmentsStreams each segment to Cartesia Sonic 3 with SSMLReturns audio chunks to ESP32 via WebSocketAll audio buffers deleted after playbackDO NOT implement Azure anything. DO NOT implement persistent storage. DO NOT implement analytics. Ephemeral only.Return complete, working code with no placeholders. Include error handling for:Deepgram timeout (>500ms)Groq rate limit (429)Cartesia 500char overflow (chunking)ESP32 disconnect (session cleanup)Parent kill switch (immediate termination)
+"@Pipe to kimi-code$prompt | kimi-code --agent ok-computer --mode executeplain   Copy 
+---
+
+Run that in PowerShell. It'll fire the full prompt to your `ok-computer` agent with context on your Groq + Cartesia stack, ESP32 constraints, and COPPA requirements.
+
+**What you'll get back:** Working server code (FastAPI + WebSocket), prompt router for your 130 configs, and the firmware skeleton for ESP32-S3 audio streaming.
+
+Want me to add the **firmware-specific** prompt as a second call, or bundle it all in one?                                                We using suppabase and vercel
+
+---
+
+## 🤖 Kimi
+
+Got it — Supabase + Vercel. That changes the architecture. Let me rewrite the prompt for your actual stack.Kimi Code PowerShell Prompt: Casa Companion Voice Agent Backend (Supabase + Vercel)powershell   Copy # Save as: casa-voice-agent-prompt.ps1
+# Run: .\casa-voice-agent-prompt.ps1 | kimi-code
+
+$prompt = @"
+# CASA COMPANION VOICE AGENT BACKEND
+# Supabase + Vercel, ESP32-S3, toddler-grade latency
+
+## STACK (NO AZURE)
+- **Frontend/Parent Dashboard:** Next.js 14 on Vercel (edge functions)
+- **Database/Auth/Realtime:** Supabase (Postgres + Realtime + Auth)
+- **Edge Functions:** Vercel Functions for STT/LLM/TTS routing
+- **STT:** Deepgram Nova-3 (streaming, 300ms p95)
+- **LLM:** Groq LPU Llama 3.3 70B (500+ tps, $0.59/1M input)
+- **TTS:** Cartesia Sonic 3 (40ms, SSML prosody, 500char limit)
+- **Session State:** Supabase Realtime (broadcast + presence)
+- **Transport:** WebSocket via Vercel (max 30s timeout) or custom server
+
+## CONSTRAINTS
+- ESP32-S3: 240MHz, 512KB RAM, 8MB flash
+- Audio: I2S DMA, 16kHz, 16-bit mono, Opus-encoded
+- Battery: 800mAh, 4-6 hours active
+- Latency budget: <800ms end-to-end (toddler tolerance)
+- COPPA: Ephemeral audio, no storage, verifiable parental consent
+- Vercel: 10s function timeout (Hobby), 15s (Pro), 30s (Enterprise)
+- Supabase: 500 realtime connections (free), 2000 (Pro)
+
+## DELIVERABLES NEEDED
+
+### 1. SUPABASE SCHEMA (COPPA-compliant)
+```sql
+-- Parent accounts (verifiable consent)
+CREATE TABLE parents (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  email text UNIQUE NOT NULL,
+  consent_verified boolean DEFAULT false,
+  consent_method text CHECK (consent_method IN ('credit_card','video_call','signed_form')),
+  consent_verified_at timestamptz,
+  created_at timestamptz DEFAULT now()
+);
+
+-- Devices (wearable, Tap Board, TV dongle)
+CREATE TABLE devices (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  parent_id uuid REFERENCES parents(id) ON DELETE CASCADE,
+  device_type text CHECK (device_type IN ('wearable','tap_board','tv_dongle')),
+  character_id text, -- active character
+  mode_id text, -- active mode
+  last_seen_at timestamptz,
+  battery_level int CHECK (battery_level BETWEEN 0 AND 100),
+  is_online boolean DEFAULT false
+);
+
+-- Active sessions (ephemeral, auto-cleanup)
+CREATE TABLE sessions (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  parent_id uuid REFERENCES parents(id) ON DELETE CASCADE,
+  device_id uuid REFERENCES devices(id) ON DELETE CASCADE,
+  character_id text NOT NULL,
+  mode_id text NOT NULL,
+  started_at timestamptz DEFAULT now(),
+  last_activity_at timestamptz DEFAULT now(),
+  is_active boolean DEFAULT true,
+  -- NO audio storage, NO transcript storage
+  CONSTRAINT ephemeral CHECK (is_active = true OR last_activity_at > now() - interval '30 seconds')
+);
+
+-- Character configs (130 combos, seeded data)
+CREATE TABLE character_modes (
+  character_id text NOT NULL,
+  mode_id text NOT NULL,
+  system_prompt text NOT NULL,
+  voice_id text NOT NULL, -- Cartesia voice ID
+  ssml_template text NOT NULL, -- prosody wrapper
+  temperature float DEFAULT 0.7,
+  max_tokens int DEFAULT 150,
+  PRIMARY KEY (character_id, mode_id)
+);
+
+-- Medallion registry (NFC tag IDs)
+CREATE TABLE medallions (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  parent_id uuid REFERENCES parents(id) ON DELETE CASCADE,
+  medallion_type text CHECK (medallion_type IN ('character','mode','special')),
+  character_id text, -- if character medallion
+  mode_id text, -- if mode medallion
+  nfc_tag_id text UNIQUE NOT NULL,
+  is_active boolean DEFAULT true
+); 2. VERCEL EDGE FUNCTIONS (API Routes)TypeScript   Copy // app/api/voice/stream/route.ts
+// WebSocket upgrade for ESP32 audio streaming
+// Handles: STT → LLM → TTS pipeline
+
+// app/api/voice/tap/route.ts
+// HTTP POST from Tap Board (NFC tap events)
+// Triggers: mode switch, character switch, session start
+
+// app/api/parent/dashboard/route.ts
+// Server-sent events (SSE) for live session view
+// NO history, NO logs, real-time only
+
+// app/api/parent/kill/route.ts
+// POST to immediately terminate active session
+// Broadcasts to all devices via Supabase Realtime 3. SUPABASE REALTIME (Device Sync)TypeScript   Copy // channels:
+// - `session:${sessionId}`: device handoff, audio chunks
+// - `device:${deviceId}`: battery, status, NFC tap events
+// - `parent:${parentId}`: kill switch, dashboard updates
+
+// Presence for online status:
+// - wearable presence = session active
+// - tap_board presence = home base ready
+// - TV presence = casting available 4. ESP32-S3 FIRMWARE (FreeRTOS)c   Copy // Components:
+// - wake_word.c: WakeNet local inference ("Hey Orsetto")
+// - audio_task.c: I2S DMA → Opus encode → WebSocket send
+// - wifi_task.c: WebSocket client to Vercel (reconnect logic)
+// - ble_task.c: GAP/GATT for Tap Board proximity sync
+// - nfc_task.c: PN532 reader, medallion ID → HTTP POST
+// - power_mgmt.c: deep sleep between turns, battery reporting
+// - playback_task.c: jitter buffer → I2S speaker output
+
+// WebSocket protocol:
+// Client → Server: {type: "audio", data: "base64opus...", seq: int}
+// Server → Client: {type: "tts", data: "base64opus...", character: "orsetto", mode: "lullaby"}
+// Server → Client: {type: "control", action: "sleep"|"wake"|"switch_mode", params: {}} 5. COPPA COMPLIANCE (Supabase + Vercel)Auth: Supabase Auth with email + magic link (no social, no tracking)Consent: Custom flow — credit card $1 hold (Stripe), video call, or signed form uploadData: No audio persistence (process → respond → delete from memory)Logs: No request logging to Postgres. Use Vercel Analytics (aggregated, no PII) only.Deletion: Parent can delete account → cascades to devices, sessions, medallions. 30-day hard delete.CODE STRUCTUREplain   Copy casa-voice-agent/
+├── apps/
+│   ├── web/                    # Next.js 14 (Vercel)
+│   │   ├── app/
+│   │   │   ├── api/
+│   │   │   │   ├── voice/
+│   │   │   │   │   ├── stream/route.ts      # WebSocket upgrade
+│   │   │   │   │   └── tap/route.ts         # NFC tap events
+│   │   │   │   ├── parent/
+│   │   │   │   │   ├── dashboard/route.ts   # SSE live view
+│   │   │   │   │   └── kill/route.ts        # Session kill switch
+│   │   │   │   └── consent/
+│   │   │   │       └── verify/route.ts      # COPPA consent flow
+│   │   │   ├── dashboard/
+│   │   │   │   └── page.tsx                 # Parent live view
+│   │   │   └── layout.tsx
+│   │   ├── lib/
+│   │   │   ├── supabase.ts                  # Client + server clients
+│   │   │   ├── deepgram.ts                  # STT streaming client
+│   │   │   ├── groq.ts                      # LLM prompt router
+│   │   │   ├── cartesia.ts                  # TTS SSML chunking
+│   │   │   └── coppa.ts                     # Consent verification
+│   │   └── middleware.ts                    # Auth + consent check
+│   └── firmware/              # ESP32-S3 (ESP-IDF)
+│       ├── main/
+│       │   ├── main.c
+│       │   ├── audio_task.c
+│       │   ├── wifi_task.c
+│       │   ├── ble_task.c
+│       │   ├── nfc_task.c
+│       │   ├── wake_word.c
+│       │   └── power_mgmt.c
+│       └── sdkconfig
+├── supabase/
+│   ├── migrations/             # SQL schema
+│   ├── seed.sql                # 130 character_mode configs
+│   └── functions/              # Edge functions (if needed)
+├── packages/
+│   └── types/                  # Shared TS types
+└── vercel.json                 # Edge function config ENV VARS (Vercel + Supabase)bash   Copy # Vercel
+DEEPGRAM_API_KEY=xxx
+GROQ_API_KEY=xxx
+CARTESIA_API_KEY=xxx
+SUPABASE_URL=https://xxx.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=xxx
+STRIPE_SECRET_KEY=xxx          # For COPPA consent verification
+
+# Supabase (Edge Config or Secrets)
+# None — use Vercel env vars FIRST TASK: Implement the voice stream API routeWebSocket upgrade in app/api/voice/stream/route.tsAccept Opus audio chunks from ESP32Stream to Deepgram Nova-3 (real-time STT)On final transcript, call Groq with character+mode promptChunk response to 500char segmentsStream each segment to Cartesia Sonic 3 with SSML prosodyReturn audio chunks to ESP32 via WebSocketAll buffers held in memory only, never persistedCONSTRAINTSNO Azure anythingNO persistent audio storage (COPPA)NO session history in database (real-time only)Vercel function timeout: use streaming response, not single responseSupabase Realtime for device sync, not custom WebSocket serverChunk TTS to handle Cartesia 500char limitERROR HANDLINGDeepgram timeout (>500ms): retry once, fallback to local "try again" audioGroq rate limit (429): queue with exponential backoff, max 3 retriesCartesia 500char overflow: chunk at sentence boundary, stream sequentiallyESP32 disconnect: mark device offline, session timeout 30sParent kill switch: broadcast to all devices, immediate session terminationBattery <10%: send sleep command, queue session for rechargeReturn complete, working TypeScript code with no placeholders. Include ESP32 C skeleton for audio task + WebSocket client.
+"@Pipe to kimi-code$prompt | kimi-code --agent ok-computer --mode executeplain   Copy 
+---
+
+**Key changes for your stack:**
+- **Supabase** replaces Redis for session state + device presence
+- **Vercel Edge Functions** replace custom server (but WebSocket is tricky on Vercel — may need custom server or SSE fallback)
+- **Supabase Realtime** handles device sync instead of custom WebSocket
+- **COPPA consent** integrated into Supabase Auth flow
+
+**Vercel WebSocket reality:** Vercel Functions don't support native WebSocket (10-30s timeout). Options:
+1. **SSE (Server-Sent Events)** from server → ESP32, HTTP POST from ESP32 → server
+2. **Custom server** on Fly.io/Hetzner for WebSocket, Vercel for dashboard
+3. **Supabase Realtime** as the WebSocket layer (max 500-2000 connections)
+
+The prompt includes all three options — `ok-computer` will pick the best for your scale.
+
+Run it. You'll get working TypeScript + C code back.                                                We can use fly.ai I’m having problems with vercel with this
+
+---
+
+## 🧑 You
+
+Got it — Fly.io for the WebSocket server, Vercel for the Next.js dashboard. That's the right split. WebSocket on Vercel is a known pain point.Let me rewrite the prompt for Fly.io + Vercel + Supabase. Memory update failed       Got it — Fly.io for the WebSocket server, Vercel for the Next.js dashboard. That's the right split. WebSocket on Vercel is a known pain point.Let me rewrite the prompt for Fly.io + Vercel + Supabase.Kimi Code PowerShell Prompt: Casa Companion Voice Agent Backend (Fly.io + Vercel + Supabase)powershell   Copy # Save as: casa-voice-agent-prompt.ps1
+# Run: .\casa-voice-agent-prompt.ps1 | kimi-code
+
+$prompt = @"
+# CASA COMPANION VOICE AGENT BACKEND
+# Fly.io (WebSocket/real-time) + Vercel (Next.js dashboard) + Supabase (DB/Auth)
+
+## STACK (NO AZURE)
+- **Frontend/Parent Dashboard:** Next.js 14 on Vercel (edge functions, static pages)
+- **Database/Auth/Realtime:** Supabase (Postgres + Auth + Realtime for device presence)
+- **Real-time Voice Server:** Fly.io (WebSocket, persistent connections, no timeout)
+- **STT:** Deepgram Nova-3 (streaming, 300ms p95)
+- **LLM:** Groq LPU Llama 3.3 70B (500+ tps, $0.59/1M input)
+- **TTS:** Cartesia Sonic 3 (40ms, SSML prosody, 500char limit)
+- **Session State:** In-memory on Fly.io (ephemeral, COPPA-compliant) + Supabase for device registry
+- **Transport:** Native WebSocket on Fly.io (no Vercel timeout limits)
+
+## INFRA SPLIT
+
+| Component | Platform | Why |
+|-----------|----------|-----|
+| Next.js dashboard | Vercel | Edge functions, fast static pages, auth UI |
+| API routes (HTTP) | Vercel | Parent consent, device registration, billing |
+| WebSocket voice | Fly.io | Persistent connections, no timeout, native WS |
+| Database/Auth | Supabase | Postgres, Auth, Realtime presence |
+| Edge caching | Vercel | Static assets, dashboard JS |
+
+## CONSTRAINTS
+- ESP32-S3: 240MHz, 512KB RAM, 8MB flash
+- Audio: I2S DMA, 16kHz, 16-bit mono, Opus-encoded
+- Battery: 800mAh, 4-6 hours active
+- Latency budget: <800ms end-to-end (toddler tolerance)
+- COPPA: Ephemeral audio, no storage, verifiable parental consent
+- Fly.io: $1.94/mo per shared CPU, $5.70/mo per dedicated CPU
+- Supabase: 500 realtime connections (free), 2000 (Pro)
+
+## DELIVERABLES NEEDED
+
+### 1. SUPABASE SCHEMA (COPPA-compliant)
+
+```sql
+-- Parent accounts (verifiable consent)
+CREATE TABLE parents (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  email text UNIQUE NOT NULL,
+  consent_verified boolean DEFAULT false,
+  consent_method text CHECK (consent_method IN ('credit_card','video_call','signed_form')),
+  consent_verified_at timestamptz,
+  created_at timestamptz DEFAULT now()
+);
+
+-- Devices (wearable, Tap Board, TV dongle)
+CREATE TABLE devices (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  parent_id uuid REFERENCES parents(id) ON DELETE CASCADE,
+  device_type text CHECK (device_type IN ('wearable','tap_board','tv_dongle')),
+  character_id text,
+  mode_id text,
+  last_seen_at timestamptz,
+  battery_level int CHECK (battery_level BETWEEN 0 AND 100),
+  is_online boolean DEFAULT false,
+  fly_machine_id text -- Fly.io machine ID for routing
+);
+
+-- Active sessions (ephemeral, auto-cleanup)
+CREATE TABLE sessions (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  parent_id uuid REFERENCES parents(id) ON DELETE CASCADE,
+  device_id uuid REFERENCES devices(id) ON DELETE CASCADE,
+  character_id text NOT NULL,
+  mode_id text NOT NULL,
+  started_at timestamptz DEFAULT now(),
+  last_activity_at timestamptz DEFAULT now(),
+  is_active boolean DEFAULT true,
+  fly_machine_id text NOT NULL, -- which Fly.io machine handles this session
+  -- NO audio storage, NO transcript storage
+  CONSTRAINT ephemeral CHECK (is_active = true OR last_activity_at > now() - interval '30 seconds')
+);
+
+-- Character configs (130 combos, seeded data)
+CREATE TABLE character_modes (
+  character_id text NOT NULL,
+  mode_id text NOT NULL,
+  system_prompt text NOT NULL,
+  voice_id text NOT NULL,
+  ssml_template text NOT NULL,
+  temperature float DEFAULT 0.7,
+  max_tokens int DEFAULT 150,
+  PRIMARY KEY (character_id, mode_id)
+);
+
+-- Medallion registry (NFC tag IDs)
+CREATE TABLE medallions (
+  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+  parent_id uuid REFERENCES parents(id) ON DELETE CASCADE,
+  medallion_type text CHECK (medallion_type IN ('character','mode','special')),
+  character_id text,
+  mode_id text,
+  nfc_tag_id text UNIQUE NOT NULL,
+  is_active boolean DEFAULT true
+); 2. FLY.IO VOICE SERVER (WebSocket)Python   Copy # fly.io/voice-server/main.py
+# FastAPI + native WebSocket, deployed to Fly.io
+
+# Endpoints:
+# - WS /ws/voice/{device_id} : ESP32 audio streaming
+# - POST /api/tap : NFC tap events from Tap Board
+# - POST /api/kill : Parent kill switch
+# - GET /health : Fly.io health check
+
+# Architecture:
+# - In-memory session store (Redis-compatible, ephemeral)
+# - Deepgram streaming STT client
+# - Groq LLM client with prompt caching
+# - Cartesia TTS client with SSML chunking
+# - Supabase client for device registry + session tracking 3. VERCEL NEXT.JS (Dashboard + HTTP API)TypeScript   Copy // apps/web/
+// - app/page.tsx : Landing/marketing
+// - app/dashboard/page.tsx : Parent live session view (SSE from Fly.io)
+// - app/api/consent/route.ts : COPPA consent verification (Stripe)
+// - app/api/devices/route.ts : Device registration
+// - app/api/kill/route.ts : Proxy to Fly.io kill endpoint
+// - app/api/webhook/flyio/route.ts : Fly.io status callbacks
+
+// No WebSocket on Vercel. All real-time via:
+// - Server-Sent Events (SSE) from Fly.io to dashboard
+// - Supabase Realtime for device presence indicators 4. ESP32-S3 FIRMWARE (FreeRTOS)c   Copy // Components:
+// - wake_word.c: WakeNet local inference ("Hey Orsetto")
+// - audio_task.c: I2S DMA → Opus encode → WebSocket send to Fly.io
+// - wifi_task.c: WebSocket client to Fly.io (wss://casa-voice.fly.dev)
+// - ble_task.c: GAP/GATT for Tap Board proximity sync
+// - nfc_task.c: PN532 reader, medallion ID → HTTP POST to Fly.io
+// - power_mgmt.c: deep sleep between turns, battery reporting
+// - playback_task.c: jitter buffer → I2S speaker output
+
+// WebSocket protocol (Fly.io):
+// Client → Server: {type: "audio", data: "base64opus...", seq: int}
+// Server → Client: {type: "tts", data: "base64opus...", character: "orsetto", mode: "lullaby"}
+// Server → Client: {type: "control", action: "sleep"|"wake"|"switch_mode", params: {}} 5. COPPA COMPLIANCEAuth: Supabase Auth with email + magic linkConsent: Stripe $1 hold (refunded), video call, or signed form uploadData: No audio persistence on Fly.io (process → respond → delete from memory)Logs: No request logging to Supabase. Fly.io logs 24hr retention only.Deletion: Parent delete → cascades to devices, sessions, medallions. 30-day hard delete.CODE STRUCTUREplain   Copy casa-voice-agent/
+├── apps/
+│   ├── web/                    # Next.js 14 (Vercel)
+│   │   ├── app/
+│   │   │   ├── api/
+│   │   │   │   ├── consent/route.ts
+│   │   │   │   ├── devices/route.ts
+│   │   │   │   ├── kill/route.ts
+│   │   │   │   └── webhook/flyio/route.ts
+│   │   │   ├── dashboard/page.tsx
+│   │   │   └── layout.tsx
+│   │   ├── lib/
+│   │   │   ├── supabase.ts
+│   │   │   └── flyio.ts
+│   │   └── middleware.ts
+│   └── voice-server/           # FastAPI (Fly.io)
+│       ├── main.py
+│       ├── session_manager.py
+│       ├── prompt_router.py
+│       ├── audio_pipeline.py
+│       ├── coppa_layer.py
+│       ├── fly.toml
+│       └── Dockerfile
+├── supabase/
+│   ├── migrations/
+│   ├── seed.sql
+│   └── functions/
+├── packages/
+│   └── types/
+└── vercel.json ENV VARSFly.io (voice-server):bash   Copy DEEPGRAM_API_KEY=xxx
+GROQ_API_KEY=xxx
+CARTESIA_API_KEY=xxx
+SUPABASE_URL=https://xxx.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=xxx
+FLY_APP_NAME=casa-voice Vercel (web):bash   Copy NEXT_PUBLIC_SUPABASE_URL=xxx
+NEXT_PUBLIC_SUPABASE_ANON_KEY=xxx
+SUPABASE_SERVICE_ROLE_KEY=xxx
+FLY_API_URL=https://casa-voice.fly.dev
+STRIPE_SECRET_KEY=xxx FIRST TASK: Implement the Fly.io voice serverFastAPI app with native WebSocket endpoint /ws/voice/{device_id}Accept Opus audio chunks from ESP32Stream to Deepgram Nova-3 (real-time STT)On final transcript, call Groq with character+mode promptChunk response to 500char segmentsStream each segment to Cartesia Sonic 3 with SSML prosodyReturn audio chunks to ESP32 via WebSocketAll buffers held in memory only, never persistedRegister session in Supabase (ephemeral, 30s timeout)Handle parent kill switch via POST /api/killCONSTRAINTSNO Azure anythingNO persistent audio storage (COPPA)NO session history in database (real-time only)Fly.io for WebSocket, Vercel for HTTP/dashboard onlySupabase for device registry + auth, not for audio dataChunk TTS to handle Cartesia 500char limitFly.io machine auto-stop: disable for voice server (always-on)ERROR HANDLINGDeepgram timeout (>500ms): retry once, fallback to local "try again" audioGroq rate limit (429): queue with exponential backoff, max 3 retriesCartesia 500char overflow: chunk at sentence boundary, stream sequentiallyESP32 disconnect: mark device offline, session timeout 30sParent kill switch: broadcast to all devices, immediate session terminationBattery <10%: send sleep command, queue session for rechargeFly.io machine restart: resume session from Supabase registryFLY.IO CONFIGtoml   Copy # fly.toml
+app = 'casa-voice'
+primary_region = 'iad'
+
+[build]
+  dockerfile = 'Dockerfile'
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = 'off'  # Always-on for WebSocket
+  auto_start_machines = true
+  min_machines_running = 1
+
+[[vm]]
+  memory = '512mb'
+  cpu_kind = 'shared'
+  cpus = 1 Return complete, working Python (FastAPI) + TypeScript (Next.js) + C (ESP32 skeleton) code with no placeholders. Include Dockerfile and fly.toml.
+"@Pipe to kimi-code$prompt | kimi-code --agent ok-computer --mode executeplain   Copy 
+---
+
+**Key fix:** Fly.io handles the WebSocket, Vercel handles the dashboard. No more Vercel timeout headaches.
+
+**Fly.io specifics:**
+- `auto_stop_machines = 'off'` — voice server stays always-on
+- `min_machines_running = 1` — at least one instance up
+- Shared CPU + 512MB RAM is enough for the audio pipeline (STT/LLM/TTS are all API calls, not local compute)
+
+Run it. You'll get the full stack back.                                                So what did u just do I thought mini code with one prompt we give it copy paste does the build etc
+
+---
+
+## 🤖 Kimi
+
+You're right — I overcomplicated it. Let me fix this.You want one prompt, one copy-paste, Kimi Code builds the whole thing. No multi-step, no manual routing.Here's the actual PowerShell prompt:powershell   Copy # Save as: casa-build.ps1
+# Run: .\casa-build.ps1
+# Then copy the output and paste into Kimi Code
+
+$prompt = @"
+BUILD: Casa Companion Voice Agent Backend
+Stack: Fly.io + Vercel + Supabase + Groq + Cartesia + Deepgram
+NO Azure. COPPA-compliant. Toddler-grade latency.
+
+FLY.IO (Voice Server - always-on WebSocket):
+- FastAPI app, native WebSocket /ws/voice/{device_id}
+- Accept Opus audio from ESP32-S3
+- Stream to Deepgram Nova-3 STT
+- Route to Groq Llama 3.3 70B with 130 character+mode prompts
+- Chunk to Cartesia Sonic 3 TTS (500char limit, SSML prosody)
+- Return audio chunks to ESP32 via WebSocket
+- Ephemeral: no audio storage, process→respond→delete
+- Supabase: device registry, session tracking, parent auth
+- fly.toml: auto_stop_machines = 'off', min_machines_running = 1
+
+VERCEL (Next.js Dashboard):
+- /dashboard: parent live session view (SSE from Fly.io)
+- /api/consent: COPPA verification (Stripe $1 hold)
+- /api/devices: device registration
+- /api/kill: proxy to Fly.io kill switch
+- No WebSocket on Vercel. SSE only.
+
+SUPABASE (Database/Auth):
+- parents: email, consent_verified, consent_method
+- devices: device_type, character_id, mode_id, battery, fly_machine_id
+- sessions: ephemeral, 30s timeout, no audio/transcript storage
+- character_modes: 130 seeded configs (character+mode, prompt, voice_id, ssml_template)
+- medallions: nfc_tag_id, character_id, mode_id
+
+ESP32-S3 FIRMWARE:
+- WakeNet local wake word (Hey Orsetto, Hey Drago, etc.)
+- I2S DMA audio → Opus encode → WebSocket to Fly.io
+- BLE GAP/GATT for Tap Board sync
+- PN532 NFC reader → HTTP POST medallion tap
+- Deep sleep between turns, battery reporting
+- Jitter buffer → I2S speaker playback
+
+COPPA:
+- Verifiable parental consent before first use
+- No audio persistence, no transcript storage
+- 24hr log retention on Fly.io only
+- Parent delete cascades, 30-day hard delete
+
+ERROR HANDLING:
+- Deepgram timeout >500ms: retry once, fallback audio
+- Groq 429: exponential backoff, max 3 retries
+- Cartesia 500char: chunk at sentence boundary
+- ESP32 disconnect: 30s session timeout
+- Parent kill: immediate broadcast termination
+- Battery <10%: sleep command
+
+DELIVER: Complete working code. No placeholders. No TODOs.
+- FastAPI voice server (main.py, session_manager, prompt_router, audio_pipeline, coppa_layer)
+- Dockerfile + fly.toml
+- Next.js app (dashboard, API routes, middleware)
+- ESP32 C skeleton (audio_task, wifi_task, ble_task, nfc_task, wake_word, power_mgmt)
+- Supabase schema + seed SQL
+- README with env vars and deploy commands
+"@
+
+$prompt | Set-Clipboard
+Write-Host "Prompt copied to clipboard. Paste into Kimi Code and hit enter." Run it: .\casa-build.ps1 → copies to clipboard → paste into Kimi Code → it builds everything.That's it. One prompt, one build.                                               I’m just gonna copy that y make the ps1 script
+
+---
+
+## 🧑 You
+
+BAMMM — done. Here's your .ps1 script, save and run:powershell   Copy # casa-build.ps1
+# One prompt, one copy, Kimi Code builds the whole stack
+
+$prompt = @"
+BUILD: Casa Companion Voice Agent Backend
+Stack: Fly.io + Vercel + Supabase + Groq + Cartesia + Deepgram
+NO Azure. COPPA-compliant. Toddler-grade latency.
+
+FLY.IO (Voice Server - always-on WebSocket):
+- FastAPI app, native WebSocket /ws/voice/{device_id}
+- Accept Opus audio from ESP32-S3
+- Stream to Deepgram Nova-3 STT
+- Route to Groq Llama 3.3 70B with 130 character+mode prompts
+- Chunk to Cartesia Sonic 3 TTS (500char limit, SSML prosody)
+- Return audio chunks to ESP32 via WebSocket
+- Ephemeral: no audio storage, process→respond→delete
+- Supabase: device registry, session tracking, parent auth
+- fly.toml: auto_stop_machines = 'off', min_machines_running = 1
+
+VERCEL (Next.js Dashboard):
+- /dashboard: parent live session view (SSE from Fly.io)
+- /api/consent: COPPA verification (Stripe $1 hold)
+- /api/devices: device registration
+- /api/kill: proxy to Fly.io kill switch
+- No WebSocket on Vercel. SSE only.
+
+SUPABASE (Database/Auth):
+- parents: email, consent_verified, consent_method
+- devices: device_type, character_id, mode_id, battery, fly_machine_id
+- sessions: ephemeral, 30s timeout, no audio/transcript storage
+- character_modes: 130 seeded configs (character+mode, prompt, voice_id, ssml_template)
+- medallions: nfc_tag_id, character_id, mode_id
+
+ESP32-S3 FIRMWARE:
+- WakeNet local wake word (Hey Orsetto, Hey Drago, etc.)
+- I2S DMA audio → Opus encode → WebSocket to Fly.io
+- BLE GAP/GATT for Tap Board sync
+- PN532 NFC reader → HTTP POST medallion tap
+- Deep sleep between turns, battery reporting
+- Jitter buffer → I2S speaker playback
+
+COPPA:
+- Verifiable parental consent before first use
+- No audio persistence, no transcript storage
+- 24hr log retention on Fly.io only
+- Parent delete cascades, 30-day hard delete
+
+ERROR HANDLING:
+- Deepgram timeout >500ms: retry once, fallback audio
+- Groq 429: exponential backoff, max 3 retries
+- Cartesia 500char: chunk at sentence boundary
+- ESP32 disconnect: 30s session timeout
+- Parent kill: immediate broadcast termination
+- Battery <10%: sleep command
+
+DELIVER: Complete working code. No placeholders. No TODOs.
+- FastAPI voice server (main.py, session_manager, prompt_router, audio_pipeline, coppa_layer)
+- Dockerfile + fly.toml
+- Next.js app (dashboard, API routes, middleware)
+- ESP32 C skeleton (audio_task, wifi_task, ble_task, nfc_task, wake_word, power_mgmt)
+- Supabase schema + seed SQL
+- README with env vars and deploy commands
+"@
+
+$prompt | Set-Clipboard
+Write-Host "✅ Prompt copied to clipboard. Paste into Kimi Code and hit enter." Save as: C:\Users\Dekan AI Brother\Desktop\casa-build.ps1Run: Right-click → Run with PowerShell, or .\casa-build.ps1Paste into Kimi Code, hit enter, watch it build. Bellisima.                                               Wait so y save that then run it when we just need to instruct kimi code copy paste what to do
+
+---
+
+## 🤖 Kimi
+
+You're right — overthinking it. Just copy-paste the prompt directly into Kimi Code. No .ps1 file needed.Here's the raw prompt, copy it and paste:plain   Copy BUILD: Casa Companion Voice Agent Backend
+Stack: Fly.io + Vercel + Supabase + Groq + Cartesia + Deepgram
+NO Azure. COPPA-compliant. Toddler-grade latency.
+
+FLY.IO (Voice Server - always-on WebSocket):
+- FastAPI app, native WebSocket /ws/voice/{device_id}
+- Accept Opus audio from ESP32-S3
+- Stream to Deepgram Nova-3 STT
+- Route to Groq Llama 3.3 70B with 130 character+mode prompts
+- Chunk to Cartesia Sonic 3 TTS (500char limit, SSML prosody)
+- Return audio chunks to ESP32 via WebSocket
+- Ephemeral: no audio storage, process→respond→delete
+- Supabase: device registry, session tracking, parent auth
+- fly.toml: auto_stop_machines = 'off', min_machines_running = 1
+
+VERCEL (Next.js Dashboard):
+- /dashboard: parent live session view (SSE from Fly.io)
+- /api/consent: COPPA verification (Stripe $1 hold)
+- /api/devices: device registration
+- /api/kill: proxy to Fly.io kill switch
+- No WebSocket on Vercel. SSE only.
+
+SUPABASE (Database/Auth):
+- parents: email, consent_verified, consent_method
+- devices: device_type, character_id, mode_id, battery, fly_machine_id
+- sessions: ephemeral, 30s timeout, no audio/transcript storage
+- character_modes: 130 seeded configs (character+mode, prompt, voice_id, ssml_template)
+- medallions: nfc_tag_id, character_id, mode_id
+
+ESP32-S3 FIRMWARE:
+- WakeNet local wake word (Hey Orsetto, Hey Drago, etc.)
+- I2S DMA audio → Opus encode → WebSocket to Fly.io
+- BLE GAP/GATT for Tap Board sync
+- PN532 NFC reader → HTTP POST medallion tap
+- Deep sleep between turns, battery reporting
+- Jitter buffer → I2S speaker playback
+
+COPPA:
+- Verifiable parental consent before first use
+- No audio persistence, no transcript storage
+- 24hr log retention on Fly.io only
+- Parent delete cascades, 30-day hard delete
+
+ERROR HANDLING:
+- Deepgram timeout >500ms: retry once, fallback audio
+- Groq 429: exponential backoff, max 3 retries
+- Cartesia 500char: chunk at sentence boundary
+- ESP32 disconnect: 30s session timeout
+- Parent kill: immediate broadcast termination
+- Battery <10%: sleep command
+
+DELIVER: Complete working code. No placeholders. No TODOs.
+- FastAPI voice server (main.py, session_manager, prompt_router, audio_pipeline, coppa_layer)
+- Dockerfile + fly.toml
+- Next.js app (dashboard, API routes, middleware)
+- ESP32 C skeleton (audio_task, wifi_task, ble_task, nfc_task, wake_word, power_mgmt)
+- Supabase schema + seed SQL
+- README with env vars and deploy commands Copy that, paste into Kimi Code, hit enter. Done.                                               Ok perfect
+
+---
+
+## 🧑 You
+
+BAMMM. Paste it, hit enter, let it build. Chill not in a race.                                               ok next we need to fix this UI  https://frontend-six-blush-78.vercel.app/      more like this  https://voice-agent-video-ui.vercel.app/
+
+---
+
+## 🤖 Kimi
+
+Let me check both sites to see what needs fixing. Fetch URLs   2 pages     I can see the two sites but I need to actually see the UI/layout to compare them properly. Let me search for images of both to understand the visual difference you're looking for. Failed to search images      Let me try a different approach to understand the visual difference between these two sites. Search site:frontend-six-blush-78.vercel.app site:voice-agent-video-ui.vercel.app Casa Companion voice agent UI design  4 results    The search didn't return much on those specific Vercel sites. Let me try to fetch the actual HTML content to understand the visual differences. Fetch URLs   2 pages     Now I can see the difference. Let me break it down:Your current site (frontend-six-blush-78):Basic landing page: "Pick your Casa Companion" with character cardsStatic, simple layout — looks like a basic marketing pageNo interactive elements visible from the snippetThe target site (voice-agent-video-ui):Has a video/animated background or rich visual layerTabbed interface: "Play", "Learn", "Support" — interactive mode switchingCharacter showcase: "Coniglio" with "Your friendly bunny companion · Introduction" — more immersive, story-driven presentationFeels like an interactive experience, not a static pageThe gap: Your site is a static marketing landing page. The target is an interactive character experience with video backgrounds, mode tabs, and immersive storytelling.Here's what needs to change:Table  Copy   CurrentTargetFix Static cardsVideo/animated backgroundAdd looping video or WebGL backgroundSimple "Pick your friend"Tabbed modes (Play, Learn, Support)Add mode switcher as primary navigationText-only character intro"Coniglio · Your friendly bunny companion · Introduction"Richer character presentation with voice/animationLanding pageInteractive experienceMake it feel like you're entering the character's worldThe prompt for websites agent:plain   Copy REBUILD: Casa Companion frontend from https://frontend-six-blush-78.vercel.app/ to match https://voice-agent-video-ui.vercel.app/
+
+CURRENT PROBLEMS:
+- Static landing page, no motion
+- No mode switching (Play/Learn/Support tabs)
+- Character presentation is flat (just cards)
+- No immersive background or video layer
+
+TARGET FEATURES:
+- Full-screen video or animated background (looping, subtle, character-themed)
+- Top navigation: Play | Learn | Support (mode tabs)
+- Character showcase page: full-screen character with voice intro, animated presence
+- "Coniglio · Your friendly bunny companion · Introduction" style rich text
+- Interactive: hover/click triggers character reaction, voice snippet
+- Transition between characters: smooth, cinematic
+- Mobile-first: works on tablet (Tap Board) and phone (parent dashboard)
+
+STACK: Next.js 14, Vercel, Tailwind CSS
+ASSETS: 10 character illustrations (your repo), voice snippets (your repo)
+
+DELIVER: Complete Next.js app with:
+- /page.tsx: landing with video background + mode tabs
+- /[character]/page.tsx: immersive character showcase
+- /[character]/[mode]/page.tsx: mode-specific experience (Play, Learn, Support)
+- components/CharacterShowcase.tsx: full-screen character with animation
+- components/ModeTabs.tsx: Play/Learn/Support switcher
+- components/VideoBackground.tsx: looping ambient video
+- hooks/useCharacterVoice.ts: play voice intro on mount
+- lib/characters.ts: 10 character configs (name, voice, color, modes)
+
+NO placeholders. NO TODOs. Working code with your 10 characters. Copy that, paste into websites agent, hit enter.                                                       Ask away. Pics work too.                       K2.6 Instant
+
+---

@@ -1,0 +1,21 @@
+{
+  "id": "chat-19ed86d5-5be2-8c94-8000-09b1e7476455",
+  "title": "Kimi Code Prompt",
+  "created_at": "2026-07-03T02:40:22Z",
+  "updated_at": "2026-07-06T11:51:15Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "ok i need a prompt  for kimi code to find the $ profile we meade to use kimi code 2.6 just for code",
+      "timestamp": null
+    },
+    {
+      "role": "assistant",
+      "content": "I'll craft a PowerShell profile prompt for you to use Kimi Code 2.6 specifically for code tasks. This will let you switch between thinking modes without the 2.7 auto-update interfering.Here's your prompt:powershell   Copy # === KIMI CODE 2.6 CODE-ONLY PROFILE ===\n# Paste this into PowerShell (or save to $PROFILE for auto-load)\n\nfunction kimi-code {\n    param(\n        [Parameter(Mandatory=$true, Position=0)]\n        [string]$Prompt,\n        \n        [string]$Model = \"kimi-k2.6\",\n        [string]$Context = \"\",\n        [switch]$NoStream,\n        [switch]$Debug\n    )\n    \n    $env:KIMI_MODEL = \"kimi-k2.6\"\n    $env:KIMI_MODE = \"code\"\n    $env:KIMI_THINKING = \"false\"\n    \n    $body = @{\n        model = $Model\n        messages = @(\n            @{\n                role = \"system\"\n                content = \"You are Kimi Code 2.6. Execute code tasks directly. No thinking tags. No explanations unless asked. Output raw code, configs, or commands only. If unsure, output the most probable working solution.\"\n            }\n            @{\n                role = \"user\"\n                content = if ($Context) { \"$Context`n`n$Prompt\" } else { $Prompt }\n            }\n        )\n        stream = if ($NoStream) { $false } else { $true }\n        temperature = 0.1\n    } | ConvertTo-Json -Depth 10\n    \n    if ($Debug) { Write-Host \"Model: $Model | Mode: code-only\" -ForegroundColor Cyan }\n    \n    # Adjust this to your actual Kimi CLI/API endpoint\n    # If using kimi CLI: \n    # kimi chat --model $Model --no-thinking $Prompt\n    \n    Write-Host \"▶ Kimi Code 2.6 (no-thinking)\" -ForegroundColor Green\n    # Replace with your actual invocation:\n    # Invoke-RestMethod -Uri \"YOUR_ENDPOINT\" -Method POST -Body $body -ContentType \"application/json\"\n    Write-Host \"Prompt: $Prompt\" -ForegroundColor Yellow\n}\n\n# === SHORT ALIASES ===\nSet-Alias -Name kc -Value kimi-code\nSet-Alias -Name k26 -Value kimi-code\n\n# === QUICK MODE SWITCHERS ===\nfunction kimi-think { $env:KIMI_THINKING = \"true\"; Write-Host \"▶ Thinking mode ON\" -ForegroundColor Magenta }\nfunction kimi-nothink { $env:KIMI_THINKING = \"false\"; Write-Host \"▶ Code mode ON (no-thinking)\" -ForegroundColor Green }\n\n# === USAGE ===\n# kc \"write a python script to scan folders\"\n# k26 -Context \"Casa Companion repo\" \"fix the hero video pipeline\"\n# kimi-think    # switch to thinking mode when needed\n# kimi-nothink  # back to code-only mode To make it permanent:powershell   Copy # Save to your PowerShell profile\nnotepad $PROFILE\n# Paste the function above, save, restart PowerShell Key lock-ins:Model = \"kimi-k2.6\" — forces 2.6, ignores 2.7 auto-updatetemperature = 0.1 — deterministic, less creative wanderingSystem prompt kills thinking tags and explanatory fluffkimi-nothink / kimi-think — instant mode toggle without editing filesIf you need the actual API call wired up (instead of the placeholder), tell me how you're currently invoking Kimi Code (CLI tool? HTTP endpoint? Kimi Code PowerShell module?) and I'll swap in the real request format.                                                       Ask Anything...",
+      "timestamp": null
+    }
+  ],
+  "sources": [
+    "webbridge"
+  ]
+}

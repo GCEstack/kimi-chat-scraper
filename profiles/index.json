@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-07-11T06:27:57Z",
+  "archive": "kimi-chat-archive",
+  "profiles": [
+    {
+      "profile": "AI Models & APIs",
+      "file": "AI Models & APIs.md",
+      "conversations": "25"
+    },
+    {
+      "profile": "Casa Companion",
+      "file": "Casa Companion.md",
+      "conversations": "18"
+    },
+    {
+      "profile": "Creative & Brand",
+      "file": "Creative & Brand.md",
+      "conversations": "5"
+    },
+    {
+      "profile": "Desktop & File Org",
+      "file": "Desktop & File Org.md",
+      "conversations": "5"
+    },
+    {
+      "profile": "EC8 Edge Crew",
+      "file": "EC8 Edge Crew.md",
+      "conversations": "57"
+    },
+    {
+      "profile": "Heartbeat Family System",
+      "file": "Heartbeat Family System.md",
+      "conversations": "12"
+    },
+    {
+      "profile": "Kimi Code Ops",
+      "file": "Kimi Code Ops.md",
+      "conversations": "36"
+    },
+    {
+      "profile": "Media & Video",
+      "file": "Media & Video.md",
+      "conversations": "6"
+    },
+    {
+      "profile": "Misc",
+      "file": "Misc.md",
+      "conversations": "3"
+    },
+    {
+      "profile": "Voice & Audio",
+      "file": "Voice & Audio.md",
+      "conversations": "23"
+    }
+  ]
+}
